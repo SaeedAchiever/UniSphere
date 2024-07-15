@@ -1,0 +1,37 @@
+[
+ {
+   "id" : "1",
+   "mode" : "On campus / Distance",
+   "course" : "Civil Engineering",
+   "universities" : "20",
+   "duration" : "4"
+ },
+ {
+  "id" : "2",
+  "mode" : "On campus",
+  "course" : "Politcal Science",
+  "universities" : "17",
+  "duration" : "3"
+},
+{
+ "id" : "3",
+ "mode" : "On campus / Distance",
+ "course" : "Accounting",
+ "universities" : "8",
+ "duration" : "4"
+},
+{
+ "id" : "4",
+ "mode" : "On campus / Distance",
+ "course" : "Computer Engineering",
+ "universities" : "12",
+ "duration" : "6"
+},
+{
+ "id" : "5",
+ "mode" : "On campus Only",
+ "course" : "Medicine",
+ "universities" : "3",
+ "duration" : "6"
+}
+]

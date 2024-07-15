@@ -1,0 +1,26 @@
+[
+ {
+  "id" : "1",
+  "name" : "University  Of  Education",
+  "location" : "Winneba",
+  "fee" : "GHc1.6k-10.7k",
+  "rate" : "4.3",
+  "image" : "Hello"
+ },
+ {
+  "id" : "2",
+  "name" : "University  Of  Ghana",
+  "location" : "Legon",
+  "fee" : "GHc1.2k-12.7k",
+  "rate" : "4.2",
+  "image" : "Hi"
+ },
+ {
+  "id" : "3",
+  "name" : "Kwame Nkrumah University of science and technology",
+  "location" : "Kumasi",
+  "fee" : "GHc1.2k-12.7k",
+  "rate" : "4.4",
+  "image" : "Hey"
+ }
+]

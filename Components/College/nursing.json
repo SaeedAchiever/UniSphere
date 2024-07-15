@@ -1,0 +1,37 @@
+[
+ {
+  "id" : "1",
+  "name" : "Nalerigu College Of Nursing And Midwifery",
+  "note" : "Best College in Ghana for either diploma or degree in Nursing and mid-wifery",
+  "imageUrl" : "require('../../assets/winneba.jpg')",
+  "page" : "NaleriguHome"
+ },
+ {
+  "id" : "2",
+  "name" : "Bolgatanga College Of Nursing",
+  "note" : "Best College in Ghana for either diploma or degree in Nursing and mid-wifery",
+  "imageUrl" : "require('../../assets/winneba.jpg')",
+  "page" : "NaleriguHome"
+ },
+ {
+  "id" : "3",
+  "name" : "Gbewaa College Of Education",
+  "note" : "Best College in Ghana for either diploma or degree in Nursing and mid-wifery",
+  "imageUrl" : "require('../../assets/winneba.jpg')",
+  "page" : "NaleriguHome"
+ },
+ {
+  "id" : "4",
+  "name" : "Bagabaga College Of Education",
+  "note" : "Best College in Ghana for either diploma or degree in Nursing and mid-wifery",
+  "imageUrl" : "require('../../assets/winneba.jpg')",
+  "page" : "NaleriguHome"
+ },
+ {
+  "id" : "5",
+  "name" : "Nalerigu College Of Nursing And Midwifery",
+  "note" : "Best College in Ghana for either diploma or degree in Nursing and mid-wifery",
+  "imageUrl" : "require('../../assets/winneba.jpg')",
+  "page" : "NaleriguHome"
+ }
+]

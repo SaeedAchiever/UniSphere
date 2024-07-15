@@ -1,53 +1,125 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet,} from "react-native";
+// const deviceWidth = useWindowDimensions().width;
 
 const styles = StyleSheet.create({
  appContainer:{
   flex:1,
-  backgroundColor:'#fff',
   alignItems:'flex-start',
   justifyContent:'flex-start'
  },
  HomeContainer:{
-  backgroundColor:'#fff', 
+  marginBottom:50,
+  backgroundColor:'#fff'
  },
 
              // MENU BUTTON
 
   headerContainer:{
    width:'100%',
-   // height:  deviceWidth >  500 ? 200  : 10,
-   backgroundColor:'#fff',
    flexDirection:'row',
    justifyContent:'flex-end',
    alignItems:'center',
-   borderBottomWidth:7,
+   borderBottomWidth:2,
    borderBottomColor:'rgba(198, 201, 237, 0.8)',
   },
-  // menuImage:{
-  //  width:35,
-  //  height:35,
-  //  marginRight:20
-  // },
+        
+          // HEADER MODAL
+
+        modalMainContainer:{
+          width:'90%',
+          height:'100%',
+          position:'relative',
+          paddingVertical:5,
+          borderRightWidth:1,
+          borderColor:'lightblue',
+          backgroundColor:'rgba(232, 217, 241, 0.3)',
+          borderTopRightRadius:20
+        },
+        modalButtonContainer:{
+          position:'absolute',
+          right:10,
+          top:10,
+          paddingBottom:15
+        },
+        modalButtonImage:{
+          width:50,
+          height:50,
+          resizeMode:'contain',
+        },
+        ModalBodyMainContainer:{
+          paddingTop:50,
+          width:'100%',
+          alignItems:'flex-start'
+        },
+        ModalBodyContainer:{
+          flexDirection:'row',
+          alignItems:'center',
+          width:'100%',
+          justifyContent:'flex-start',
+          gap:30,
+          paddingBottom:20,
+          borderBottomWidth:1,
+          borderColor:'lightblue'
+        },
+        modalUserText:{
+          fontSize:20,
+          fontWeight:'400',
+          letterSpacing:0.3,
+          textTransform:'capitalize'
+        },
+        modalUserImage:{
+          width:75,
+          height:75,
+          borderRadius:50,
+          resizeMode:'cover',
+          marginLeft:15
+        },
+        modalLinksMainContainer:{
+          width:'100%',
+          gap:20,
+          paddingTop:20,
+          paddingHorizontal:20
+        },
+        modalLinksContainer:{
+          width:'auto',
+          paddingVertical:1,
+        },
+        modalLinksText:{
+          paddingLeft:10,
+          fontSize:12,
+          fontWeight:'500',
+          textTransform:'capitalize',
+        },
 
         // FOOTER
       
         footerMainContainer:{
           position:'absolute',
           bottom:0,
+          flex:1,
           left:0,
           width:'100%',
-          height:80,
-          backgroundColor:'lightblue',
-          textAlign:'center',
-          justifyContent:'center',
+          height:55,
+          backgroundColor:'#fff',
+          borderTopWidth:1,
+          borderTopColor:'lightblue',
         },
         footerContainer:{
+          width:'100%',
           display:'flex',
           flexDirection:'row',
-          justifyContent:'space-between',
-          alignItems:'center',
           paddingHorizontal:8,
-          flex:1
+          justifyContent:'space-between',
+        },
+        footerBox:{
+          width:'20%',
+          alignItems:'center',
+          justifyContent:'center'
+        },
+        footerImage:{
+          width:'100%',
+          height:'60%',
+          resizeMode:'contain'
         },
 
       // WELCOME STYLE
@@ -77,13 +149,33 @@ const styles = StyleSheet.create({
       // fontSize:15,
       fontWeight:'300'
     },
+    SwitchContainer:{
+      paddingVertical:10,
+      display:'flex',
+      flexDirection:'row',
+      gap:10,
+      paddingHorizontal:20,
+    },
+    SwitchContainerBTN:{
+      borderBottomWidth:2,
+      borderColor:'#cecece',
+      paddingBottom:7,
+      paddingHorizontal:7
+    },
+    SwitchContainerText:{
+      fontSize:15,
+      fontWeight:'700',
+      color:'#cecece',
+      letterSpacing:1,
+    },
 
                 //  RECOMMENDATIONS 
 
     recommendationMainContainer:{
       width:'100%',
-      height:200,
-      flexDirection:'column'
+      height:250,
+      paddingVertical:10,
+      flexDirection:'column',
     },
     recommendationHeadContainer:{
       padding:10,
@@ -94,23 +186,60 @@ const styles = StyleSheet.create({
     recommendationHeadText:{
       textTransform:'capitalize',
       fontWeight:'500',
-      fontStyle:'italic',
+      color:'#000'
     },
     recommendationContainer:{
-      backgroundColor:'rgba(239, 207, 223, 0.8)',
+      backgroundColor:'rgba(0,0,0,0.07)',
+      borderColor:'lighblue',
       flexDirection:'row',
+      borderWidth:2,
+      borderRadius:10,
       justifyContent:'space-between',
-      paddingHorizontal:5
+      marginHorizontal:5,
+      height:170
     },
-    recommendationTextImageContainer:{
+    recommendationTextContainer:{
       flexDirection:'column',
-      flex:0.5,
-      alignItems:'center',
-      justifyContent:'center'
+      width:'60%',
+      height:'100%',
+      justifyContent:'center',
+      gap:20,
+      alignItems:'center'
+    },
+    recommendationTextName:{
+      fontSize:13,
+      fontWeight:'500',
+      paddingLeft:10
+    },
+    recommendationTextHead:{
+      fontSize:11,
+      fontWeight:'500',
+      textAlign:'center'
+    },
+    recommendationTextFee:{
+      fontSize:11,
+      fontWeight:'500',
+    },
+    recommendationLocation:{
+      width:20,
+      height:20,
+      resizeMode:'contain'
+    },
+    recommendationTextRate:{
+      fontSize:11,
+      fontWeight:'500',
+      textAlign:'right',
+      paddingTop:10
+    },
+    recommendationImageContainer:{
+      width:'40%',
+      height:'100%'
     },
     recommendationImage:{
-      width:'90%',
-      height:'90%'
+      width:'100%',
+      height:'100%',
+      resizeMode:'cover',
+      borderRadius:10
     },
 
              // TOP PLACES  TO  STUDY
@@ -125,84 +254,89 @@ const styles = StyleSheet.create({
       width:'100%',
       marginLeft:30,
       flexDirection:'row',
+      alignItems:'center'
     },
     topPlaceContainer:{
-      width:'90%',
+      width:'95%',
       flexDirection:'row',
     },
     placeContainer:{
       width:150,
+      height:100,
       alignItems:'center',
       justifyContent:'center',
       padding:5,
       marginHorizontal:5
     },
-
-              // USER FIELD
-
-    userFieldMainContainer:{
+    topPlaceImage:{
       width:'100%',
-      paddingVertical:20,
-      alignItems:'center',
-      justifyContent:'center'
-    },
-    userFieldHeadContainer:{
-      width:'88%',
-      paddingVertical:7,
-      textAlign:'center',
-      marginBottom:20
-    },
-    userFieldHeadText:{
-      textTransform:'capitalize',
-      fontSize:19,
-      fontWeight:'300',
-      fontStyle:'italic'
-    },
-    userFieldBodyContainer:{
-      width:'95%',
-      flexDirection:'row',
-      justifyContent:'space-around'
+      height:'85%',
+      resizeMode:'cover'
     },
 
             // PREFERANCE
 
-    preferanceMainContainetr:{
-      width:'100%',
-      paddingVertical:10,
-      backgroundColor:'#fff',
-      alignItems:'center',
-      justifyContent:'center',
+    userPreferenceBodyContainer:{
+      flexDirection:'column',
+      width:'97%',
     },
-    preferanceHeadContainer:{
-      width:'100%',
-      paddingVertical:10,
-      borderBottomWidth:1.5,
-      borderBottomColor:'lightblue',
-    },
-    preferanceHeadText:{
-      // later style
-    },
-    preferanceBodyContainer:{
-      width:'90%',
-      marginVertical:10,
-      alignItems:'center',
+    userPreferenceSubBodyContainer:{
       flexDirection:'row',
-      justifyContent:'space-between',
-      padding:5,
-      borderColor:'lightgreen',
-      borderWidth:1,
-      borderRadius:10
+      flex:1,
+      backgroundColor:'rgba(0,0,0,0.09)',
+      marginBottom:10,
     },
-    preferanceSchoolText:{
-      fontSize:15,
+    userPreferenceSubBodyTextCont:{
+      flex:0.7,
+      alignContent:'center',
+      alignItems:'center',
+    },
+    userPreferenceSubBodyTextContTwo:{
+      marginTop:'6%',
+      alignItems:'center',
+      marginBottom:10
+    },
+    userPreferenceSubBodyText:{
+      fontSize:13,
+      letterSpacing:0.5
+    },
+    prefRevContainer:{
+      paddingVertical:10,
+      display:'flex',
+      flexDirection:'row'
+    },
+    
+    userPreferenceSubBodyBtn:{
+      borderWidth:1.2,
+      paddingHorizontal:10,
+      paddingVertical:6,
+      borderRadius:4,
+      borderColor:'rgba(50,50,100,0.9)'
+    },
+    userPreferenceSubBodyBtnText:{
+      fontSize:13,
+      color:'#333',
+      fontWeight:'500'
+    },
+    userPreferenceSubBodyImageCont:{
+      flex:0.3
+    },
+    userPreferenceImage:{
+      width:'100%',
+      height:'100%',
+      resizeMode:'cover'
+
     },
 
-    
+
+
         //  TOP IN SPECIFIC FIELD AND CERTIFICATION 
+
     topCertificationMainContainer:{
       width:'100%',
       flexDirection:'column',
       alignItems:'center',
+      marginTop:20
     },
     topCertificationHeadContainer:{
       width:'83%',
@@ -219,8 +353,8 @@ const styles = StyleSheet.create({
     },
     InnerCertificationContainer:{
       flexDirection:'row',
+      maxWidth:230,
       alignItems:'center',
-      width:187,
       marginVertical:5,
       borderWidth:1,
       paddingLeft:3,
@@ -230,100 +364,711 @@ const styles = StyleSheet.create({
 
               // CATEGORIES  STYLE
 
-    categoriesMainContainer:{
-      width:'100%',
-      paddingVertical:20,
-      backgroundColor:'rgba(72, 40, 145, 0.05)',
-      alignItems:'center'
-    },
-    categoriesHeadContainer:{
-      width:'80%',
-      flexDirection:'column',
-      paddingVertical:10
-    },
-    categoriesHeadText:{
-      // later
-    },
-    categoriesButtonContainer:{
-      width:'100%',
-      alignItems:'center',
-      display:'flex',
-      justifyContent:'space-around',
-      flexDirection:'row'
-    },
-
+    
       // SCHOLARSHIP
 
-      scholarshipMainContainer:{
-        width:'100%',
-        paddingVertical:20,
-        alignItems:'center'
-      },
-      scholarshipHeadContainer:{
-        width:'80%',
-        marginLeft:20,
-        flexDirection:'row',
-        alignItems:'center'
-      },
-      scholarshipBodyContainer:{
-        width:'94%',
-        backgroundColor:'lightblue',
-        paddingVertical:10,
-        alignItems:'center',
-        marginTop:10,
-        flexDirection:'row',
-        justifyContent:'space-around',
-        borderTopLeftRadius:100,
-        borderBottomLeftRadius:100
-      },
 
-            //  STUDENT LOAN
-
-    loanMainContainer:{
+    ScholarshipMainContainer:{
+      backgroundColor:'rgba(20,190,50,0.09)',
       width:'100%',
+      flex:1,
+      marginBottom:90
+    },
+    ScholarshipMainHeaderContainer:{
+      width:'100%',
+      paddingVertical:15,
+      gap:10,
+      paddingHorizontal:10,
+      borderBottomWidth:3,
+      borderBottomColor:'lightblue',
+      // backgroundColor:'#fff'
+    },
+    ScholarshipMainHeaderText:{
+      fontSize:15,
+      fontWeight:'600',
+      opacity:0.7,
+      textTransform:'capitalize',
+      letterSpacing:1.2,
+      paddingLeft:20,
+    },
+    ScholarshipMainHeaderInput:{
+      paddingHorizontal:10,
+      borderWidth:1,
+      textAlign:'left',
+      paddingVertical:5,
+      borderRadius:10,
+      borderColor:'lightblue',
+      fontSize:14,
+      letterSpacing:0.3,
+      backgroundColor:'rgba(0,0,0,0.074)',
+      letterSpacing:0.66,
+      textAlign:'center',
+      fontWeight:'500'
+    },
+    ScholarshipMainBodyContainer:{
+      backgroundColor:'#fcfcfc',
+      width:'97%',
+      paddingTop:20,
+      alignSelf:'center',
+      marginVertical:10,
+      borderWidth:1,
+      borderColor:'lightblue',
+      borderRadius:5,
+    },
+    ScholarshipMainBodyFlexContainer:{
+      flexDirection:'row',
+      width:'100%',
+      paddingHorizontal:10,
+      paddingVertical:15,
+      justifyContent:'space-between',
+      alignItems:'center',
+    },
+    ScholarshipMainBodyFlexHeaderText:{
+      fontSize:15,
+      fontWeight:'600',
+      opacity:0.7,
+      paddingHorizontal:20,
+      letterSpacing:0.5,
+    },
+    ScholarshipSubBodyFlexContainer:{
       alignItems:'center',
       justifyContent:'center',
-      flex:1,
-      backgroundColor:'#fff',
-      marginBottom:130
+      textAlign:'center',
+      gap:7
     },
-    loanHeadContainer:{
-      width:'80%',
-      marginVertical:20
+    ScholarshipSubBodyFlexHeadText:{
+      fontSize:12,
+      fontWeight:'500',
+      textTransform:'uppercase'
     },
-    loanHeadText:{
-        // later styles
+    ScholarshipSubBodyFlexBodyText:{
+      fontSize:12,
+      textTransform:'none'
     },
-    loanContainer:{
-      flexDirection:'row',
-      width:'95%',
-      height:'100',
-      backgroundColor:'rgba(221, 241, 235, 0.84)',
-      padding:15,
-      borderTopEndRadius:100,
-      borderBottomEndRadius:100
+    ScholarshipButton:{
+      borderWidth:1.3,
+      paddingHorizontal:20,
+      paddingVertical:5,
+      borderRadius:7,
+      borderColor:'lightblue'
     },
-    loanText:{
-      flex:0.65,
+    ScholarshipButtonText:{
+      fontSize:16,
+      opacity:0.8,
+      letterSpacing:0.7,
+      textTransform:'capitalize'
     },
-    loanImage:{
-      flex:0.35
-    },
+      
     Button:{
       marginVertical:5,
-      paddingVertical:10,
+      paddingVertical:8,
       alignItems:'center',
-      borderWidth:1.3,
-      paddingHorizontal:'3%',
+      borderWidth:1,
+      paddingHorizontal:10,
       borderColor:'lightblue',
-      borderRadius:50
+      borderRadius:5,
     },
     ButtonText:{
       fontSize:15,
-      fontStyle:'italic',
-      fontWeight:'300',
+      fontWeight:'400',
       textTransform:'capitalize'
+    },
+
+    // UniversityHome  STYLE
+
+
+    
+    
+    uniHeader:{
+      paddingVertical:8,
+      marginBottom:20,
+      alignItems:'center',
+      justifyContent:'center'
+    },
+    logoContainer:{
+      width:'80%',
+      paddingVertical:10,
+      justifyContent:'space-between',
+      flexDirection:'row'
+    },
+    logoName:{
+      fontSize:18,
+      fontWeight:'500',
+      textTransform:'capitalize'
+    },
+    filterImageContainer:{
+      
+    },
+    filterImage:{
+      width:30,
+      height:30,
+      resizeMode:'cover'
+    },
+    searchBarContainer:{
+      width:'90%',
+      justifyContent:'center'
+    },
+    searchBar:{
+      borderWidth:0.7,
+      paddingLeft:10,
+      fontSize:15,
+      fontWeight:'300',
+      borderRadius:10,
+      paddingVertical:5,
+      
+    },
+
+    // UniHomeMainContainer:{
+    //   width:'100%',
+    //   alignItems:'center',
+    //   justifyContent:'center',
+    //   alignSelf:'center',
+      
+    // },
+    // UniHomeContainer:{
+    //   width:'100%',
+    //   alignSelf:'center',
+    //   paddingBottom:20,
+    //   borderBottomWidth:1.4,
+    //   borderColor:'lightblue'
+    // },
+    UniHeadName:{
+      fontSize:17,
+      fontWeight:'600',
+      padding:8,
+      letterSpacing:0.4,
+    },
+    mainUniversHeaderTextContainer:{
+      padding:10
+    },
+    UniHomeHeadImage:{
+      width:'90%',
+      alignSelf:'center',
+      lineHeight:20,
+      marginBottom:10
+    },
+    UniSubInfoContainer:{
+      flexDirection:'row',
+      alignItems:'center',
+      paddingHorizontal:10,
+      gap:10,
+    },
+    UniLocation:{
+      width:17,
+      height:17,
+    },
+    UniName:{
+      fontSize:12,
+      textTransform:'capitalize',
+      fontWeight:'500',
+      paddingBottom:2
+    },
+    UniHeadContainer:{
+      width:'100%',
+    },
+
+    uniMainButtons:{
+      flexDirection:'row',
+      justifyContent:'space-around',
+      paddingVertical:13
+    },
+    uniMainButtonContainer:{
+      flexDirection:'row',
+      justifyContent:'space-around',
+      alignItems:'center',
+      paddingVertical:10
+    },
+    uniMainButton:{
+      borderWidth:1.2,
+      alignItems:'center',
+      paddingHorizontal:10,
+      paddingVertical:10,
+      borderRadius:5,
+      width:'80%',
+      backgroundColor:'rgba(20,120,20,0.22)'
+    },
+    uniMainButtonText:{
+      fontSize:15,
+      textTransform:'uppercase',
+      fontWeight:'500',
+    },
+        // COLLEGES  HERE
+
+    mainCollegeContainer:{
+      width:'100%',
+      paddingVertical:5,
+      marginBottom:80,
+      alignItems:'center',
+      justifyContent:'center',
+    },
+    collegeContainer:{
+      width:'96%',
+      borderWidth:0.5,
+      borderRadius:10,
+      borderColor:'lightblue',
+      paddingLeft:5,
+      flexDirection:'row',
+      alignItems:'center',
+      justifyContent:'space-between',
+      alignSelf:'center',
+    },
+    collegeTextContainer:{
+      width:'67%',
+    },
+    collegeTextName:{
+      fontSize:15,
+      fontWeight:'500',
+      marginBottom:5
+    },
+    collegeTextInfo:{
+      fontSize:11,
+      fontWeight:'400'
+    },
+    collegeImageContainer:{
+      width:'30%'
+    },
+    collegeImage:{
+      width:"100%",
+      height:140,
+      resizeMode:'cover'
+    },
+    collegeButtonContainer:{
+      flexDirection:'row',
+      marginTop:7,
+      justifyContent:'space-around'
+    },
+
+      // HOME SCHOLARSHIP
+
+    HomeMainScholarshipContainer:{
+      paddingVertical:20,
+      width:'100%',
+    },
+    HomeScholarshipHeaderContainer:{
+      flexDirection:'row',
+      width:'80%',
+      alignSelf:'center',
+      alignItems:'center'
+    },
+    HomeScholarshipHeaderImageContainer:{
+      paddingHorizontal:5
+    },
+    HomeScholarshipHeaderImage:{
+      width:23,
+      height:23,
+    },
+    HomeScholarshipHeaderText:{
+      fontSize:15,
+      fontWeight:'600',
+      textTransform:'capitalize',
+      opacity:0.8
+    },
+    ScholarshipScrolls:{
+      width:230,
+      height:150,
+      marginTop:20,
+      justifyContent:'center',
+      alignContent:'center',
+      marginHorizontal:5,
+
+    },
+    ScholarshipBox:{
+      width:'90%',
+      height:'70%',
+      backgroundColor:'rgba(0,0,0,0.05)',
+      alignSelf:'center',
+      alignContent:'center',
+      marginBottom:10,
+      alignItems:'center'
+    },
+    ScholarImage:{
+      width:'100%',
+      height:'100%',
+      resizeMode:'contain'
+    },
+    ScholarshipBodyTextContainer:{
+      width:'90%'
+    },
+    ScholarshipBodyText:{
+      fontSize:12,
+      fontWeight:'300',
+      paddingLeft:7
+    },
+
+    // MAIN UNI HOME
+
+    UniHomeMainContainer:{
+      width:'100%',
+      paddingVertical:5,
+      backgroundColor:'rgba(0,0,0,0.071)',
+      alignItems:'center'
+    },
+    UniHomeContainer:{
+      paddingBottom:7,
+      width:'94%',
+      alignItems:'center',
+      justifyContent:'center',
+      borderTopLeftRadius:10,
+      borderTopRightRadius:10,
+      backgroundColor:'rgba(0,0,0,0.055)'
+    },
+    UniHomeImageContainer:{
+      width:'100%',
+      height:130,
+      alignItems:'center',
+    },
+    UniHomeImage:{
+      width:'100%',
+      height:'100%',
+      resizeMode:'cover',
+      borderTopLeftRadius:10,
+      borderTopRightRadius:10
+    },
+    UniHomeTextContainer:{
+      width:'85%',
+      paddingVertical:5,
+      textAlign:'left'
+    },
+    UniHomeText:{
+      fontSize:16,
+      fontWeight:'500',
+      opacity:0.6,
+      letterSpacing:0.4
+    },
+    uniMainHomeLocNCampContainer:{
+      width:'60%',
+      flexDirection:'row',
+      paddingVertical:3,
+      gap:15,
+      alignItems:'center',
+      justifyContent:'center',
+      marginTop:5
+    },
+    uniMainHomeLocContainer:{
+      flexDirection:'row',
+      gap:3,
+    },
+    uniMainHomeLocImageContainer:{
+      width:20,
+      height:20,
+      justifyContent:'center'
+    },
+    uniMainHomeLocImage:{
+      width:'80%',
+      height:'80%',
+      resizeMode:'cover',
+    },
+    uniMainHomeLocText:{
+      fontSize:13,
+      fontWeight:'500',
+      textTransform:'capitalize',
+    },
+    uniMainHomeReviewContainer:{
+      width:'90%',
+      flexDirection:'row',
+      paddingVertical:1,
+      alignItems:'center',
+      justifyContent:'center'
+    },
+    uniMainHomeReviewImageContainer:{
+      flexDirection:'row',
+      alignItems:'center',
+      gap:-4
+    },
+    Revstar:{
+      width:15,
+      height:15
+    },
+    uniMainHomeReviewTextContainer:{
+      marginLeft:6,
+    },
+    uniMainHomeReviewText:{
+      fontSize:13,
+      fontWeight:'500',
+      textTransform:'none'
+    },
+    reviewButton:{
+      borderBottomWidth:1.2,
+      borderLeftWidth:1.2,
+      borderColor:'rgba(0,0,0,0.5)',
+      paddingHorizontal:6,
+      marginHorizontal:10,
+      paddingVertical:5,
+      borderRadius:5,
+      backgroundColor:'rgba(0,0,0,0.07)',
+    },
+    reviewButtonText:{
+      fontSize:10.5,
+      fontWeight:'700',
+      letterSpacing:0.4,
+      textTransform:'capitalize'
+    },
+    ReadButton:{
+      marginTop:15,
+      paddingVertical:6,
+      borderWidth:1.3,
+      width:'70%',
+      alignSelf:'center',
+      marginLeft:'5%',
+      borderRadius:5,
+      borderColor:'purple',
+      backgroundColor:'rgba(120,20,20,0.053)'
+    },
+    ReadButtonText:{
+      textAlign:'center',
+      fontSize:15,
+      fontWeight:'500',
+      letterSpacing:0.6
+    },
+    allButton:{
+      width:'90%',
+      marginVertical:20,
+      paddingHorizontal:5,
+      marginLeft:'5%',
+      paddingVertical:8,
+      borderRadius:3,
+      backgroundColor:'transparent',
+      alignSelf:'center',
+      margin:10,
+      borderWidth:2,
+      borderColor:'#7666'
+    },
+    allButtonText:{
+      fontSize:15,
+      textAlign:'center',
+      fontWeight:'600',
+      color:'#444'
+    },
+    FilterPageUniContainer:{
+      width:'97%',
+      maxWidth:500,
+      height:'auto',
+      backgroundColor:'rgba(0,0,100,0.05)',
+      marginTop:5,
+      paddingVertical:10
+     },
+     FilterPageUniHeaderContainer:{
+      flexDirection:'column',
+      width:'auto'
+     },
+     FilterPageUniHeaderNameContainer:{
+      paddingHorizontal:15,
+      paddingVertical:15
+     },
+     FilterPageUniHeaderNameText:{
+      fontSize:15,
+      fontWeight:'500',
+      color:'lightblue',
+      letterSpacing:0.3
+     },
+     FilterBothContainer:{
+      display:'flex',
+      flexDirection:'row',
+      alignItems:'center',
+      justifyContent:'flex-start',
+      paddingLeft:'5%',
+      gap:10,
+      borderBottomWidth:1.5,
+      borderColor:'lightblue',
+      borderStyle:'dashed',
+      paddingBottom:20
+     },
+     FilterPageUniHeaderLocationContainer:{
+      display:'flex',
+      flexDirection:'row',
+      alignItems:'center',
+      gap:5,
+      paddingRight:7,
+      borderRightWidth:1.5,
+      borderColor:'#888'
+     },
+     FilterPageUniHeaderLocationImage:{
+      width:15,
+      height:19,
+     },
+     FilterPageUniHeaderLocationText:{
+      fontSize:12,
+      fontWeight:'500'
+     },
+     FilterPageUniHeaderRatingContainer:{
+      display:'flex',
+      flexDirection:'row',
+      paddingRight:5,
+      alignItems:'center',
+      borderRightWidth:1.5,
+      borderColor:'#888'
+    
+     },
+     FilterPageUniHeaderRatingImageContainer:{
+      flexDirection:'row',
+      gap:0,
+     },
+     FilterPageUniHeaderRateText:{
+      fontSize:11,
+      fontWeight:'bold',
+      paddingLeft:5
+     },
+     FilterCourseFeesMainContainer:{
+      width:'95%',
+      alignSelf:'center',
+      display:'flex',
+      flexDirection:'row',
+      justifyContent:'space-between',
+      paddingVertical:10,
+      borderBottomWidth:1.5,
+      borderColor:'lightblue',
+      borderStyle:'dashed'
+     },
+     FilterCourseFeesContainer:{
+      gap:8,
+      alignItems:'center'
+     },
+     FilterCourseFeesHeadText:{
+      fontSize:15,
+      fontWeight:'500',
+      color:'#333',
+      letterSpacing:1
+     },
+     FilterCourseFeesText:{
+      fontSize:13,
+      fontWeight:'500'
+     },
+     FilterAdmissionContainer:{
+      display:'flex',
+      flexDirection:'row',
+      justifyContent:'flex-start',
+      alignItems:'center',
+      paddingLeft:'5%',
+     },
+     
+    //  Updates
+
+    updatesHeaderContainer:{
+      width:'100%',
+      maxWidth:500,
+      minHeight:250,
+      backgroundColor:'#fff',
+      paddingBottom:20
+    },
+    updatesHeaderImageContainer:{
+      width:'100%',
+      height:130,
+    },
+    updatesHeaderImage:{
+      width:'100%',
+      height:'100%',
+      resizeMode:'cover'
+    },
+    updatesHeadMainContainer:{
+      height:250
+    },
+    updatesHeaderTextContainer:{
+      width:'95%',
+      paddingTop:15,
+      alignSelf:'center'
+    },
+    updatesHeaderText:{
+      fontSize:15,
+      fontWeight:'500',
+    },
+    updatesContainer:{
+      marginBottom:50
+    },
+    updatesBodyMainContainer:{
+      width:'100%',
+      paddingVertical:10,
+    },
+    updatesBodyContainer:{
+      width:'95%',
+      alignSelf:'center',
+      paddingVertical:10,
+      paddingHorizontal:'2%',
+      gap:5,
+      backgroundColor:'rgba(0,0,0,0.09)',
+      borderRadius:10
+    },
+    updatesBodyHeadText:{
+      fontSize:13,
+      fontWeight:'500',
+      paddingLeft:10
+    },
+    updatesBodyText:{
+      fontSize:11,
+      fontWeight:'400'
+    },
+
+    // Desired  Course
+
+    scrollHeaderBtnContainer:{
+      paddingVertical:6,
+      paddingHorizontal:15,
+      borderWidth:1.6,
+      borderColor:'lightblue',
+      marginVertical:20,
+      marginHorizontal:10,
+      borderRadius:10,
+      backgroundColor:'rgba(0,0,0,0.08)'
+    },
+    scrollHeaderBtnText:{
+      fontSize:13,
+      fontWeight:'500',
+      color:'#333'
+    },
+    scrollBodyContainer:{
+      width:210,
+      height:130,
+      borderColor:'#cfcfcf',
+      borderWidth:1.5,
+      paddingHorizontal:10,
+      paddingVertical:10,
+      marginHorizontal:10,
+      backgroundColor:'rgba(0,0,200,0.05)',
+      borderRadius:10,
+      gap:5,
+      justifyContent:'center'
+    },
+    scrollBodyDistText:{
+      fontSize:10,
+    },
+    scrollBodyCourseText:{
+      fontSize:12,
+      fontWeight:'500',
+      textAlign:'center'
+    },
+    scrollUniAvailContainer:{
+      flexDirection:'row',
+      justifyContent:'space-around'
+    },
+    myMatchContainer:{
+      width:'90%',
+      alignSelf:'center',
+      maxWidth:500,
+      backgroundColor:'rgba(0,0,0,0.07)',
+      paddingHorizontal:20,
+      paddingVertical:10,
+      gap:10,
+      marginTop:20,
+      borderRadius:10,
+      borderWidth:1
+    },
+    myMatchText:{
+      fontSize:12,
+      fontWeight:'500'
+    },
+    myMatchBtn:{
+      alignSelf:'flex-end',
+      borderWidth:1.3,
+      alignItems:'center',
+      paddingHorizontal:40,
+      paddingVertical:5,
+      borderRadius:10,
+      backgroundColor:'rgba(0,0,0,0.09)',
+    },
+    myMatchBtnText:{
+      fontSize:15,
+      fontWeight:'500'
     }
+
 })
 
 export default styles
