@@ -1,0 +1,633 @@
+[
+ {
+  "id": "1",
+  "name": "Academic City College ", 
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "UG",
+  "Page": "VVUPage",
+  "nick": "VVU"
+ },
+ {
+  "id": "2",
+  "name": "Accra Business School",
+  "location": "Spintex", 
+  "campuses": "1",
+  "note": "TTS",
+  "Page": "TTSPage",
+  "nick": "TTS"
+
+ },
+ {
+  "id": "3",
+  "name": "Accra College of Medicine",
+  "location": "Accra", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "ACI",
+  "nick": "ACI"
+ },
+ {
+  "id": "4",
+  "name": "Advance Global College",
+  "location": "Tamale", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "CentralPage",
+  "nick": "Central"
+ },
+ {
+  "id": "5",
+  "name": "Advanced Business College ",
+  "location": "Accra", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "PentVarsPage",
+  "nick": "Pent Vars"
+ },
+ {
+  "id": "6",
+  "name": "African University College of Communication",
+  "location": "Accra", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "ANUPage",
+  "nick": "ANU"
+ },
+ {
+  "id": "7",
+  "name": "Akim State College ",
+  "location": "Akim Oda", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "8",
+  "name": "Anglican University College of Technology",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "9",
+  "name": "AsanSka College of Design and Technology ",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "10",
+  "name": "Bunso Cocoa College",
+  "location": "Bunsu", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "11",
+  "name": "Central College of Science and Technology",
+  "location": "Agona Swedru", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "12",
+  "name": "Catholic Institute of Business and Technology",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "13",
+  "name": "China Europe International Business School",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "14",
+  "name": "College of Integrated Healthcare ",
+  "location": "Obuasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Asheisi"
+ },
+ {
+  "id": "15",
+  "name": "Christian Service University College ",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AshesiPage",
+  "nick": "Ashesi"
+ },
+ {
+  "id": "16",
+  "name": "Data Link Institute of Business and Technology ",
+  "location": "Tema", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "KnutsfordPage",
+  "nick": "Knutsford"
+ },
+ {
+  "id": "17",
+  "name": "Deeper Life International Bible Training College",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "LUGPage",
+  "nick": "LUG"
+ },
+ {
+  "id": "18",
+  "name": "Dominion University College",
+  "location": "Spintex", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "MUCGPage",
+  "nick": "MUCG"
+ },
+ {
+  "id": "19",
+  "name": "DHI College",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "PUCPage",
+  "nick": "PUC"
+ },
+ {
+  "id": "20",
+  "name": "Evangelical Presbyterian University College",
+  "location": "Ho", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "WIUCPage",
+  "nick": "WIUC"
+ },
+ {
+  "id": "21",
+  "name": "Ensign Global College",
+  "location": "Kpong", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "CentralPage",
+  "nick": "Central"
+ },
+ {
+  "id": "22",
+  "name": "Family Health University College",
+  "location": "Teshie", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "CIBTPage",
+  "nick": "CIBT"
+ },
+ {
+  "id": "23",
+  "name": "Fountainhead Christian College",
+  "location": "Tema", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "24",
+  "name": "Ghana Christian University College",
+  "location": "Amranhia", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "25",
+  "name": "Great Brains College",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "26",
+  "name": "Heritage Christian College",
+  "location": "Amasaman", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "27",
+  "name": "Jackson Institute of Innovation and Leardership",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "28",
+  "name": "KAAF University College ",
+  "location": "Mallam", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "29",
+  "name": "Kessben College",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "30",
+  "name": "High Skies College",
+  "location": "Tema", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "31",
+  "name": " Institute of Development and Technology Management",
+  "location": "Cape Coast", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "32",
+  "name": "Kings and Queens Medical College",
+  "location": "Kpong", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "33",
+  "name": "Mumford Institute of Technology",
+  "location": "Adenta", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "34",
+  "name": "Garden City University College",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "35",
+  "name": "JACCD Design Institute Africa",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "36",
+  "name": "Lancaster University, Ghana Campus",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "37",
+  "name": "Nduom School of Business and Technology",
+  "location": "Elmina", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "38",
+  "name": "Neumann College",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "39",
+  "name": "Maranatha University College",
+  "location": "Sowutuom", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "40",
+  "name": "Marshalls College",
+  "location": "Odorkor", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "41",
+  "name": "Millar Institute For Transdisciplinary And Development Studies",
+  "location": "Bolgatanga", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "42",
+  "name": "Newlife College",
+  "location": "Tamale", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "43",
+  "name": "Nobel International Business School",
+  "location": "East Legon", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "44",
+  "name": "Nyansapo College",
+  "location": "Adjiringanor", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "45",
+  "name": "Organization Development (OD) Institute",
+  "location": "Kwabenya", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "46",
+  "name": "Palm Institute of Strategic Leadership ",
+  "location": "Shai Hills", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "47",
+  "name": "Pharmtrust Professional College",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "48",
+  "name": "Radford University College ",
+  "location": "East Legon", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "49",
+  "name": "Regentropfen College of Applied Science",
+  "location": "Bolgatanga", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "50",
+  "name": ". School of Public Policy and Entrepreneurship Development",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "51",
+  "name": "Spiritan University College",
+  "location": "Ejisu", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "52",
+  "name": "Sundoulos Advanced Leadership Training Institute",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "53",
+  "name": "Thrivus Institute for Biomedical Science and Technology",
+  "location": "Lashibi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "54",
+  "name": " Unique Citizens College",
+  "location": "North Legon", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "55",
+  "name": "Modal College",
+  "location": "Sogakope", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "56",
+  "name": "Mountcrest University College",
+  "location": "Kanda", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "57",
+  "name": "Perez University College",
+  "location": "Winneba", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "58",
+  "name": "Health Access Institute",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "59",
+  "name": "Lakeside University College",
+  "location": "Madina", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "60",
+  "name": "M-Gibes College of Business and Management",
+  "location": "Achimota", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "61",
+  "name": "College of Medicine and Allied Sciences",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "62",
+  "name": "Oak City International College",
+  "location": "Madina", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "63",
+  "name": "Knutsford College",
+  "location": "East Legon", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "64",
+  "name": "Entrance University College of Health Sciences",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "65",
+  "name": "West End University College",
+  "location": "Kasoa", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "66",
+  "name": "Withrow College",
+  "location": "Agona", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "67",
+  "name": "Zenith University College",
+  "location": "La", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "68",
+  "name": "Webster University",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "69",
+  "name": "River View College",
+  "location": "Weija", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ },
+ {
+  "id": "70",
+  "name": "Wisconsin International University College ",
+  "location": "Haatso", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "NAFTIPage",
+  "nick": "NAFTI"
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "id" : "1",
+  "name" : "Ashesi University",
+  "location" : "Accra",
+  "rate" : "4.3",
+  "institution" : "Private",
+  "courses" : "5",
+  "fee" : "1k - 12k",
+  "admission" : "Ongoing"
+ },
+ {
+  "id" : "2",
+  "name" : "University Of Ghana",
+  "location" : "Legon",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed",
+  "page" : "LegonPage"
+ },
+ {
+  "id" : "3",
+  "name" : "University Of Cape Coast",
+  "location" : "Cape Coast",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed"
+ },
+ {
+  "id" : "4",
+  "name" : "University Of Edecation",
+  "location" : "Winneba",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed",
+  "page" : "WinnebaPage"
+ },
+ {
+  "id" : "5",
+  "name" : "University Of Edecation",
+  "location" : "Winneba",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed"
+ },
+ {
+  "id" : "6",
+  "name" : "University Of Edecation",
+  "location" : "Winneba",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed"
+ },
+ {
+  "id" : "7",
+  "name" : "University Of Edecation",
+  "location" : "Winneba",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed"
+ },
+ {
+  "id" : "8",
+  "name" : "University Of Edecation",
+  "location" : "Winneba",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed"
+ },
+ {
+  "id" : "9",
+  "name" : "University Of Edecation",
+  "location" : "Winneba",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed"
+ },
+ {
+  "id" : "10",
+  "name" : "University Of Edecation",
+  "location" : "Winneba",
+  "rate" : "4.4",
+  "institution" : "Public",
+  "courses" : "7",
+  "fee" : "1.7k - 19.2k",
+  "admission" : "Closed"
+ }
+]

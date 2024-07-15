@@ -1,0 +1,238 @@
+[
+ {
+  "id": "1",
+  "name": "University Of Ghana", 
+  "location": "Legon", 
+  "campuses": "2",
+  "note": "../../assets/star.jpeg",
+  "Page": "LegonPage",
+  "nick": "UG"
+ },
+ {
+  "id": "2",
+  "name": "Kwame Nkrumah University  Of  Science And Tecnology",
+  "location": "Kumasi", 
+  "campuses": "6",
+  "note": "",
+  "Page": "KnustPage",
+  "nick": "KNUST"
+
+ },
+ {
+  "id": "3",
+  "name": "University of Cape Coast",
+  "location": "Cape Coast", 
+  "campuses": "6",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UCCPage",
+  "nick": "UCC"
+ },
+ {
+  "id": "4",
+  "name": "CK Tedam University for Technology and Applied Sciences",
+  "location": "Navrongo", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "CKT_UTAS",
+  "nick": "CKT-UTAS"
+ },
+ {
+  "id": "5",
+  "name": "University Of Education",
+  "location": "Winneba", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "WinnebaPage",
+  "nick": "UEW"
+ },
+ {
+  "id": "6",
+  "name": "Simon Diedong Dombo University for Business and Integrated Development Studies",
+  "location": "Wa", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "SDD_UBIDSPage",
+  "nick": "SDD-UBIDS"
+ },
+ {
+  "id": "7",
+  "name": "Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AAM_USTEDPage",
+  "nick": "AAM-USTED"
+ },
+ {
+  "id": "8",
+  "name": "University for Development Studies",
+  "location": "Tamale", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UDSPage",
+  "nick": "UDS"
+ },
+ {
+  "id": "9",
+  "name": "University of Professional Studies",
+  "location": "Accra", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UPSPage",
+  "nick": "UPS"
+ },
+ {
+  "id": "10",
+  "name": "University of Mines and Technology",
+  "location": "Tarkwa",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UMATPage",
+  "nick": "UMAT"
+ },
+ {
+  "id": "11",
+  "name": "University of Health and Allied Sciences",
+  "location": "Ho",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UHASPage",
+  "nick": "UHAS"
+ },
+ {
+  "id": "12",
+  "name": "University of Energy and Natural Resources",
+  "location": "Sunyani",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UENRPage",
+  "nick": "UENR"
+ },
+ {
+  "id": "13",
+  "name": "University of Environment and Sustainable Development",
+  "location": "Somanya",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UESDPage",
+  "nick": "UESD"
+ },
+ {
+  "id": "14",
+  "name": "Ghana Institute of Management and Public Administration",
+  "location": "Achimota",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "GIMPAPage",
+  "nick": "GIMPA"
+ },
+ {
+  "id": "15",
+  "name": "Ghana Communication Technology University", 
+  "location": "Tesano", 
+  "campuses": "1",
+  "note": "GCTU",
+  "Page": "GCTUPage",
+  "nick": "GCTU"
+ },
+ {
+  "id": "16",
+  "name": "Accra Technical University",
+  "location": "Accra", 
+  "campuses": "1",
+  "note": "Accra Technical University",
+  "Page": "ATUPage",
+  "nick": "ATU"
+
+ },
+ {
+  "id": "17",
+  "name": "Bolgatanga Technical University",
+  "location": "Bolgatango", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "BTUPage",
+  "nick": "BTU"
+ },
+ {
+  "id": "18",
+  "name": "Cape Coast Technical University",
+  "location": "Cape Coast", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "CCTUPage",
+  "nick": "CCTU"
+ },
+ {
+  "id": "19",
+  "name": "Kumasi Technical University",
+  "location": "Kumasi", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "KsTUPage",
+  "nick": "KsTU"
+ },
+ {
+  "id": "20",
+  "name": "Koforidua Technical University",
+  "location": "Koforidua", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "KTUPage",
+  "nick": "KTU"
+ },
+ {
+  "id": "21",
+  "name": "Tamale Technical University",
+  "location": "Tamale", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "TATUPage",
+  "nick": "TATU"
+ },
+ {
+  "id": "22",
+  "name": "Ho Technical University",
+  "location": "Ho", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "HTUPage",
+  "nick": "HTU"
+ },
+ {
+  "id": "23",
+  "name": "Takoradi Technical University",
+  "location": "Takoradi", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "TTUPage",
+  "nick": "TTU"
+ },
+ {
+  "id": "24",
+  "name": "Sunyani Technical University",
+  "location": "Sunyani",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "STUPage",
+  "nick": "STU"
+ },
+ {
+  "id": "25",
+  "name": "Wa Technical University",
+  "location": "Wa",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "WTUPage",
+  "nick": "WTU"
+ },
+ {
+  "id": "26",
+  "name": "University of Media, Arts and Communication",
+  "location": "Wa",
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "UniMACPage",
+  "nick": "UniMAC"
+ }
+]

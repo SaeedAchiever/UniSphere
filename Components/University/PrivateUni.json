@@ -1,0 +1,93 @@
+[
+ {
+  "id": "1",
+  "name": "Valley View University", 
+  "location": "Oyibi", 
+  "campuses": "2",
+  "note": "UG",
+  "Page": "VVUPage",
+  "nick": "VVU"
+ },
+ {
+  "id": "2",
+  "name": "Trinity Theological Seminary",
+  "location": "Legon", 
+  "campuses": "1",
+  "note": "TTS",
+  "Page": "TTSPage",
+  "nick": "TTS"
+
+ },
+ {
+  "id": "3",
+  "name": "Akrofi-Christaller Institute of Theology, Mission and Culture",
+  "location": "Akropon", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "ACI",
+  "nick": "ACI"
+ },
+ {
+  "id": "4",
+  "name": "Central University",
+  "location": "Accra", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "CentralPage",
+  "nick": "Central"
+ },
+ {
+  "id": "5",
+  "name": "Pentecost University",
+  "location": "Sowutuom", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "PentVarsPage",
+  "nick": "Pent Vars"
+ },
+ {
+  "id": "6",
+  "name": "All Nations University",
+  "location": "Koforidua", 
+  "campuses": "1",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "ANUPage",
+  "nick": "ANU"
+ },
+ {
+  "id": "7",
+  "name": "Ashesi University",
+  "location": "Kumasi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Ashesi"
+ },
+ {
+  "id": "8",
+  "name": "Catholic University",
+  "location": "Fiapre", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Ashesi"
+ },
+ {
+  "id": "9",
+  "name": "Methodist University",
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Ashesi"
+ },
+ {
+  "id": "10",
+  "name": ". Presbyterian University",
+  "location": "Abetifi", 
+  "campuses": "2",
+  "note": "require('../../assets/knust.jpeg')",
+  "Page": "AsheisiPage",
+  "nick": "Ashesi"
+ }
+]

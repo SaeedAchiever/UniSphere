@@ -1,0 +1,20 @@
+[
+ {
+  "id": "1",
+  "name": "Silicon Valley University", 
+  "location": "Oyibi", 
+  "campuses": "2",
+  "note": "UG",
+  "Page": "VVUPage",
+  "nick": "VVU"
+ },
+ {
+  "id": "2",
+  "name": "University of Education", 
+  "location": "Oyibi", 
+  "campuses": "2",
+  "note": "UG",
+  "Page": "VVUPage",
+  "nick": "VVU"
+ }
+]

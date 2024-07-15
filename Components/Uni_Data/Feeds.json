@@ -1,0 +1,23 @@
+[
+ {
+  "id" : "1",
+  "name" : "University  Of  Cape Coast",
+  "location" : "Cape Coast",
+  "fee" : "GHC1.2k - GHC12.1k",
+  "rate" : "4.1"
+ },
+ {
+  "id" : "2",
+  "name" : "KNUST",
+  "location" : "Kumasi",
+  "fee" : "GHC2.2k - GHC20.6k",
+  "rate" : "4.0"
+ },
+ {
+  "id" : "3",
+  "name" : "University  Of  Education",
+  "location" : "Winneba",
+  "fee" : "GHC1.0k - GHC11.3k",
+  "rate" : "4.2"
+ }
+]
