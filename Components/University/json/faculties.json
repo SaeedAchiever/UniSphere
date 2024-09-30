@@ -1,0 +1,6419 @@
+[
+ {
+  "id" : "1",
+  "name" : "Academic City University College",
+  "faculties" : [
+  {
+    "faculty_id" : 1,
+    "faculty_name"  : "Engineering",
+    "note" : [
+      "where an applicant does not meet the entry requirements, he/she can apply for our 6-mons pre-engineer course. Once passed will automatically qualified.",
+      "Tuition Fees => GH₵ 44,550 / USD 3,300 September 2024 - Semester 1"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Electronics & Communication Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Computer Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Mechanical Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "Electrical & Electronics Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "Industrial & Systems Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 6,
+        "course_name" : "Robotics Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 7,
+        "course_name" : "Biomedical Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 2,
+    "faculty_name"  : "Business",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Business Administration - Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Business Administration - Banking & Finance",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Business Administration - Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "Business Administration - Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "Business Administration - Entrepreneurship",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 3,
+    "faculty_name"  : "Communication Arts",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : " Journalism & Mass Communication",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Advertising & Public Relations",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Business Administration - Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 4,
+    "faculty_name"  : "Infomatics",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Artificial Intelligence",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Information Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Computer Science",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "Data Science and Analytics",
+        "course_type" : "masters",
+        "entry_requirements" : []
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "Cyber Security",
+        "course_type" : "masters",
+        "entry_requirements" : []
+      }
+    ]
+  }
+ ]
+ },
+ {
+  "id": "2",
+  "name": "Accra Business School",
+  "note" : [],
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Information Technology",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc IT Management",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "BSc Cybercrime & IT Security",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       
+       {
+         "course_id" : 1,
+         "course_name" : "12 Month MSc IT Management",
+         "course_type" : "masters",
+         "entry_requirements" : [
+          " Application Fee: USD60",
+          "Total Tuition Fee:  USD6,000"
+        ]
+       },
+ 
+       {
+         "course_id" : 1,
+         "course_name" : "Level 7 Extended Diploma in Computing Technologies",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Application Fee: GHC250",
+          "Monthly Plan : GHC1,250",
+          "Different payment plans available"
+        ]
+       },
+ 
+       {
+         "course_id" : 1,
+         "course_name" : "CyberSecurity",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: GHc 2,500",
+          "Duration 8 weeks"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 2,
+     "faculty_name"  : "Business",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Wrexham University BA(Hons) in Business & Management",
+         "note" : [
+           "Tuition: $6,000(flexible payment plan)",
+           "Application: $60"
+         ],
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+ 
+       {
+         "course_id" : 1,
+         "course_name" : "Wrexham University MBA",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Tuition: $6,000(flexible payment plan)",
+           "Application: $60"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Global Executive MBA",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: USD$ 5,500 per year",
+           "Application Fees : USD$60"
+         ]
+       },
+       {
+         "course_id" : 3,
+         "course_name" : "12 Month KNUST MBA",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: GHc 24,000",
+           "Different payment plans available"
+         ]
+       },
+       {
+         "course_id" : 4,
+         "course_name" : "12 Month MSc Accounting & Finance",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: Monthly Plan :Pay GHc 2,900 to start and GHc 2,100 every month",
+           "Different payment plans available"
+         ]
+       },
+       {
+         "course_id" : 5,
+         "course_name" : "12 Month MSc Human Resource Management",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: GHc 21,000",
+           "Different payment plans available"
+         ]
+       },
+       {
+         "course_id" : 6,
+         "course_name" : "12 Month MSc Communication and International Marketing",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: GHc 21,000",
+           "Different payment plans available"
+         ]
+       },
+ 
+       {
+         "course_id" : 1,
+         "course_name" : "Level 6 Extended Diploma in Management Qualification",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Application Fee: GHC250",
+          "Fees: GHc 12,000",
+          "Monthly Plan : GHS 1,500 monthly, or pay GHS 5,000 quarterly, or pay all the total of GHS 13,500 and enjoy a 10% discount"
+        ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Level 6 Extended Diploma in Theology & Management",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+       {
+         "course_id" : 3,
+         "course_name" : "Advanced Programme in Project Management",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Duration 8 weeks",
+          "Fees: GHc 2,550"
+        ]
+       },
+       {
+         "course_id" : 4,
+         "course_name" : "Advanced Programme in Marketing & Communication",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Duration 8 weeks",
+          "Fees: GHc 2,550"
+        ]
+       },
+       {
+         "course_id" : 5,
+         "course_name" : "Advanced Programme in Human Resource Management",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Duration 8 weeks",
+          "Fees: GHc 2,550"
+        ]
+       },
+       {
+         "course_id" : 6,
+         "course_name" : "Certificate in Business Management",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Duration 12 weeks",
+          "Fees: GHC1,200",
+          "Fully Online"
+        ]
+       },
+       {
+         "course_id" : 7,
+         "course_name" : "Executive Mini-MBA",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Registration: GHC50",
+          "Cost per module: GHC500",
+          "Fully Online"
+        ]
+       },
+       {
+         "course_id" : 8,
+         "course_name" : "Executive Certificate in Business Administration(ECBA)",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Duration 8 weeks",
+          "Fees: Ghc1,550",
+          "Fully Online"
+        ]
+       },
+ 
+       {
+         "course_id" : 1,
+         "course_name" : "Business Administration",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Supply Chain, Logistics and Transport",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 3,
+         "course_name" : "Operations Management",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 4,
+         "course_name" : "Finance",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 5,
+         "course_name" : "Human Resource Management",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 6,
+         "course_name" : "Digital Marketing",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 7,
+         "course_name" : "Project Management",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 8,
+         "course_name" : "Procurement and Contract Management",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       },
+       {
+         "course_id" : 9,
+         "course_name" : "Sales, Marketing and advertising",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: Ghc2,500",
+          "Duration 8 weeks"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Social Science",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "12 Month MSc Public Affairs",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: GHc 21,000",
+           "Different payment plans available"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "12 Month MSc International Relations",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: GHc 21,000",
+           "Different payment plans available"
+         ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Communication and Media Studies",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Communication and Journalism",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+           "Fees: GHc 2,500",
+           "Application Fee: GHC100",
+           "Duration 8 weeks"
+         ]
+       }
+     ]
+   }
+  ]
+ },
+ {
+  "id": "3",
+ "name": "African University College of Communication",
+ "faculties" : []
+ },
+ {
+  "id": "4",
+  "name": "Anglican University College of Technology",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Health Science",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Bsc. Nursing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. Physician Assistantship",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+       
+       {
+         "course_id" : 1,
+         "course_name" : "12 Month MSc IT Management",
+         "course_type" : "masters",
+         "entry_requirements" : [
+          " Application Fee: USD60",
+          "Total Tuition Fee:  USD6,000"
+        ]
+       },
+ 
+       {
+         "course_id" : 1,
+         "course_name" : "Level 7 Extended Diploma in Computing Technologies",
+         "course_type" : "diploma",
+         "entry_requirements" : [
+          "Application Fee: GHC250",
+          "Monthly Plan : GHC1,250",
+          "Different payment plans available"
+        ]
+       },
+ 
+       {
+         "course_id" : 1,
+         "course_name" : "CyberSecurity",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+          "Fees: GHc 2,500",
+          "Duration 8 weeks"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 2,
+     "faculty_name"  : "Business",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc. Banking and Finance",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. General Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "BSc. Logistics and Supply Chain Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BSc. Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 5,
+        "course_name" : "Bsc Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 6,
+        "course_name" : "BSc. Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Social Science",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "12 Month MSc Public Affairs",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: GHc 21,000",
+           "Different payment plans available"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "12 Month MSc International Relations",
+         "course_type" : "masters",
+         "entry_requirements" : [
+           "Fees: GHc 21,000",
+           "Different payment plans available"
+         ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Communication and Media Studies",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Communication and Journalism",
+         "course_type" : "certificate",
+         "entry_requirements" : [
+           "Fees: GHc 2,500",
+           "Application Fee: GHC100",
+           "Duration 8 weeks"
+         ]
+       }
+     ]
+   }
+  ]
+ },
+ {
+  "id": "5",
+ "name": "Catholic Institute of Business and Technology",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Business",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc. Banking and Finance",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Bsc Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BSc. Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 2,
+     "faculty_name"  : "Computer Science",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Computer Science",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Information Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Introductory courses in Computer Literacy",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Public Administration",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Public Administration",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Local Government",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Procurement and Chain Supply Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 4,
+     "faculty_name"  : "Religious and Church Administration",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Religious and Church Administration",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Religious and Church Administration",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       }
+     ]
+   }
+  ]
+ },
+ {
+  "id": "6",
+  "name": "Christian Service University College ",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Business",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc. Banking and Finance",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Bsc Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BSc. Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "Accounting and Finance",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Monitoring and Evaluation",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Corporate Planning and Governance",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 2,
+     "faculty_name"  : "Computer Science",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Computer Science",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Information Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Arts",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Theology with Administration",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Communication Studies",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Planning and Development",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "Christian Ministry with Management",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Communication Studies",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "Communication Studies",
+        "course_type" : "phd",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 4,
+     "faculty_name"  : "Mathematics",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "MPhil Mathematics",
+         "course_type" : "phd",
+         "entry_requirements" : [
+           "No Data to display"
+         ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 5,
+     "faculty_name"  : "English",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "MPhil English Eduacation",
+         "course_type" : "phd",
+         "entry_requirements" : [
+           "No Data to display"
+         ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 6,
+     "faculty_name"  : "Medicine And Pharmacy",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Bsc. Nursing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "No Data to display"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Midwifery",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+      }
+     ]
+   }
+  ]
+ },
+ {
+  "id": "7",
+  "name": "Dominion University College",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Business",
+     "note" : [
+       "Refer to the General Entry Requirements for Courses Requirements Details",
+       "All Bachelor Degrees has a duration of four year"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BBA Banking and Finance",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Local : Fees GH₵ 4,100",        
+           "International Fees GH₵ : 4,700",
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BBA Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Local : Fees GH₵ 4,100",        
+          "International Fees GH₵ : 4,700",
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "BBA Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Local : Fees GH₵ 4,100",        
+          "International Fees GH₵ : 4,700",
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BBA Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Local : Fees GH₵ 4,100",        
+          "International Fees GH₵ : 4,700",
+          "Requirements : Refer to faculty/department note"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "MBA Marketing",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Local : Fees GH₵ 30,000",
+          "International Fees GH₵ 34,500",
+          "Duration 1 year Online and In person"
+        ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "MBA Human Resource Management",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Local : Fees GH₵ 30,000",
+          "International Fees GH₵ 34,500",
+          "Duration 3 years flexible mode"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "PhD Business Administration",
+        "course_type" : "phd",
+        "entry_requirements" : [
+          "Local : Fees GH₵ 30,000",
+          "International Fees GH₵ 35,000",
+          "Duration 15 months flexible mode"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "HND Banking and Finance",
+        "course_type" : "hnd",
+        "entry_requirements" : [
+          "Local : Fees GH₵ 2,848",        
+          "International Fees GH₵ : 3,458",
+          "Duration 3 yrs",
+          "Requirements : Refer to faculty/department note"
+        ]
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "HND Accounting",
+       "course_type" : "hnd",
+       "entry_requirements" : [
+         "Local : Fees GH₵ 2,848",        
+          "International Fees GH₵ : 3,458",
+          "Duration 3 yrs",
+          "Requirements : Refer to faculty/department note"
+       ]
+      },
+      {
+       "course_id" : 3,
+       "course_name" : "HND Marketing",
+       "course_type" : "hnd",
+       "entry_requirements" : [
+         "Local : Fees GH₵ 2,848",        
+          "International Fees GH₵ : 3,458",
+          "Duration 3 yrs",
+          "Requirements : Refer to faculty/department note"
+       ]
+      },
+      {
+       "course_id" : 4,
+       "course_name" : "HND Human Resource Management",
+       "course_type" : "hnd",
+       "entry_requirements" : [
+         "Local : Fees GH₵ 2,848",        
+          "International Fees GH₵ : 3,458",
+          "Duration 3 yrs",
+          "Requirements : Refer to faculty/department note"
+       ]
+      }
+     ]
+   },
+   {
+     "faculty_id" : 2,
+     "faculty_name"  : "Computer Science",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Computer Science",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+          "Local : Fees GH₵ 4,400",
+          "International Fees GH₵ : 5,000",
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "MSc Statistics",
+        "course_type" : "masters",
+        "entry_requirements" : [
+         "Local : Fees GH₵ 23,805",
+         "International Fees GH₵ 26,910",
+          "Online and In Person",
+          "Duration 1 year"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "MPhil Statistics",
+        "course_type" : "phd",
+        "entry_requirements" : [
+         "Local : Fees GH₵ 23,805",
+         "International Fees GH₵ 26,910",
+          "Duration 1 yr for MSs 2 yrs for BSc"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "HND in Information and Communication Technology",
+        "course_type" : "hnd",
+        "entry_requirements" : [
+         "Local : Fees GH₵ 2,848",
+         "International Fees GH₵ 3,458",
+          "Duration 3 yrs"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Theology",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BA Theology",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+          "Local Fees GH₵ 3,076",
+          "International Fees GH₵ 3,676",
+           "Requirements : Refer to faculty/department note"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BA Pastoral care and Counselling",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Local Fees GH₵ 3,076",
+          "International Fees GH₵ 3,676",
+          "Requirements : Refer to faculty/department note"
+        ]
+       }
+     ]
+   }
+  ]
+ },
+ {
+  "id": "8",
+  "name": "Evangelical Presbyterian University College",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Business",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc Accounting and Finance",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to faculty/department note",
+           "Fees : Refer to the important Links Section"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : " BSc Human Resource Management and Organization Development",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BSc Credit Management and Finance ",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       },
+       {
+        "course_id" : 5,
+        "course_name" : "BA Secretaryship and Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "MBA Human Resource Management",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "MBA Marketing",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "MBA Accounting",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "MBA Finance",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+       {
+        "course_id" : 5,
+        "course_name" : "MBA Procurement & Supply Chain Management",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "No Data to display"
+        ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "Marketing",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Marketing",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Human Resource Management",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 2,
+     "faculty_name"  : "Arts and Social Sciences",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc. Integrated Development Studies",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+          "Requirements : Refer to faculty/department note",
+          "Fees : Refer to the important Links Section"
+        ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "B. A. Social and Community Development",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to faculty/department note",
+         "Fees : Refer to the important Links Section"
+       ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "BA Governance Studies",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to faculty/department note",
+         "Fees : Refer to the important Links Section"
+       ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BEd. Arts",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to faculty/department note",
+         "Fees : Refer to the important Links Section"
+       ]
+       },
+       {
+        "course_id" : 5,
+        "course_name" : "BEd. Basic Education",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to faculty/department note",
+         "Fees : Refer to the important Links Section"
+       ]
+       },
+       {
+        "course_id" : 6,
+        "course_name" : "BA French",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to faculty/department note",
+         "Fees : Refer to the important Links Section"
+       ]
+       },
+       {
+        "course_id" : 7,
+        "course_name" : "BA English",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to faculty/department note",
+         "Fees : Refer to the important Links Section"
+       ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Agriculture and Environmental Sciences",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "B. Sc. Agribusiness",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+         "Requirements : Refer to faculty/department note",
+         "Fees : Refer to the important Links Section"
+       ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. Animal Science and Fisheries",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to faculty/department note",
+        "Fees : Refer to the important Links Section"
+      ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "BSc. Environmental Science",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to faculty/department note",
+        "Fees : Refer to the important Links Section"
+      ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BSc. Crop and Soil Science",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to faculty/department note",
+        "Fees : Refer to the important Links Section"
+      ]
+       }
+     ]
+   }
+  ]
+ },
+ {
+  "id": "9",
+  "name": "Family Health University College",
+  "faculties" : [
+
+  ]
+ },
+ {
+  "id": "10",
+  "name": "Ghana Christian University College",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Computer Science",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc Information Technology And Systems",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. ​Health Information Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to General Entry Requirements",
+          "Duration 4 yrs"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "BSc. Publ​ic Health",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to General Entry Requirements",
+          "Duration 4 yrs"
+        ]
+      },
+
+       {
+        "course_id" : 1,
+        "course_name" : "HND Geo-informatics",
+        "course_type" : "hnd",
+        "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       }
+      ]
+   },
+   {
+     "faculty_id" : 2,
+     "faculty_name"  : "Nursing",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Bsc. Nursing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. General Nursing WAEC/SSSCE",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "BSc. ​Nursing (for Registered Certificate Nurses: HAC/NAC)",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to General Entry Requirements",
+         "Duration 3 yrs"
+       ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BSc.​ Nursing (for Registered Diploma Nurses)",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to General Entry Requirements",
+         "Duration 3 yrs"
+       ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Theology",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Biblical Languages",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+         "Requirements : Refer to General Entry Requirements"
+       ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Church/Christian Leadership",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+      ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Christian Education",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+      ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "Youth Ministries",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+      ]
+       },
+       {
+        "course_id" : 5,
+        "course_name" : "Conflict Resolution and Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+      ]
+       },
+       {
+        "course_id" : 6,
+        "course_name" : "Cross-Cultural Ministries",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+      ]
+       },
+
+       {
+        "course_id" : 1,
+        "course_name" : "Higher Certificate in Theology & Ministry ",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Professional Certificate in Pastoral & Practical Ministries",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Executive Certificate in Ministry",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "Certificate in Counselling",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 5,
+        "course_name" : "Certificate in Theology & Economics (CTE) ",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 6,
+        "course_name" : "Basic Certificate in Ministry",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+        "Requirements : Refer to General Entry Requirements"
+        ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Business",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Bsc. Marketing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "BSc. Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "BSc. Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to General Entry Requirements",
+         "Duration 3 yrs"
+       ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "BSc. Banking and Finance",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+         "Requirements : Refer to General Entry Requirements",
+         "Duration 3 yrs"
+       ]
+       }
+     ]
+   },
+   {
+     "faculty_id" : 4,
+     "faculty_name"  : "Professional Studies",
+     "note" : [
+       "All BSc in Business Except Banking and Finance"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Marketing",
+         "course_type" : "hnd",
+         "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Accounting",
+        "course_type" : "hnd",
+        "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements",
+           "Duration 4 yrs"
+         ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Human Resource Management",
+        "course_type" : "hnd",
+        "entry_requirements" : [
+         "Requirements : Refer to General Entry Requirements",
+         "Duration 3 yrs"
+       ]
+       }
+     ]
+   }
+  ]
+ },
+ {
+  "id": "11",
+  "name": "Jackson Institute of Innovation and Leadership",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Business",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "IIE Bachelor of Business Administration",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "IIE Bachelor of Business Administration  (Marketing)",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements"
+         ]
+       }
+     ]
+   },
+   {
+    "faculty_id" : 2,
+    "faculty_name"  : "IELTS Registration",
+    "note" : [
+      "In partnership with Sappor Consortium, UK, a trusted recruitment agency for nurses and healthcare workers, opportunities are available for qualified Ghanaian healthcare professionals to work in the UK.",
+      "Duration : 2 months",
+      "Fees GHC 1300",
+      "One month free pre exam course upon request.",
+      "Exam Fee £ 212 or £ 200 for IELTS UKVI or IELTS General respectively."
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "General Nurses",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "A top up Program for work opportunites in the UK"
+        ]
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "Mental health Nurses",
+       "course_type" : "undergraduate",
+       "entry_requirements" : [
+          "A top up Program for work opportunites in the UK"
+        ]
+      },
+      {
+       "course_id" : 3,
+       "course_name" : "Midwives",
+       "course_type" : "undergraduate",
+       "entry_requirements" : [
+          "A top up Program for work opportunites in the UK"
+        ]
+      },
+      {
+       "course_id" : 4,
+       "course_name" : "Healthcare Assistants",
+       "course_type" : "undergraduate",
+       "entry_requirements" : [
+          "A top up Program for work opportunites in the UK"
+        ]
+      }
+    ]
+   },
+   {
+    "faculty_id" : 3,
+    "faculty_name"  : "Continuous Professional Development, CPDS",
+    "note" : [
+      "Programs aim to enhance professional skills and efficiency. Continuous Professional Development (CPD) uses methods like seminars, workshops, and practical sessions to benefit both employees and employers.",
+      "Duration : 4 Weeks"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Digital Marketing & e-Commerce",
+        "course_type" : "certificate",
+        "entry_requirements" : []
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "Monitoring & Evaluation (M&E) Training for Teachers & Education Workers",
+       "course_type" : "certificate",
+       "entry_requirements" : []
+      },
+      {
+       "course_id" : 3,
+       "course_name" : "Political Communication",
+       "course_type" : "undergraduate",
+       "entry_requirements" : []
+      }
+    ]
+   },
+   {
+    "faculty_id" : 4,
+    "faculty_name"  : "Chartered Institute of Management Accountants (CIMA®)",
+    "note" : [
+      "The Chartered Institute of Management Accountants (CIMA), founded in 1919, is the largest global organization for management accountants. In 2017, it partnered with the American Institute of CPAs to form the Association of International Certified Professional Accountants."
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Membership Of ACMA/FCMA and CGMA Designation",
+        "course_type" : "undergraduate",
+        "entry_requirements" : []
+      },
+
+      {
+       "course_id" : 1,
+       "course_name" : "CIMA Advanced Diploma in Management Accounting",
+       "course_type" : "diploma",
+       "entry_requirements" : []
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "CIMA Diploma in Management Accounting",
+       "course_type" : "diploma",
+       "entry_requirements" : []
+      },
+      {
+       "course_id" : 1,
+       "course_name" : "CIMA Certificate In Business Accounting",
+       "course_type" : "certificate",
+       "entry_requirements" : []
+      }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "12",
+  "name": "KAAF University College",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Engineering",
+     "note" : [
+       "No data available yet"
+     ],
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Civil Engineering",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Requirements : Refer to General Entry Requirements"
+         ]
+       },
+       {
+        "course_id" : 2,
+        "course_name" : "Electrical/Electronics Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 3,
+        "course_name" : "Mechanical Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "Geometric Engineering",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to General Entry Requirements"
+        ]
+       },
+       {
+        "course_id" : 5,
+        "course_name" : "Contruction Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Requirements : Refer to General Entry Requirements"
+        ]
+       }
+     ]
+   },
+   {
+    "faculty_id" : 2,
+    "faculty_name"  : "Computer Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Computer Science",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "Information Technology",
+       "course_type" : "undergraduate",
+       "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+
+      {
+        "course_id" : 1,
+        "course_name" : "Data Science",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+          "Open For: SHS School graudates, Diploma Holders, Undergraduate students, Working professionals, Entrepreneurs",
+          "Duration 12 weeks"
+        ]
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "Photograpy And Videography",
+       "course_type" : "certificate",
+       "entry_requirements" : [
+          "Open For: SHS School graudates, Diploma Holders, Undergraduate students, Working professionals, Entrepreneurs"
+        ]
+      }
+    ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Business",
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "Accounting",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Banking & Finance",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 3,
+         "course_name" : "Human Resource Management",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 4,
+         "course_name" : "Marketing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+
+      {
+        "course_id" : 1,
+        "course_name" : "MBA Accounting and Finance",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Duration 12 months"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "MBA Marketing",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Duration 12 months"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "MBA Human Resource Management",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Duration 12 months"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "MBA in Procurement & Supply Chain Management",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Duration 12 months"
+        ]
+      }
+     ]
+   },
+   {
+     "faculty_id" : 4,
+     "faculty_name"  : "Health And Allied Science",
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "General Nursing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Midwifery",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 3,
+         "course_name" : "Publ​ic Health Nursing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 4,
+         "course_name" : "Medical Laboratory Science",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+
+       {
+         "course_id" : 1,
+         "course_name" : "Doctor of Medical Laboratory Science (MLS.D)",
+         "course_type" : "masters",
+         "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Doctor of Pharmacy (Pharm D)",
+         "course_type" : "masters",
+         "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+         ]
+       },
+
+       {
+         "course_id" : 1,
+         "course_name" : "Doctor of Medical Laboratory Science (MLS.D)",
+         "course_type" : "masters",
+         "entry_requirements" : [
+            "Applicants must pass an interview and assesment test in addition to the entry requirement",
+            "Duration 6 yrs"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Doctor of Pharmacy (PharmD)",
+         "course_type" : "masters",
+         "entry_requirements" : [
+          "Applicants must pass an interview and assesment test in addition to the entry requirement",
+          "Duration 6 yrs"
+         ]
+       },
+       {
+         "course_id" : 3,
+         "course_name" : "Master of Science in Nursing",
+         "course_type" : "masters",
+         "entry_requirements" : [
+          "Applicants must pass an interview and assesment test in addition to the entry requirement",
+          "Duration 6 yrs"
+         ]
+       },
+       {
+        "course_id" : 4,
+        "course_name" : "MBA in Health Services Administration",
+        "course_type" : "masters",
+        "entry_requirements" : [
+         "Applicants must pass an interview and assesment test in addition to the entry requirement",
+         "Duration 12 yrs"
+        ]
+       },
+
+       {
+         "course_id" : 1,
+         "course_name" : "Master of Philosophy in Nursing",
+         "course_type" : "phd",
+         "entry_requirements" : [
+          "Duration 23 months"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "Master of Philosophy in Midwifery",
+         "course_type" : "phd",
+         "entry_requirements" : [
+          "Duration 24 months"
+         ]
+       }
+     ]
+   },
+   {
+    "faculty_id" : 4,
+    "faculty_name"  : "Law & Political Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+       "course_id" : 1,
+       "course_name" : "Bachelor of Laws (LLB)",
+       "course_type" : "undergraduate",
+       "entry_requirements" : []
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "Bachelor of Science in Political Science",
+       "course_type" : "undergraduate",
+       "entry_requirements" : []
+      }
+    ]
+   },
+   {
+    "faculty_id" : 5,
+    "faculty_name"  : "Journalism",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+       "course_id" : 1,
+       "course_name" : " Journalism",
+       "course_type" : "certificate",
+       "entry_requirements" : [
+        "Open For: SHS School graudates, Diploma Holders, Undergraduate students, Working professionals, Entrepreneurs",
+        "Duration 12 weeks"
+       ]
+      }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "13",
+  "name": "Garden City University College",
+  "faculties" : [
+   {
+     "faculty_id" : 1,
+     "faculty_name"  : "Business",
+     "courses" : [
+       {
+         "course_id" : 1,
+         "course_name" : "BSc. Accounting with Computing",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 2,
+         "course_name" : "BSc. Economics and Statistics",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 3,
+         "course_name" : "BSc. Economics",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Refer to the General Entry Requirements"
+         ]
+       },
+       {
+         "course_id" : 4,
+         "course_name" : "Bachelor of Business Administration",
+         "course_type" : "undergraduate",
+         "entry_requirements" : [
+           "Options in: ",
+           "Accounting",
+           "Banking and Finanace",
+           "Human Resource Management",
+           "Management",
+           "Marketing",
+           "Procurement and Supply Chain Management"
+         ]
+       },
+
+      {
+        "course_id" : 1,
+        "course_name" : "Diploma in Banking Technology and Accounting",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Duration 2 yrs",
+          "Requirements : Refer to faculty/department note"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Diploma in Computerised Accounting",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Duration 2 yrs",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Diploma in Business Administration",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Duration 2 yrs",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "Diploma in Librarianship Studies",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Duration 2 yrs",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "Professional Diploma in Banking Technology and Accounting",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Duration 1 yrs",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "Professional Diploma in Computerised Accounting",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Duration 1 yrs",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 6,
+        "course_name" : "Diploma in Banking Technology and Accounting/Diploma in Computerised Accounting",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+
+      {
+        "course_id" : 1,
+        "course_name" : "Advance Certificate in Business Application",
+        "course_type" : "certificate",
+        "entry_requirements" :[
+          "Duration 3 months",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Certificate in Power Excel(Analyzing Data to Make Business Decisions)",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id":3,
+        "course_name":"Computerized Accounting System (CAS)",
+        "course_type":"certificate",
+        "entry_requirements":[
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id":4,
+        "course_name":"Network Administration",
+        "course_type":"certificate",
+        "entry_requirements":[
+          "Duration 2 weeks"
+        ]
+      },
+      {
+        "course_id":5,
+        "course_name":"System Administration",
+        "course_type":"certificate",
+        "entry_requirements":[
+          "Duration 4 months"
+        ]
+      }
+     ]
+   },
+   {
+    "faculty_id" : 2,
+    "faculty_name"  : "Infomation Technology and Applied Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+       "course_id" : 1,
+       "course_name" : "BSc Computer Science",
+       "course_type" : "undergraduate",
+       "entry_requirements" : [
+        "Refer to the General Entry Requirements"
+       ]
+      },
+      {
+       "course_id" : 2,
+       "course_name" : "BSc Information Technology",
+       "course_type" : "undergraduate",
+       "entry_requirements" : [
+        "Refer to the General Entry Requirements"
+       ]
+      },
+      {
+       "course_id" : 3,
+       "course_name" : "BSc. Environmental Science",
+       "course_type" : "undergraduate",
+       "entry_requirements" : [
+        "Refer to the General Entry Requirements"
+       ]
+      },
+
+      {
+        "course_id" : 1,
+        "course_name" : "Computer Proficiency License",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+          "Duration 6 weeks",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Database Design/Administration (Oracle/SQL Server/MySql)",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+          "Duration 6 months",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Desktop Publishing & Web Design",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+          "Duration 4 months",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "Certificate in Computer Science",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "Certificate in Information Technology",
+        "course_type" : "certificate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+   },
+   {
+     "faculty_id" : 3,
+     "faculty_name"  : "Health And Allied Science",
+     "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc Physical Assistant Studies",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "B.Sc. Medical laboratory Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "B.Sc. Midwifery",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "B.Sc. Nursing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "B.Sc. Dental Therapy",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+
+      {
+        "course_id" : 1,
+        "course_name" : "Diploma in Medical Laboratory Technology",
+        "course_type" : "diploma",
+        "entry_requirements" : [
+          "Duration 3 yrs",
+          "Refer to the General Entry Requirements"
+        ]
+      },
+
+      {
+        "course_id" : 1,
+        "course_name" : "MSc. Midwifery with Research",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Duration 3 yrs",
+          "Refer to the General Entry Requirements"
+        ]
+      }
+     ]
+   }
+   
+  ]
+ },
+ {
+  "id":"14",
+  "name": "Lancaster University",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Business",
+      "note" :[],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Accounting and Finance BSc Hons",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Bachelor Of Economics And International Relations",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Bachelor of Business Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Bachelor of Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Bachelor of Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Foundation of Business Management",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id": 2,
+      "faculty_name" : "Computer Science",
+      "note":[],
+      "courses" :[
+        {
+          "course_id":1,
+          "course_name": "Bachelor of Computer Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" :[
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+       
+    },
+    {
+      "faculty_id": 3,
+      "faculty_name" : "Law & Political Science",
+      "note":[],
+      "courses" :[
+        {
+          "course_id":1,
+          "course_name": "Bachelor of Law",
+          "course_type" : "undergraduate",
+          "entry_requirements" :[
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id":2,
+          "course_name": "Politics with International Reletions",
+          "course_type" : "undergraduate",
+          "entry_requirements" :[
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id":1,
+          "course_name": "Foundation Of Law and Social Science",
+          "course_type" : "certificate",
+          "entry_requirements" :[
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+       
+    },
+    {
+      "faculty_id": 4,
+      "faculty_name" : "English",
+      "note":[],
+      "courses" :[
+        {
+          "course_id":1,
+          "course_name": "Foundation - English Proficiency Program",
+          "course_type" : "certificate",
+          "entry_requirements" :[
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+       
+    }
+  ]
+ },
+ {
+  "id": "15",
+ "name": "Maranatha University College",
+ "faculties" : [
+  {
+    "faculty_id" : 1,
+    "faculty_name" : "Health And Allied Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "HND Pharmacy Technician",
+        "course_type" : "hnd",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements",
+          "Session Begins Sept",
+          "Duration 3 yrs"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 2,
+    "faculty_name": "Theology",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BA of Arts In Theology",
+        "course_type" : "undergraduate",
+        "entry_requirements": [
+          "Refer to the General Entry Requirements",
+          "Duration 4 yrs",
+          "Begins Sept."
+        ]
+      },
+
+      {
+        "course_id" :1,
+        "course_name" : "Masters Of Arts in Theologicl Studies",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "MA Sandwich ( 4 weeks of course work)",
+          "3 Sessions",
+          "September – December",
+          "January – April",
+          "May – August"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 3,
+    "faculty_name" : "Religious and Church Administration",
+    "note": [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Masters Of Arts in African Christianity",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "MA Sandwich ( 4 weeks of course work)",
+          "3 Sessions",
+          "September – December",
+          "January – April",
+          "May – August"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Masters Of Arts in Biblical Studies",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "MA Sandwich ( 4 weeks of course work)",
+          "3 Sessions",
+          "September – December",
+          "January – April",
+          "May – August"
+        ]
+      }
+    ]
+  }
+ ]
+ },
+ {
+  "id": "16",
+ "name": "Radford University College",
+ "faculties" : [
+  {
+    "faculty_id" : 1,
+    "faculty_name" : "Business Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BSc Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "BSc Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "BSc Information & Communication Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 2,
+    "faculty_name" : "Faculty of Fine Arts",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BA of Graphic Design",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BA of Fashion Design",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 3,
+    "faculty_name" : "Allied Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc. Physician Assistant",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "Bsc. Nursing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "BSc. Medical Laboratory Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  }
+ ]
+ },
+ {
+  "id": "17",
+  "name": "Regentropfen College of Applied Science",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Business Administration",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "B.Sc. Business Administration",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 4 yrs"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "B.Sc. Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 4 yrs"
+          ]
+        },
+        
+        {
+          "course_id" : 1,
+          "course_name" : "Diploma in Business Administration",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 2 yrs"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Diploma in Account(with 2 certificate courses)",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 2 yrs"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Certificate in Small Business Development and Promotion",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Duration 4 months"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Certificate in NGO Management",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Duration 4 yrs"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Agriculture",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "B.Sc. Agriculture for Social Change",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 4 yrs"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Diploma Agriculture for Social Change",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 2 yrs"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "Computer Science",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "B.Sc. Computer Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 4 yrs"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Diploma in Computer Science",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 2 yrs"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 4,
+      "faculty_name" : "Basic Education",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "B.Ed. Education",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 4 yrs"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Diploma in Basic Education",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 2 yrs"
+          ]
+        }
+      ]
+    }
+  ]
+ },
+ {
+  "id": "18",
+  "name": "Spiritan University College",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Business Administration",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc. Banking and Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc Human Resource Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BSc Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Arts",
+      "note" :[
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BA. of Arts in Philosophy and Social Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BA. of Arts in Sociology and Social Works",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "Education",
+      "note" :[
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "B.Ed. Education Social Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    }
+  ]
+ },
+ {
+  "id": "19",
+  "name": "Mountcrest University College",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Faculty of Law",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "LLB - Law",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        
+        {
+          "course_id" : 1,
+          "course_name" : "LLB - (Post-First Degree / Professionals)",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Evening – From 5.30 p.m. to 8.30 p.m.(Monday – Friday)",
+            "Week-end – Saturday (6.00 a.m. to 8.00 p.m.) & Sunday (6.30 a.m. – 12 (noon))"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "INTERNATIONAL CAPITAL MARKETS LAW AND SECURITIES REGULATIONS",
+          "course_type" : "certificate",
+          "entry_requirements" : []
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "LL.B TOP-UP PROGRAMME",
+          "course_type" : "certificate",
+          "entry_requirements" : []
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "FUNDAMENTALS IN GHANAIAN LAW",
+          "course_type" : "certificate",
+          "entry_requirements" : []
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "LEGAL WRITING & PRACTICAL LEGAL RESEARCH",
+          "course_type" : "certificate",
+          "entry_requirements" : []
+        }
+
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Public Health & Tropical Hygiene",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Health Services Management / Hospital Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Public Health",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "HEALTH RESEARCH METHODOLOGY",
+          "course_type" : "certificate",
+          "entry_requirements" : []
+        }
+      ]
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "Business Administration",
+      "note" : [
+        "Ghanaian Applicants : LL.B Programme – GHS 400.00, BSc. Administration – GHS 300.00, BSc. Public Health – GHS 300.00",
+        "International Aplicants : LL.B Programme – USD 150.00, BSc. Administration – USD 150.00, BSc. Public Health – USD 150.00"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc. Banking and Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "B.Sc. Business Administration",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Duration 2/3 years Top Up & Weekend Session"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "THE LAW OF INTERNATIONAL TRADE AND FINANCE",
+          "course_type" : "certificate",
+          "entry_requirements" : []
+        }
+      ]
+    }
+  ]
+ },
+ {
+  "id": "20",
+  "name": "Perez University College",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Business Administration",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BBA Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BBA Banking and Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BBA Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BBA Human Resource Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BBA Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Human Resource Management from (ICM, UK)",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Marketing(ICM, UK)",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Theology",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BA  Biblical Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BA Church Administration",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Certificate In Ministry",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "Communication and Social Science",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BA in Digital Media",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BA in Communication Studies.",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Certificate in Digital Media",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : " Certificate in Communication Studies",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Diploma in Digital Media",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Diploma in Communication Studies",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 4,
+      "faculty_name" : "Certificate in Ministry (CIM)",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Certificate in Advance Microsoft Office Suite",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "The Holy Spirit, His Gifts And Ministry",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Mission And Evangelism",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "The Art and Ethics of Preaching",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "Biblical Interpretation And Sound Doctrine",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "Media Evangelism And Technology(Advanced)",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "Rural Evangelism Strategies(Advanced)",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "Urban Mission And Contemporary Challenges(Advanced)",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "Evangelism And Church Growth(Advanced)",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    }
+  ]
+ },
+{
+  "id": "21",
+  "name": "Lakeside University College",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Business & Technology",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc. Banking and Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc. Human Resource Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Bsc. Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BSc. Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "E-Mareting",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Business Administration",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Computerized Accounting",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Procurement & Supply Chain Management",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Business",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Coming Soon ! ! !"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Engineering",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Civil Engineering",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Oil & Gas Civil Engineering",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc Computer Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Mechanical Engineerng",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Engineering",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Information Technology",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Data Science",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Web Development",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Artificial Intelligence",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Coming Soon ! ! !"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Networking",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Coming Soon ! ! !"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "Health And Allied Science",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc. Nursing and Midwifery",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Coming Soon ! ! !"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 4,
+      "faculty_name" : "Languages",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BA Arabic Language Education",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "22",
+ "name": "Knutsford University College",
+ "faculties" : [
+  {
+    "faculty_id" : 1,
+    "faculty_name" : "Health And Allied Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Bsc. Nursing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 2,
+    "faculty_name" : "Business Administration",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc. Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BSc. Finance",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Bsc. Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "BSc. Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 5,
+        "course_name" : "BSc. Economics",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+
+      {
+        "course_id" : 1,
+        "course_name" : "MBA. Accounting",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "MBA. Finance",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "MBA. Marketing",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "MBA. Human Resource Management",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 3,
+    "faculty_name" : "Communication and Media Studies",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Multimedia Journalism",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BSc Strategic Communication",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "Development  Communication",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 4,
+    "faculty_name" : "Infomation Technology and Applied Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc. Computer Science",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BSc Information Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  }
+ ]
+},
+{
+  "id": "23",
+ "name": "Entrance University College of Health Science",
+ "faculties" : [
+  {
+    "faculty_id" : 1,
+    "faculty_name" : "Pharmacy",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Doctor of Pharmacy (Pharm. D)",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 2,
+    "faculty_name" : "Faculty of Allied Health Science",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Bsc. Nursing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  }
+ ]
+},
+{
+ "id": "24",
+  "name": "West End University College",
+  "faculties" : [
+  {
+    "faculty_id" : 1,
+    "faculty_name"  : "Business Administration",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc Accounting",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BSc. Banking and Finance",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "BSc Human Resource Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 4,
+        "course_name" : "BSc Marketing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 2,
+    "faculty_name"  : "Computer Studies",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc Computer Science",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BSc Information & Communication Technology",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "BSc Computational Finance",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 3,
+    "faculty_name"  : "Education",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BEd. Basic Education",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BEd Early Childhood Education",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "BEd Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 4,
+    "faculty_name"  : "Health Science",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "Bsc. Nursing",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 5,
+    "faculty_name"  : "Social Sciences",
+    "courses" : [
+      {
+        "course_id" : 1,
+        "course_name" : "BSc . Enterprenuership",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 2,
+        "course_name" : "BA Corporate Administration",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+      {
+        "course_id" : 3,
+        "course_name" : "BSc Procurement & Supply Chain Management",
+        "course_type" : "undergraduate",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      },
+
+      {
+        "course_id" : 3,
+        "course_name" : "MSc. Criminal Justice Administration",
+        "course_type" : "masters",
+        "entry_requirements" : [
+          "Refer to the General Entry Requirements"
+        ]
+      }
+    ]
+  }
+ ]
+},
+{
+  "id": "25",
+  "name": "Zenith University College",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Law",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Bachelors Of Law(LLB)",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "London(External) and Ghana(Internal) Courses Available"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Diploma Law",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Business Administration & Technology",
+      "note" : [
+        "The University has two schedules, external(London) and Internal(Ghana). Click on a course for details"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BBA / BSc. Accounting & Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "London(External) and Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BBA / BSc. Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "London(External) and Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc. Banking & Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "London(External) and Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BBA / Bsc. Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BBA / Bsc. Human Resource Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "Bsc. Entrepreneurship",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "Bsc. Procurement & Logistics Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "BBA / Bsc. Travel, Tourism & Hospitality Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "Bsc. Computing & Info Systems",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "London(External) and Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "BA Media & Communication Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "BA International Relations & Development",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 12,
+          "course_name" : "BA Hotel Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 13,
+          "course_name" : "BBA Business Information Systems ",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 14,
+          "course_name" : "BBA Financial Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Ghana(Internal) Courses Available"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Dip. Computing & Info Systems",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "London(External) Courses Available"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Business Management",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Business Information Systems ",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Human Resource Management",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "Marketing",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "Finance Management",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "Hospitality Management",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "Tourism Management",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Business Management",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Business Information Systems ",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Human Resource Management",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Marketing",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "Finance Management",
+          "course_type" : "certificate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "26",
+  "name": "Webster University",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Arts",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "International Relations",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Media Communication",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Psychology",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Master of Arts in International Relations",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Master of Science in New Media Communication",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Business & Technology",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Computer Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Business Administration (MBA)",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "27",
+  "name": "Wisconsin International University College",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Business",
+      "note" : [
+        "Flexible Study modes available(Regular, Weekend and Evening)"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BBA Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BBA Banking and Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BBA Human Resource Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BBA Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BBA Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "BSc Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Nursing And Midwifery",
+      "note" : [
+        "Flexible Study modes available(Regular, Weekend and Evening)"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Bsc. Nursing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements",
+            "Regular and Weekend"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc. Midwifery",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Regular and Weekend"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc Public Health Nursing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Regular and Weekend"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "Communication Studies",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BA in Communication Studies.",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Flexible Study modes available(Regular, Weekend and Evening)"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BA. Music",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements",
+            "Available in Accra Campus Only"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "BA. Music",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 4,
+      "faculty_name" : "Law & Political Science",
+      "note" : [
+        "Flexible Study modes available(Regular, Weekend and Evening)"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "LLB - Law",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Flexible Study modes available(Regular, Weekend and Evening)"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 5,
+      "faculty_name" : "Humanities and Social Sciences",
+      "note" : [
+        "Flexible Study modes available(Regular, Weekend and Evening)"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BA Development And Environmental Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in Accra Campus Only",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Development In Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in Accra Campus Only",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc. Economics with Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in Accra Campus Only",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BSc. Economics",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in Accra Campus Only",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BSc. Early Childhood and Primary Education",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in Accra Campus Only",
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 6,
+      "faculty_name" :  "Computing and Technology",
+      "note" : [
+        "Flexible Study modes available(Regular, Weekend and Evening)"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Computing and Actuarial Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Management and Computer Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc. Infomation Technology",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Available in both Accra and Kumasi Campus",
+            "Refer to the General Entry Requirements"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Diploma in Infomation Technology",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements"
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "28",
+  "name": "University Of Ghana",
+  "faculties" : [
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "School Of Agriculture",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Agriculture (Opitions) :",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Crop Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc Post Harvest Technoogy",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BSc Agricultural Economics & Agribusiness",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BSc Agricultural Extension",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "BSc Animal Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "BSc Soil science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "BSc Soil science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "BSc Crop Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "BSc Family and Consumer Sciences (Options):",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "BSc Food and Clothing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 12,
+          "course_name" : "BSc Family and Child Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : " MSc Extension & Livelihood Studies",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : " M.Agric Agricultural Extension",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : " M.Agric Animal Science",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : " M.Agric Crop Science",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : " M.Agric Soil Science",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : " M.Agric Agricultural Administration",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil Agricultural Economics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MPhil / PhD Agribusiness",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MPhil / PhD Agricultural Extension",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MPhil Home Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MPhil /PhD Animal Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "MPhil / PhD Crop Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "MPhil / PhD Soil Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "MPhil / PhD Agricultural Administration",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "PhD Applied Agricultural Economics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "PhD Applied Agricultural Economics & Policy",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "PhD / MPhil Entomology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 12,
+          "course_name" : "PhD Zoology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "School Of Engineering Sciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Agricultural Agribusiness",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Materials Science and Engineering",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc Computer Engineering",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BSc Biomedical Engineering",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BSc Food Process Engineering",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MEng Computer Engineering",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MEng Agricultural Engineering",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MEng Biomedical Engineering",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MEng Materials Science Engineering",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MEng Food Process Engineering",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil / PhD Computer Engineering",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MPhil / PhD Agricultural Engineering",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MPhil / PhD Biomedical Engineering",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MPhil / PhD Materials Science Engineering",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MPhil / PhD Food Process Engineering",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "School Of Physical And Mathematial Science",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Mathematics",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Earth Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc Computer Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BSc Physics",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BSc Statistics",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "BSc Actuarial Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "BSc Chemistry",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "BSc Information Technology",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MSc Petroleum Geoscience",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MSc Mineral Exploration",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MSc Engineering Geology",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MSc Geology",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MSc Hydrogeology",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "MSc Economic Geology",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "MSc Applied Geophysics",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "MSc Applied Geochemistry",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "MSc Actuarial Science",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "MSc Computer Science",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "MSc Mathematics",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil Engineering Geology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Phd Earth Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MPhil Geology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MPhil Hydrogeology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MSc Hydrogeology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "MPhil Economic Geology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "MPhil Applied Geophysics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "MPhil Applied Geochemistry",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "MPhil / PhD Chemistry",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "MPhil / PhD Physics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "MPhil / PhD Statistics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 12,
+          "course_name" : "MPhil Actuarial Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 13,
+          "course_name" : "MPhil / PhD Computer Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 14,
+          "course_name" : "MPhil / PhD Mathematics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 4,
+      "faculty_name" : "School Of Vertinary Medicine",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Doctor of Veterinary Medicine",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 5,
+      "faculty_name" : "School Of Biological Sciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Bachelor of Science In Earth Science",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Bachelor of Science In Material Science and Engineering",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Bachelor of Science In Mathematical Sciences",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Bachelor of Science In Physical Sciences",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "Bachelor of Science In Biological Sciences",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "Fisheries Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Coastal Zone Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Aquaculture",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Biochemistry",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "Marine Science",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "Fisheries Science",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil Coastal Zone Management",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MPhil Aquaculture",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MPhil Molecular Biology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MPhil / PhD Biochemistry",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MPhil / PhD Molecular Cell Biology of Infectious Diseases",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "PhD Biodiversity & Conservation Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "PhD Applied Parasitology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "MPhil / PhD Botany",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "MPhil / PhD Food Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "MPhil / PhD Nutrition",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "MPhil / PhD Marine Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 13,
+          "course_name" : "MPhil / PhD Fisheries Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+    },
+    {
+      "faculty_id" : 6,
+      "faculty_name" : "School Of Nuclear and Allied Sciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil / PhD Applied Nuclear Physics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MPhil / PhD Computational Nuclear Sciences  & Engineering",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MPhil / PhD Medical Physics",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MPhil / PhD Nuclear Agriculture",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MPhil / PhD Nuclear Earth Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "MPhil / PhD Nuclear Engineering",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "MPhil / PhD Nuclear & Environmental Protection",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "MPhil / PhD Nuclear and Radiochemistry",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "MPhil / PhD Radiation Processing",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "MPhil / PhD Radiation Protection",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "MPhil Nuclear Science and Technology",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 12,
+          "course_name" : "MPhil Nuclear Technology Applications in Petroleum and Mining Industries",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 7,
+      "faculty_name" : "Environment And Sanitation Studies",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil / PhD Environmental Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MPhil Sustainability Science",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MPhil Environmental Sanitation",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 8,
+      "faculty_name" : "West Africa Center For Crop Improvement",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil / PhD Plant Breeding",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 9,
+      "faculty_name" : "Business Administration",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "BSc  Public Administration",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "BSc Health Services Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "BSc Human Resource Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "BSc E-Commerce and Customer Management",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "BSc Marketing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "BSc Insurance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "BSc Banking and Finance",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "BSc Accounting",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "BSc Banking and Finance",
+          "course_type" : "diploma",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MSc Business Analytics (Access)",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MSc Business Analytics",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MBA Management Information Systems",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MBA Operations and Supply Chain Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MBA Human Resource Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "MBA Marketing",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "MBA Health Services Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "MBA Finance",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "Master of Public Administration",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "MBA Accounting",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "MA Public Sector Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 12,
+          "course_name" : "MA Organisational Leadership & Governance",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 13,
+          "course_name" : "MA Marketing Strategy",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 14,
+          "course_name" : "MSc. Procurement and Supply Chain Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 15,
+          "course_name" : "MSc. Hospitality and Tourism Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 16,
+          "course_name" : "MSc. International Business",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 17,
+          "course_name" : "MSc. Financial Risk Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 18,
+          "course_name" : "MSc. Clinical Leadership and Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 19,
+          "course_name" : "MSc. Accounting & Finance",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 20,
+          "course_name" : "EMBA - Project Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 21,
+          "course_name" : "EMBA - Marketing",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 22,
+          "course_name" : "EMBA - Human Resource Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 23,
+          "course_name" : "EMBA - Finance",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 24,
+          "course_name" : "EMBA - Entrepreneurial Management",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil Public Administration",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "MPhil Health Services Management",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "MPhil Marketing",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "MPhil Human Resource Management",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "MPhil Risk Management & Insurance",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "MPhil Finance",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "MPhil Accounting",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 10,
+      "faculty_name" : "Arts and Humanity",
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Bachelor of Arts",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Bachelor of Arts in Education",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Bachelor of Arts In Education (English)",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Bachelor of Arts in Sport and Physical Culture Studies",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "Bachelor of Fine Arts",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 11,
+      "faculty_name" : "Faculty of Education",
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Bachelor of Education (B.Ed. Junior High School Specialism)",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Bachelor of Education - Early Grade Specialism",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Bachelor of Education - Upper Grade Specialism",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Bachelor of Science In Education",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 12,
+      "faculty_name" : "Health Sciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Bachelor of Dental Surgery (BDS)",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 2,
+          "course_name" : "Bachelor of Medicine And Bachelor of Surgery",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 3,
+          "course_name" : "Bachelor of Public Health",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 4,
+          "course_name" : "Bachelor of Public Health (BPH)",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 5,
+          "course_name" : "Bachelor of Science in Dental Laboratory Sciences",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 6,
+          "course_name" : "Bachelor of Science In Diagnostic Radiography",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 7,
+          "course_name" : "Bachelor of Science in Dietetics",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 8,
+          "course_name" : "Bachelor of Science In Medical Laboratory",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 9,
+          "course_name" : "Bachelor of Science In Midwifery",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 10,
+          "course_name" : "Bachelor of Science In Nursing",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 11,
+          "course_name" : "Bachelor of Science In Occupational Therapy",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 12,
+          "course_name" : "Bachelor of Science In Physiotherapy",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 13,
+          "course_name" : "Bachelor of Science In Respiratory Therapy",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 14,
+          "course_name" : "Bachelor of Science In Radiography",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 15,
+          "course_name" : "Doctor of Pharmacy",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id" : 16,
+          "course_name" : "Doctor of Veterinary Medicine",
+          "course_type" : "undergraduate",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 13,
+      "faculty_name" : " Social Sciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "MA Population Studies",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "Development Economics (PhD)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "Economics (MPhil, PhD)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "Population Studies (MPhil, PhD)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "Political Science (MPhil, PhD)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "Psychology (MPhil, PhD)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "Public Administration (MPA, MPhil)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "Public Administration and Policy Management (PhD)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "Risk Management and Insurance (MPhil)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+      
+    },
+    {
+      "faculty_id" : 14,
+      "faculty_name" : "Development Studies",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id" : 1,
+          "course_name" : "Development Studies",
+          "course_type" : "masters",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id" : 1,
+          "course_name" : "MPhil / PhD Development Studies",
+          "course_type" : "phd",
+          "entry_requirements" : [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+      
+    }
+ ]
+},
+{
+  "id": "29",
+  "name": "Kwame Nkrumah University  Of  Science And Tecnology",
+  "faculties" : [
+    {
+      
+    }
+  ]
+}
+]

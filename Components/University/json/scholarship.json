@@ -1,0 +1,59 @@
+[
+ {
+  "id" : "1",
+  "name" : "Academic City University College",
+  "scholarship" : [
+  {
+    "id" : "1",
+    "name" : "Presidential Scholarship",
+    "image" : "https://www.dropbox.com/scl/fi/ovnifmh7bpr3pf48xhn7o/acityscholarship.jpg?rlkey=9v2i3dg47t4uuc8uoiffddths&st=m5m6qh2m&raw=1",
+    "note" : "Academic City's Presidential Scholarship covers full tuition, housing, and meals for top-performing students. Over $400,000 has been invested so far."
+  }
+ ]
+ },
+ {
+  "id": "2",
+  "name": "Accra Business School",
+  "scholarship" : []
+ },
+ {
+  "id": "3",
+ "name": "African University College of Communication",
+ "scholarship" : []
+ },
+ {
+  "id": "4",
+  "name": "Anglican University College of Technology",
+  "scholarship" : []
+ },
+ {
+  "id": "5",
+  "name": "Catholic Institute of Business and Technology",
+  "scholarship" : []
+ },
+ {
+  "id": "6",
+ "name": "Christian Service University College ",
+  "scholarship" : [
+    {
+      "id" : "1",
+      "name" : "Half Scholarship Scheme",
+      "image" : "https://www.dropbox.com/scl/fi/sem6nudzctgrd1awvw7u9/Untitled-design.png?rlkey=jach36eo8tc9f4jg8vl5g3hqy&st=brgbe35s&raw=1",
+      "note" : "Christian Service University College offers half scholarships for applicants with SSSCE/WASSCE aggregates 6 to 12, covering 50% of tuition fees, renewable with a GPA of 3.60+."
+    },
+    {
+      "id" : "2",
+      "name" : "BILL CHAPMAN’S ACADEMIC AWARDS",
+      "image" : "https://www.dropbox.com/scl/fi/i9szvskar251rrx4ctket/Green-Emerald-Scholarship-Instagram-Post.png?rlkey=9dei6b2czbrue76vexrhmijbb&st=nqel4b19&raw=1",
+      "note" : "The Bill Chapman Academic Awards offer a full one-year scholarship to the best student (Level 100–300) in each academic department, honoring CSUC's first principal, Bill Chapman."
+    },
+    {
+      "id" : "3",
+      "name" : "SENAVOES’ ACADEMIC AWARD",
+      "image" : "https://www.dropbox.com/scl/fi/bue64zo28xrolja1hnxmf/Black-and-White-Minimalist-Scholarship-Program-Facebook-Post.png?rlkey=xhdan6i5i2pz9ye1v10ygnp8j&st=pnbocojr&raw=1",
+      "note" : "The Senavoes’ Academic Award offers a half-year scholarship to the 2nd and 3rd best students (Level 100–300) in each academic department, honoring former CSUC principals Ransford and Juliana Senavoe."
+    }
+
+  ]
+ }
+]

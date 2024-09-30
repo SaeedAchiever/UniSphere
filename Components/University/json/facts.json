@@ -1,0 +1,47 @@
+[
+ {
+  "id" : "1",
+  "name" : "Academic City University College",
+  "facts" : [
+  "was one of the first institutions in its region to offer a dedicated program in Robotics Engineering",
+  "Innovation Challenge has led to the creation of several student-run startups, some of which have gone on to receive international recognition.",
+  "faculty includes award-winning researchers who have contributed to major global projects in AI and renewable energy.",
+  "campus features a solar-powered energy system that significantly reduces its carbon footprint, making it one of the greenest campuses in the area.",
+  "students have the opportunity to study abroad through partnerships with leading universities around the world, enhancing their global exposure and learning experiences."
+ ]
+ },
+ {
+  "id": "2",
+  "name": "Accra Business School",
+  "facts" : [
+   "specializes in executive education, offering advanced programs tailored for professionals looking to enhance their leadership and management skills.",
+   "collaborates with international universities, providing students with the opportunity to benefit from a global perspective in business education through exchange programs and joint degrees.",
+   " known for its modern facilities, providing a conducive learning environment with advanced technology to support interactive and practical business training.",
+   "integrates Christian values into its curriculum, emphasizing ethical leadership and integrity in business practices."
+  ]
+ },
+ {
+  "id": "3",
+ "name": "African University College of Communication",
+ "facts" : [
+
+ ]
+ },
+ {
+  "id": "4",
+  "name": "Anglican University College of Technology",
+  "facts": [
+
+  ]
+ },
+ {
+  "id": "5",
+ "name": "Catholic Institute of Business and Technology",
+  "facts": [
+   "was established in 2007 under the auspices of the Catholic Archdiocese of Accra and is affiliated with the University of Ghana.",
+   "offers a unique blend of academic programs, including Business Administration, Public Administration, Computer Science, and Religion, catering to diverse student interests.",
+   "campus promotes inclusivity by embracing students from all faiths while maintaining a stimulating Christian atmosphere, enriching the educational experience for everyone.",
+   "is set to launch new programs, including Procurement and Supply Chain Management, along with professional workshops aimed at adult learners, expanding its educational offerings beyond traditional degree programs."
+  ]
+ }
+]

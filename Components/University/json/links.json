@@ -1,0 +1,82 @@
+[
+ {
+  "id" : "1",
+  "name" : "Academic City University College",
+  "links" : [
+  {
+    "id" : "1",
+    "name" : "Hostel and Canteen",
+    "link" : "https://acity.edu.gh/housing.php"
+  }
+]
+ },
+ {
+  "id": "2",
+  "name": "Accra Business School",
+  "links" : [
+   {
+     "id" : "1",
+     "name" : "Download Brochure",
+     "link" : "https://abs.edu.gh/brochure-download-page/"
+   }
+ ]
+ },
+ {
+  "id": "3",
+ "name": "African University College of Communication",
+ "links" : []
+ },
+ {
+  "id": "4",
+  "name": "Anglican University College of Technology",
+  "links": [
+    {
+      "id" : "1",
+      "name" : "Campus News",
+      "link" : "https://www.angutech.edu.gh/events"
+    },
+    {
+      "id" : "2",
+      "name" : "Carrers and job listings",
+      "link" : "https://www.angutech.edu.gh/careers"
+    }
+  ]
+ },
+ {
+  "id": "5",
+ "name": "Catholic Institute of Business and Technology",
+  "links": [
+    {
+      "id" : "1",
+      "name" : " Academic Fees",
+      "link" : "https://cibt.edu.gh/about-admissions/fees"
+    },
+    {
+      "id" : "2",
+      "name" : "Academic Calender",
+      "link" : "https://cibt.edu.gh/academics/academic-calendar"
+    }
+  ]
+ },
+ {
+  "id": "6",
+  "name": "Christian Service University College ",
+  "links": [
+    {
+      "id" : "1",
+      "name" : "2023/2024 Academic Fees",
+      "link" : "https://www.csuc.edu.gh/wp-content/uploads/2023/06/Fees-in-use-2023-2024.pdf"
+    },
+    {
+      "id" : "2",
+      "name" : "Hostel and Fees",
+      "link" : "https://www.csuc.edu.gh/2015/07/20/csuc-executive-hostel/"
+    },
+    {
+      "id" : "3",
+      "name" : "CSUC Alumni",
+      "link" : "https://www.csuc.edu.gh/alumni/"
+    }
+  ]
+ }
+]

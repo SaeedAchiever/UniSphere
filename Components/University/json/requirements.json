@@ -1,0 +1,202 @@
+[
+ {
+  "id" : "1",
+  "name" : "Academic City University College",
+  "requirements" : [
+  {
+    "requirement_id" : 1,
+    "requirement_name" : "WAEC/NECO for Engineering Courses",
+    "main_requirements" : [
+      "Minimum of C6 in 6 subjects including 3 core subjects (Mathematics and English mandatory and any one) and 3 elective subjects. (Elective/Add/Further Mathematics and Physics mandatory and any one)"
+    ]
+  },
+  {
+    "requirement_id" : 2,
+    "requirement_name" : "SSSCE for Engineering Courses",
+    "main_requirements" : [
+      "Minimum D or a pass in 6 subjects including 3 core subjects (Mathematics and English mandatory) and 3 elective subjects. (Elective/Add/Further Mathematics and Physics mandatory)"
+    ]
+  },
+  {
+    "requirement_id" : 3,
+    "requirement_name" : "IGCSE O-Level & A-Level  for Engineering Courses",
+    "main_requirements" : [
+      "CREDITS (Grade D or better) in FIVE (5) GCE Ordinary Level (O-Level) subjects, (including English Language and Mathematics.)",
+      "PASSES (Grade E or better) in THREE (3) Advanced Level (A-Level) subjects, At least two of the passes should be a Grade D or better. (Elective/Add/Further Mathematics and Physics mandatory)."
+    ]
+  },
+  {
+    "requirement_id" : 4,
+    "requirement_name" : "English International Baccalaureate for Engineering Courses",
+    "main_requirements" : [
+      "Minimum of 5 credit passes in the IGCSE/O-Levels (Mathematics and English mandatory) and a minimum score of 4 points in 3 Higher Level (HL) subjects. (Elective/Add/Further Mathematics and Physics mandatory)"
+    ]
+  },
+  {
+    "requirement_id" : 5,
+    "requirement_name" : "French International Baccalaureate for Engineering Courses",
+    "main_requirements" : [
+      "Minimum of 50% overall average pass. (subject to approval NAB) Mathematics, English and Physics mandatory"
+    ]
+  },
+  {
+    "requirement_id" : 6,
+    "requirement_name" : "American High School for Engineering Courses",
+    "main_requirements" : [
+      "Minimum GPA of 3.0 (Mathematics, English and Physics mandatory)"
+    ]
+  },
+  {
+    "requirement_id" : 7,
+    "requirement_name" : "WAEC/NECO for Non Engineering Courses",
+    "main_requirements" : [
+      "Minimum C6 in 6 subjects including 3 core subjects (Mathematics and English mandatory) and 3 elective subjects."
+    ]
+  },
+  {
+    "requirement_id" : 8,
+    "requirement_name" : "SSSCE for Non Engineering Courses",
+    "main_requirements" : [
+      "Minimum D or a pass in 6 subjects including 3 core subjects (Mathematics and English mandatory) and 3 elective subjects."
+    ]
+  },
+  {
+    "requirement_id" : 9,
+    "requirement_name" : "IGCSE O-Level & A-Level  for Engineering Courses",
+    "main_requirements" : [
+      "CREDITS (Grade D or better) in FIVE (5) GCE Ordinary Level (O-Level) subjects, (including English Language and Mathematics.)",
+      "PASSES (Grade E or better) in THREE (3) Advanced Level (A-Level) subjects, At least two of the passes should be a Grade D or better."
+    ]
+  },
+  {
+    "requirement_id" : 10,
+    "requirement_name" : "English International Baccalaureate for Non Engineering Courses",
+    "main_requirements" : [
+      "Minimum of 5 credit passes in the IGCSE/O-Levels (Mathematics and English mandatory) and a minimum score of 4 points in 3 Higher Level (HL) subjects."
+    ]
+  },
+  {
+    "requirement_id" : 11,
+    "requirement_name" : "French International Baccalaureate for Non Engineering Courses",
+    "main_requirements" : [
+      "Minimum of 50% overall average pass. (Results to be presented to NAB for verification) Mathematics and English mandatory"
+    ]
+  },
+  {
+    "requirement_id" : 12,
+    "requirement_name" : "American High School for Non Engineering Courses",
+    "main_requirements" : [
+      "Minimum GPA of 3.0 (Mathematics and English mandatory)"
+    ]
+  }
+ ]
+ },
+ {
+  "id": "2",
+  "name": "Accra Business School",
+  "requirements" : [
+   {
+     "requirement_id" : 1,
+     "requirement_name" : "WAEC Applicants",
+     "main_requirements" : [
+       " A1-C6 in the following Three (3) Core Subjects: English Language, Mathematics and Integrated Science plus credits (A1-C6) in Three Elective Subjects."
+     ]
+   },
+   {
+     "requirement_id" : 2,
+     "requirement_name" : "SSSCE Applicants",
+     "main_requirements" : [
+       " A-D in the following Three (3) Core Subjects: English Language, Mathematics and Integrated Science plus credits (A-D)"
+     ]
+   },
+   {
+     "requirement_id" : 3,
+     "requirement_name" : "A-Level Applicants",
+     "main_requirements" : [
+       "Pass in 3 ‘A’ Level subjects at grade CCC or 96 tariff points plus grade C or 4 in five GCE/IGCSE or Grade 6 in GCE ‘O’ Level subjects including English and Mathematics."
+     ]
+   },
+   {
+     "requirement_id" : 4,
+     "requirement_name" : "Matured Applicants",
+     "main_requirements" : [
+       "No Academic Qualifications needed. An at least 5 year old prove of age and passing an entrnce exams"
+     ]
+   },
+   {
+     "requirement_id" : 5,
+     "requirement_name" : "HND Holder Engineering Applicants",
+     "main_requirements" : [
+       "Backgrounds in IT and its related specialty in addition to the Minimum Entry Requirements at WASSCE/SSSCE"
+     ]
+   },
+   {
+     "requirement_id" : 6,
+     "requirement_name" : "Foreign Applicants and Others",
+     "main_requirements" : [
+       "Must have any of the above qualifications or their equivalent from an accredited/recognised institution and assessed by the National Accreditation Board."
+     ]
+   }
+  ]
+ },
+ {
+  "id": "3",
+ "name": "African University College of Communication",
+ "requirements" : []
+ },
+ {
+  "id": "4",
+  "name": "Anglican University College of Technology",
+  "requirements" : [
+   {
+     "requirement_id" : 1,
+     "requirement_name" : "WAEC Applicants",
+     "main_requirements" : [
+       " A1-C6 in the following Three (3) Core Subjects: English Language, Mathematics and Integrated Science plus credits (A1-C6) in Three Elective Subjects."
+     ]
+   },
+   {
+     "requirement_id" : 2,
+     "requirement_name" : "SSSCE Applicants",
+     "main_requirements" : [
+       " A-D in the following Three (3) Core Subjects: English Language, Mathematics and Integrated Science plus credits (A-D)"
+     ]
+   },
+   {
+     "requirement_id" : 3,
+     "requirement_name" : "(GCE) ‘O’ and ‘A’ Levels Applicants",
+     "main_requirements" : [
+       "Credit in at least five (5) subject at the GCE ‘O’ level (or its equivalent) including English Language and Mathematics, with at least two passes in the relevant subject at the Advanced Level."
+     ]
+   },
+   {
+     "requirement_id" : 4,
+     "requirement_name" : "Matured Applicants",
+     "main_requirements" : [
+       "Applicants must be at least 25 years old. Documentary evidence of age may be required. In addition, applicants must have passes in English Language and Mathematics. Level 100 applicants without credit passes in English Language and Mathematics must pass the Mature Students’ Entrance Examination in English Language, Mathematics and Aptitude Test."
+     ]
+   },
+   {
+     "requirement_id" : 5,
+     "requirement_name" : "HND Holder Engineering Applicants",
+     "main_requirements" : [
+       "Applicants must have graduated with a good HND certificate (i.e. at least 2nd class division). In addition, the applicant must have acquired a 2-year post –HND work experience. Other diploma certificates equivalent to HND may be considered."
+     ]
+   },
+   {
+     "requirement_id" : 6,
+     "requirement_name" : "Foreign Applicants and Others",
+     "main_requirements" : [
+       "Certificates of foreign origin would be referred to the National Accreditation Board (NAB) for determination of equivalences and eligibility for admission to tertiary institutions in Ghana."
+     ]
+   },
+   {
+     "requirement_id" : 7,
+     "requirement_name" : "Certificate Holders into BSc. Nursing/Diploma in Midwifery",
+     "main_requirements" : [
+       "Holders of HAC, NAC, or NAP certificates can enter the BSc. Nursing program after passing an Access Course from the University College."
+     ]
+   }
+  ]
+ }
+]

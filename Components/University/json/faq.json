@@ -1,0 +1,59 @@
+[
+  {
+   "id" : "1",
+   "name" : "Academic City University College",
+   "faqs" : [
+   {
+     "id" : "1",
+     "question" : "Nisi id reprehenderit sunt anim mollit sit sint nisi est deserunt aute ea duis quis. Irure dolore minim  occaecat est dolore dolor do consectetur ullamco aliquip. Id qui commodo velit excepteur sunt nulla anim.",
+     "answer" : "Laboris Labore aute ullamco ad exercitation. Aute aliquip tempor cupidatat labore ut exercitation veniam tempor voluptate cillum veniam ea. Enim ut ex magna eiusmod ea irure velit officia incididunt dolor. Non dolore nulla exercitation cillum nisi qui tempor proident enim."
+   },
+   {
+    "id" : "2",
+    "question" : "Nisi id reprehenderit sunt anim mollit sit sint nisi est deserunt aute ea duis quis. Irure dolore minim  occaecat est dolore dolor do consectetur ullamco aliquip. Id qui commodo velit excepteur sunt nulla anim.",
+    "answer" : "Laboris Labore aute ullamco ad exercitation. Aute aliquip tempor cupidatat labore ut exercitation veniam tempor voluptate cillum veniam ea. Enim ut ex magna eiusmod ea irure velit officia incididunt dolor. Non dolore nulla exercitation cillum nisi qui tempor proident enim."
+  }
+ ]
+  },
+  {
+   "id": "2",
+   "name": "Accra Business School",
+   "faq" :[
+   {
+    "id" : 1,
+    "question" : "What programs and degrees does Accra Business School offer?",
+    "answer" : "Accra Business School offers a range of programs, including undergraduate, postgraduate degrees and professional Certification courses in business-related and Technical fields. They also specialize in executive education programs aimed at professionals looking to enhance their leadership and management skills."
+   },
+   {
+    "id" : 2,
+    "question" : "Does the school offer scholarships or financial aid for students?",
+    "answer" : "Currently there are no records of any scholarships within our knowledge. For more info you might kindly consider speaking to them directly."
+   },
+   {
+    "id" : 3,
+    "question" : "What are the admission requirements for undergraduate and graduate programs?",
+    "answer" : "Admission requirements vary depending on the program, but Generally, undergraduate applicants need a high school certificate(WAEC/SSSCE) or equivalent, while graduate programs require a bachelor’s degree in a related field. Specific entry requirements may include academic transcripts, letters of recommendation, and personal statements. Check their BSc General Entry Requirements on this app."
+   },
+   {
+    "id" : 4,
+    "question" : "What are the tuition fees and payment options?",
+    "answer" : "Click on your desired program to see the corresponding fee on this app."
+   },
+   {
+    "id" : 5,
+    "question" : "Is the school accredited, and are its degrees internationally recognized?",
+    "answer" : "Yes, Accra Business School is accredited by relevant educational authorities in Ghana, and its degrees are recognized both locally and internationally. It also has partnerships with global institutions to enhance the recognition of its programs."
+   }
+  ]
+  },
+  {
+   "id": "3",
+  "name": "African University College of Communication",
+  "links" : []
+  },
+  {
+   "id": "4",
+   "name": "Anglican University College of Technology",
+   "faq" :[]
+  }
+ ]

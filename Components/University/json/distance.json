@@ -1,0 +1,93 @@
+[
+ {
+  "id" : "1",
+  "name" : "Academic City University College",
+  "distance" : [
+  {
+    "id" : 1,
+    "region" :"Greater Accra",
+    "location" : [
+      {
+        "id" : 1,
+        "town" : [
+          {
+            "location" : "St Johns",
+            "school" : "St Johns Grammer School",
+            "courses" : [
+              "Biology",
+              "Chemistry",
+              "Physics"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : 2,
+        "town" : [
+          {
+            "location" : "Ofankor",
+            "school" : "Silicon Valley",
+            "courses" : [
+              "Biology",
+              "Chemistry",
+              "Physics"
+            ]
+          }
+        ]
+      }
+
+    ]
+  },
+  {
+    "id" : 2,
+    "region" :"Ashante Region",
+    "location" : [
+      {
+        "id" : 1,
+        "town" : [
+          {
+            "location" : "Kumasi" ,
+            "school" : "Kumasi High School",
+            "courses" : [
+              "Biology",
+              "Chemistry",
+              "Physics"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : 2,
+        "town" : [
+          {
+            "location" : "Krofrom",
+            "school" : "Silicon International School",
+            "courses" : [
+              "Biology",
+              "Chemistry",
+              "Physics"
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+ ]
+ },
+ {
+  "id": "2",
+  "name": "Accra Business School",
+  "distance" : []
+ },
+ {
+  "id": "3",
+ "name": "African University College of Communication",
+ "distance" : []
+ },
+ {
+  "id": "4",
+  "name": "Anglican University College of Technology",
+  "distance": []
+ }
+]
