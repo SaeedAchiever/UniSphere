@@ -1,0 +1,31 @@
+[
+ {
+  "UEW":{
+   "Header":{
+     "one": "UNDERGRADUATE FEES",
+     "two": "POSTGRADUATE FEES"
+   },
+   "Text":{
+    "one": "Regular Undergraduate Level 400",
+    "two": "Regular Undergraduate Level 300",
+    "three": "Regular Undergraduate Level 200",
+    "four": "Ghanaian Fee Paying Undergraduate Final Year Students",
+    "five": "Ghanaian Fee Paying Undergraduate Continuing Students",
+    "six": "Regular Postgraduate Final Students",
+    "seven": "Regular Postgraduate Continuing Students",
+    "eight": "Weekend/Evening Postgraduate Final Year Students",
+    "nine": "Ghanaian Fee Paying Postgraduate Final Year Students",
+    "ten": "Ghanaian Fee Paying Postgraduate Continuing Students"
+   }
+  },
+
+  "KNUST":{
+   "Header":{
+    "one": "UNDERGRADUATE FEES"
+  },
+  "Text":{
+   "one": "Regular Undergraduate Level 400"
+  }
+  }
+ }
+]

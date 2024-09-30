@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Kwame Nkrumah University  Of  Science And Tecnology",
+    "location": "Kumasi", 
+    "campuses": "6",
+    "note": "",
+    "Page": "KnustPage",
+    "nick": "KNUST",
+     "type" : "public",
+     "image" : "https://www.dropbox.com/scl/fi/lkmh3euwd2eodynn0va9u/knust.jpeg?rlkey=xi6n0u52u1g3q3ci3pez57me6&st=avdev5sc&raw=1",
+     "logo" : "https://www.dropbox.com/scl/fi/3wkqkruhh1xtezod2ef1v/knust_logo.png?rlkey=p24gylxo8nwj7ggqsi65syza2&st=y4beumn0&raw=1",
+     "btn"  : "Public Universities",
+     "home" : "PublicUniversityHome"
+   },
+{
+  "id": "2",
+  "name": "Valley View University", 
+  "location": "Oyibi", 
+  "campuses": "2",
+  "note": "VVU",
+  "nick": "VVU",
+   "type" : "private",
+   "image" : "https://www.dropbox.com/scl/fi/7s9uraeabvpteve776bfl/ValleyViewUni.jpg?rlkey=yrteo0lcf0l8o5o1td8302ntx&st=yihgf8d6&raw=1",
+   "logo" : "https://www.dropbox.com/scl/fi/5bkoi5ypofr3kzfcbvapd/VVW_logo.png?rlkey=749uq8tj9n0p0u1gn1yshrlt0&st=1cqfifev&raw=1",
+   "btn"  : "Private Universities",
+   "home" : "PrivateUniversityHome"
+  },
+ {
+  "id": "3",
+  "name": "Academic City University College", 
+  "location": "Accra", 
+  "campuses": "2",
+  "note": "Acity",
+  "nick": "Acity",
+  "type" : "MoreUniversityHome",
+  "image"  : "https://www.dropbox.com/scl/fi/qjijw6i35whjq7qbnifay/Acity.png?rlkey=6wz77kkmfi8egqkgub3z211y0&st=ijtus4se&raw=1",
+  "logo" : "https://www.dropbox.com/scl/fi/1h6zn6qxyr003soh1xmnu/acity_logo.png?rlkey=mjmfk6scxf9da54oplj6cl2m7&st=zw4qg3v8&raw=1",
+  "btn"  : "Affiliated Universities",
+  "home"  : "MoreUniversitiesHome"
+ }
+]

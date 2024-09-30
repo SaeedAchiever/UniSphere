@@ -120,7 +120,7 @@
  {
   "id": "14",
   "name": "Ghana Institute of Management and Public Administration",
-  "location": "Achimota",
+  "location": "Legon",
   "campuses": "1",
   "note": "require('../../assets/knust.jpeg')",
   "Page": "GIMPAPage",
@@ -225,14 +225,5 @@
   "note": "require('../../assets/knust.jpeg')",
   "Page": "WTUPage",
   "nick": "WTU"
- },
- {
-  "id": "26",
-  "name": "University of Media, Arts and Communication",
-  "location": "Wa",
-  "campuses": "1",
-  "note": "require('../../assets/knust.jpeg')",
-  "Page": "UniMACPage",
-  "nick": "UniMAC"
  }
 ]

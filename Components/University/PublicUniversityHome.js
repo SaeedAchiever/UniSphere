@@ -1,10 +1,11 @@
-import { View, Text,  Image,  useWindowDimensions, FlatList, } from 'react-native'
+import { View, Text,  Image, FlatList, } from 'react-native'
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
-import PublicUniversitiesHome from '../University/publicUniversities.json'
+
+import  Universities  from  '../University/universities.json'
 
 const Location  = require("../../assets/location.png")
-const KNUST  = require("../../assets/ug.jpeg")
+const UG  = require("../../assets/ug.jpeg")
 const Star  = require("../../assets/star.png")
 
 import styles from '../HomePage/HomeStyle'
@@ -12,6 +13,12 @@ import styles from '../HomePage/HomeStyle'
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const UniversityHome = () => {
+
+  const Public_Universities = Universities.filter(
+    function(value){
+      return  value.type == "public"
+    }
+  )
 
 
     const navigation = useNavigation()
@@ -27,7 +34,7 @@ const UniversityHome = () => {
 
 
         <FlatList 
-          data={PublicUniversitiesHome}
+          data={Public_Universities}
           showsVerticalScrollIndicator={false}
           renderItem={({item}) => {
             return (
@@ -36,7 +43,7 @@ const UniversityHome = () => {
                 <View style={styles.UniHomeContainer}>
                   <View style={styles.UniHomeImageContainer}>
                     <Image  
-                      source={KNUST}
+                      source={{uri: item.image}}
                       style={styles.UniHomeImage}
                     />
                   </View>
@@ -76,7 +83,7 @@ const UniversityHome = () => {
                     </View>
                     <View>
                      <Text style={styles.uniMainHomeLocText}>
-                      {item.campus} campus</Text>
+                      {item.campus_number} campus</Text>
                     </View>
                   </View>
 
@@ -131,7 +138,9 @@ const UniversityHome = () => {
                   <View
                    style={styles.ReadButton}
                    onTouchEnd={()=>{
-                    navigation.navigate(item.Page)
+                    navigation.navigate('UniData',  {university:  Public_Universities.find(
+                      uni =>  uni.name  === item.name
+                    )})
                    }}
                   >
                     <Text style={styles.ReadButtonText}>Read More</Text>

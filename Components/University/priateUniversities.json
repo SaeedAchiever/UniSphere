@@ -1,0 +1,539 @@
+[
+ {
+  "id": "1",
+  "name": "University Of Ghana", 
+  "location": "Legon", 
+  "campuses": "2",
+  "ImageUrl": "UG",
+  "Page": "LegonPage"
+ },
+ {
+  "id": "2",
+  "name": "Kwame Nkrumah University  Of  Science And Tecnology",
+  "location": "Kumasi", 
+  "campuses": "6",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "KnustPage"
+
+ },
+ {
+  "id": "3",
+  "name": "University of Cape Coast",
+  "location": "Cape Coast", 
+  "campuses": "6",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "UccPage"
+ },
+ {
+  "id": "4",
+  "name": "Ashesi University",
+  "location": "Berekuso", 
+  "campuses": "2",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "AshesiPage"
+ },
+ {
+  "id": "5",
+  "name": "University for Development Studies",
+  "location": "Tamale", 
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "UDSPage"
+ },
+ {
+  "id": "6",
+  "name": "University Of Education",
+  "location": "Winneba", 
+  "campuses": "2",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "WinnebaPage"
+ },
+ {
+  "id": "7",
+  "name": "Ghana Institute of Management and Public Administration",
+  "location": "Accra", 
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "GIOMAPAPage"
+ },
+ {
+  "id": "8",
+  "name": "Accra Technical University",
+  "location": "Accra", 
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "ATUPage"
+ },
+ {
+  "id": "9",
+  "name": "Valley View University",
+  "location": "Accra", 
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "ValleyViewPage"
+ },
+ {
+  "id": "11",
+  "name": "University of Mines and Technology",
+  "location": "Tarkwa",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "UOMATPage"
+ },
+ {
+  "id": "12",
+  "name": "Central University",
+  "location": "Tema",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "CentralUniversityPage"
+ },
+ {
+  "id": "13",
+  "name": "Ghana Communication Technology University",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "GCTUPage"
+ },
+ {
+  "id": "14",
+  "name": "Koforidua Technical University",
+  "location": "Koforidua",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "KoforiduaTechUniPage"
+ },
+ {
+  "id": "15",
+  "name": "University of Energy and Natural Resources",
+  "location": "Sunyani",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "UOEANRPage"
+ },
+ {
+  "id": "16",
+  "name": "Pentecost University",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "PentecostUniPage"
+ },
+ {
+  "id": "17",
+  "name": "Presbyterian University, Ghana",
+  "location": "Abetifi",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "PresbyUniGhPage"
+ },
+ {
+  "id": "18",
+  "name": "Kumasi Technical University",
+  "location": "Kumasi",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "KumasiTechUniPage"
+ },
+ {
+  "id": "19",
+  "name": "University of Professional Studies",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "UniOfProfStudPage"
+ },
+ {
+  "id": "20",
+  "name": "Sunyani Technical University",
+  "location": "Sunyani",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "SunyaniTechUniPage"
+ },
+ {
+  "id": "21",
+  "name": "Ghana Institute of Journalism",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "GhInstOfJouPage"
+ },
+ {
+  "id": "22",
+  "name": "Regent University College of Science and Technology",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "RegUniColOfScipage"
+ },
+ {
+  "id": "23",
+  "name": "All Nations University",
+  "location": "Koforidua",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "AllNatUniPage"
+ },
+ {
+  "id": "24",
+  "name": "Garden City University College",
+  "location": "Kumasi",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "GarCityUniColPage"
+ },
+ {
+  "id": "25",
+  "name": "Knutsford University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "KFordUniColPage"
+ },
+ {
+  "id": "26",
+  "name": "Regional Maritime University",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "RegMarUniPage"
+ },
+ {
+  "id": "27",
+  "name": "Wisconsin International University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "WisIntUniColPage"
+ },
+ {
+  "id": "28",
+  "name": "Academic City University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "AcaCityUniColPage"
+ },
+ {
+  "id": "29",
+  "name": "Lancaster University, Ghana",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "LancaUni"
+ },
+ {
+  "id": "30",
+  "name": "Tamale Technical University",
+  "location": "Tamale",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "TamTechUnipage"
+ },
+ {
+  "id": "31",
+  "name": "Takoradi Technical University",
+  "location": "Takoradi",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "TarTechUnipage"
+ },
+ {
+  "id": "32",
+  "name": "C.K. Tedam University of Technology and Applied Sciences",
+  "location": "Navrongo",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "CKTedamPage"
+ },
+ {
+  "id": "33",
+  "name": "Catholic University College of Ghana",
+  "location": "Sunyani",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "CathUniColPage"
+ },
+ {
+  "id": "34",
+  "name": "African University College of Communications",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "AfriUniColCommPage"
+ },
+ {
+  "id": "35",
+  "name": "Ho Technical University",
+  "location": "Ho",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "HoTechUniPage"
+ },
+ {
+  "id": "36",
+  "name": "Simon Diedong Dombo University of Business and Integrated Development Studies",
+  "location": "Wa",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "SimDieDomUniPage"
+ },
+ {
+  "id": "37",
+  "name": "Cape Coast Technical University",
+  "location": "Cape Coast",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "CapeCoastTechUniPage"
+ },
+ {
+  "id": "38",
+  "name": "Accra Institute of Technology",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "AccraInstOfTechPage"
+ },
+ {
+  "id": "39",
+  "name": "Methodist University",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "MethUniPage"
+ },
+ {
+  "id": "40",
+  "name": "Christian Service University College",
+  "location": "Santasi",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "ChrisSerUniColPage"
+ },
+ {
+  "id": "41",
+  "name": "BlueCrest College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "BlueCrestColPage"
+ },
+ {
+  "id": "42",
+  "name": "KAAF University College",
+  "location": "Kasoa",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "KaafUniColPage"
+ },
+ {
+  "id": "43",
+  "name": "Zenith University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "ZenithUniColPage"
+ },
+ {
+  "id": "44",
+  "name": "Christ Apostolic University College",
+  "location": "Kumasi",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "ChritApoUniColpage"
+ },
+ {
+  "id": "45",
+  "name": "Islamic University College, Ghana",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "IslaUniColpage"
+ },
+ {
+  "id": "46",
+  "name": "Ghana Institute of Languages",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "GhInstOfLangPage"
+ },
+ {
+  "id": "47",
+  "name": "Dominion University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "DominionUniColPage"
+ },
+ {
+  "id": "48",
+  "name": "Evangelical Presbyterian University College",
+  "location": "Ho",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "EvanPresUniColOfTechPage"
+ },
+ {
+  "id": "49",
+  "name": "Anglican University College of Technology",
+  "location": "Teshie",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "AngUniColOfTechPage"
+ },
+ {
+  "id": "50",
+  "name": "Mountcrest University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "MountUniColPage"
+ },
+ {
+  "id": "51",
+  "name": "Radford University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "RadforduniColPage"
+ },
+ {
+  "id": "52",
+  "name": "Bolgatanga Technical University",
+  "location": "Bolgatanga",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "BolgaTechUniPage"
+ },
+ {
+  "id": "53",
+  "name": "Ghana Baptist University College",
+  "location": "Abuakwa",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "GhBaptUniColPage"
+ },
+ {
+  "id": "54",
+  "name": "Advanced Business College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "AdvancedBusColPage"
+ },
+ {
+ "id": "55",
+  "name": "Kings University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "KingsUniCol"
+ },
+ {
+ "id": "56",
+  "name": "Dr. Hilla Limann Technical University",
+  "location": "Wa",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "DrHilLimTechUniPage"
+ },
+ {
+ "id": "57",
+  "name": "Spiritan University College",
+  "location": "Ejisu",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "SpiritanUniColPage"
+ },
+ {
+ "id": "58",
+  "name": "West End University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "WestEndUniColPage"
+ },
+ {
+ "id": "59",
+  "name": "Kessben College",
+  "location": "Kuntenase",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "KessbenColPage"
+ },
+ {
+ "id": "60",
+  "name": "Ghana Christian University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "GhChristUniCol"
+ },
+ {
+ "id": "61",
+  "name": "Data Link Institute of Business and Technology",
+  "location": "Tema",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "DataLinkInstOfBusTechPage"
+ },
+ {
+ "id": "62",
+  "name": "Catholic Institute of Business and Technology",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "CathInstOfBusTechPage"
+ },
+ {
+ "id": "63",
+  "name": "Marshalls University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "MarshallsUniColPage"
+ },
+ {
+ "id": "64",
+  "name": "University College of Management Studies",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "UniColOfManStudPage"
+ },
+ {
+ "id": "65",
+  "name": "Perez University College",
+  "location": "Winneba",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "PerezUniColPage"
+ },
+ {
+ "id": "66",
+  "name": "University College of Agriculture and Environmental Studies",
+  "location": "Bunso",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "UniColOfAgricEnvStudPage"
+ },
+ {
+ "id": "67",
+  "name": "Jayee University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "JayeeUniColPage"
+ },
+ {
+ "id": "68",
+  "name": "Maranatha University College",
+  "location": "Accra",
+  "campuses": "1",
+  "ImageUrl": "require('../../assets/knust.jpeg')",
+  "Page": "MaranathaUniColPage"
+ }
+]

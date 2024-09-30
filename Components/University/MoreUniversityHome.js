@@ -1,10 +1,10 @@
-import { View, Text,  Image,  useWindowDimensions, FlatList, ScrollView, TextInput, } from 'react-native'
+import { View, Text,  Image, FlatList} from 'react-native'
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
-import MoreUniversities from './MoreUniversities.json'
+
+import  Universities  from  '../University/universities.json'
 
 const Location  = require("../../assets/location.png")
-const KNUST  = require("../../assets/accra.jpg")
 const Star  = require("../../assets/star.png")
 
 import styles from '../HomePage/HomeStyle'
@@ -13,10 +13,11 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 const UniversityHome = () => {
 
-                        // DEFINING  WIDTH AND HEIGHT 
-
-      const deviceWidth = useWindowDimensions().width
-      const deviceHeight = useWindowDimensions().height
+  const Affilliatees = Universities.filter(
+      function  (value) {
+        return  value.type == "affiliated"
+      }
+    )
 
     const navigation = useNavigation()
 
@@ -28,7 +29,7 @@ const UniversityHome = () => {
                                         {/* MAIN  CONTENT */}
 
                         <FlatList 
-                          data={MoreUniversities}
+                          data={Affilliatees}
                           showsVerticalScrollIndicator={false}
                           renderItem={({item}) => {
                             return (
@@ -37,7 +38,7 @@ const UniversityHome = () => {
                                 <View style={styles.UniHomeContainer}>
                                   <View style={styles.UniHomeImageContainer}>
                                     <Image  
-                                      source={KNUST}
+                                      source={{ uri:  item.image }}
                                       style={styles.UniHomeImage}
                                     />
                                   </View>
@@ -59,7 +60,7 @@ const UniversityHome = () => {
                                       </View>
                                       <View>
                                         <Text style={styles.uniMainHomeLocText}>
-                                          {item.location}
+                                          {`${item.location} , ${item.town}`}
                                         </Text>
                                       </View>
 
@@ -77,7 +78,7 @@ const UniversityHome = () => {
                                     </View>
                                     <View>
                                     <Text style={styles.uniMainHomeLocText}>
-                                      {item.campus} campus</Text>
+                                      {item.campus_number} campus</Text>
                                     </View>
                                   </View>
 
@@ -132,7 +133,9 @@ const UniversityHome = () => {
                                   <View
                                   style={styles.ReadButton}
                                   onTouchEnd={()=>{
-                                    navigation.navigate(item.Page)
+                                    navigation.navigate("UniData",  {university:  Affilliatees.find(
+                                      uni =>  uni.name  === item.name
+                                    )})
                                   }}
                                   >
                                     <Text style={styles.ReadButtonText}>Read More</Text>

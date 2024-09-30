@@ -1,0 +1,774 @@
+[
+{
+ "id": "1",
+ "name": "Academic City University College",
+ "location": "Haatso", 
+ "type" : "affiliated",
+ "note": "Academic City University College is a premier institution offering a diverse range of undergraduate programs with a strong emphasis on engineering, business, and technology. Committed to delivering a hands-on, practical education, ACC equips students with the essential skills to excel in the modern workforce. With a focus on innovation and critical thinking, ACC fosters an environment where students are prepared to become future leaders across various industries.",
+ "nick": "Acity",
+ "campus_number": "1",
+ "campuses" : [
+  "Academic City University College has a single campus in  Agbogba, Haatso, where all undergraduate programs are offered on-site.",
+  "While there are no distance learning options for undergraduates, select master's programs are available online. The campus provides a dynamic environment for innovation and learning."
+ ],
+ "image"  : "https://www.dropbox.com/scl/fi/xcdodh0ecpkkh1bnurgdh/Acity.jpg?rlkey=6omrqvlr0wwxq095eif5nzdfp&st=kvnefofu&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/1h6zn6qxyr003soh1xmnu/acity_logo.png?rlkey=mjmfk6scxf9da54oplj6cl2m7&st=zw4qg3v8&raw=1",
+ "country" : "Ghana",
+ "region": "Greater Accra", 
+ "town": "Accra", 
+ "est_year" : "2009",
+ "rank" : "15th",
+ "application" : "https://acity.edu.gh/admissions.php",
+ "rate" : "4.4",
+ "reviews" : "239 Google",
+ "placement" : "4.0",
+ "hostel" : "4.6",
+ "facilities" : "4.0",
+ "sports" : "3.9",
+ "amenities" : "3.9",
+ "strength" : [
+  "Innovative Programs: The university offers cutting-edge programs in fields like Robotics Engineering and Data Science, providing students with practical, industry-relevant skills",
+  "International Exposure: Academic City University College provides students with opportunities to study abroad and engage with global universities, enhancing their international perspectives and career prospects.",
+  "Strong Industry Connections: Through robust industry partnerships and real-world experience opportunities, students gain valuable exposure and practical insights into their fields"
+ ],
+ "weakness" : [
+  "Limited Course Variety: While the university offers strong programs in specific fields, the range of courses available in other areas might be limited.",
+  "Poor Road Infrastructure: The university’s location is hindered by inadequate road infrastructure, which can affect accessibility and commuting for students.",
+  "High Tuition Fees: The cost of tuition may be relatively high, which could be a barrier for some prospective students and limit accessibility."
+ ],
+"g_video" : "https://youtu.be/pBPjJbiRBrw?si=yPtyKlCZKa57crfU"
+},
+{
+  "id": "2",
+  "name": "Accra Business School",
+  "location": "Spintex", 
+  "type" : "affiliated",
+  "note": "Accra Business School is a leading institution offering a range of business-related programs designed to equip students with practical skills and knowledge for the modern business world. With a focus on leadership, innovation, and entrepreneurship, the school provides a dynamic learning environment that fosters professional growth and academic excellence.",
+  "nick": "ABS",
+  "campus_number": "1",
+  "campuses" : [
+   "Accra Business School has a single campus in   Basket junction near Pleasant Place Church, Spintex Road, Spintex, Accra where all programs are offered on-site. ",
+   "Beside their in person lectures, there is also a couple of programs that cam b take fully online"
+  ],
+  "image"  : "https://www.dropbox.com/scl/fi/mccogznnum9ekxnjqymmn/Accra-Business-School-6.jpg?rlkey=ksnrrak6b8m9amewvcqcxsbc2&st=353t40zq&raw=1",
+  "logo" : "https://www.dropbox.com/scl/fi/9piu33czhq015fiu2m9yg/Logos-03.png?rlkey=f8uhnamcqzvwl85z6acr5cy81&st=20p92t4h&raw=1",
+  "country" : "Ghana",
+  "region": "Greater Accra", 
+  "town": "Accra", 
+  "est_year" : "2004",
+  "rank" : "Unknown",
+  "application" : "https://abs.edu.gh/apply-now",
+  "rate" : "4.4",
+  "reviews" : "164 Google",
+  "placement" : "4.0",
+  "hostel" : "4.6",
+  "facilities" : "4.0",
+  "sports" : "3.9",
+  "amenities" : "3.9",
+  "strength" : [
+   "With partnerships across continents, Accra Business School gives students access to international programs, exchanges, and diverse business perspectives.",
+   "Grounded in Christian values, the school instills a strong sense of ethical leadership and integrity, which are crucial for long-term success in the business world.",
+   "The school’s primary emphasis on executive leadership and management programs sets it apart, offering professionals tailored courses to enhance their strategic skills."
+  ],
+  "weakness" : [
+   "Although the school has a growing reputation, it is still working to establish broader recognition beyond West Africa in comparison to more globally renowned business schools.",
+   "Accra Business School’s specialized programs can come with a high tuition fee, making it less accessible for some students compared to other institutions.",
+   "High Tuition Fees: The cost of tuition may be relatively high, which could be a barrier for some prospective students and limit accessibility."
+  ],
+ "g_video" : "https://facebook.com/angutech/videos/welcome-to-angutech/283889712886997/?_rdc=1&_rdr"
+},
+{
+ "id": "3",
+ "name": "African University College of Communication",
+ "location": "Accra", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "ANUPage",
+ "nick": "ANU",
+ "type" : "affiliated"
+},
+{
+  "id": "4",
+  "name": "Anglican University College of Technology",
+  "location": "Kumasi", 
+  "type" : "affiliated",
+  "note": "Anglican University College of Technology is a private institution that combines faith and learning to offer quality education in technology and management. Focused on practical training and community service, AUCT provides various undergraduate programs to prepare students for successful careers in a dynamic job market.",
+  "nick": "ANG.U.TECH",
+  "campus_number": "2",
+  "campuses" : [
+   "Accra Business School has a two campuses One in Ash Town and Nkoranza - Bono East Region, where all programs are offered on-site. ",
+   "Beside their in person lectures, there is also a couple of programs that cam b take fully online"
+  ],
+  "image"  : "https://www.dropbox.com/scl/fi/b4zgk4np6pk0gpjxlyh18/2018-05-23.jpg?rlkey=h6com0bt1ugbxul785scfrnca&st=ar02nacn&raw=1",
+  "logo" : "https://www.dropbox.com/scl/fi/9kauq8lgzl49sfs8e9ifw/1000102082-removebg-preview.png?rlkey=zholivsea6ittjnv0m17deb7f&st=y5mzcjo8&raw=1",
+  "country" : "Ghana",
+  "region": "Ashante Region", 
+  "town": "Ash Town", 
+  "est_year" : "2008",
+  "rank" : "788",
+  "application" : "https://www.angutech.edu.gh/apply",
+  "rate" : "4.4",
+  "reviews" : "164 Google",
+  "placement" : "4.0",
+  "hostel" : "4.6",
+  "facilities" : "4.0",
+  "sports" : "3.9",
+  "amenities" : "3.9",
+  "strength" : [
+   "With partnerships across continents, Accra Business School gives students access to international programs, exchanges, and diverse business perspectives.",
+   "Grounded in Christian values, the school instills a strong sense of ethical leadership and integrity, which are crucial for long-term success in the business world.",
+   "The school’s primary emphasis on executive leadership and management programs sets it apart, offering professionals tailored courses to enhance their strategic skills."
+  ],
+  "weakness" : [
+   "Although the school has a growing reputation, it is still working to establish broader recognition beyond West Africa in comparison to more globally renowned business schools.",
+   "Accra Business School’s specialized programs can come with a high tuition fee, making it less accessible for some students compared to other institutions.",
+   "High Tuition Fees: The cost of tuition may be relatively high, which could be a barrier for some prospective students and limit accessibility."
+  ],
+ "g_video" : "https://www.youtube.com/@accrabusinessschool18"
+ },
+{
+ "id": "5",
+ "name": "Catholic Institute of Business and Technology",
+ "location": "Accra", 
+ "town" : "Accra",
+ "region" : "Greater Accra",
+ "reviews" :"70 Google",
+ "rate" : "4.2",
+ "est_year" : "2007",
+ "rank" : "881th",
+ "application" : "https://cibt.edu.gh/about-admissions/how-to-apply/",
+ "campus_number": "1",
+ "campuses" : [
+  "CIBT’s campus is conveniently located in the heart of Accra, providing easy access to the city’s resources and amenities. Its central location makes it ideal for students seeking a vibrant urban experience while pursuing their studies.",
+  "Despite its compact size, the campus fosters a close-knit community, where students enjoy a friendly and supportive environment. This intimate setting encourages interaction between students and faculty, creating a welcoming atmosphere that enhances academic and social life."
+ ],
+ "note": "The Catholic Institute of Business and Technology (CIBT), founded in 2007 under the Catholic Archdiocese of Accra, is accredited and affiliated with the University of Ghana. Located in central Accra, CIBT offers a welcoming campus and degree programs in Business, Public Administration, Computer Science, and Religion. It maintains a Catholic identity while embracing all faiths, with new programs like Procurement and Supply Chain Management soon to launch.",
+ "Page": "AsheisiPage",
+ "nick": "CIBT",
+ "type" : "affiliated",
+ "image" : "https://www.dropbox.com/scl/fi/c2wawv1p3wbqj4nugeus6/Screenshot_20240924_170119_Maps.jpg?rlkey=dufjsdjy3zlh65j3ghb6wff4r&st=p47fmxtm&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/gyhzyabqmmfvb2m6yge87/1000102553-removebg-preview.png?rlkey=g25hyjcybrfduseen9d9u4ly4&st=sazrxkeo&raw=1",
+ "strength" : [
+  "CIBT’s compact campus in central Accra creates a close-knit community where students and faculty build strong connections, ensuring a supportive and engaging environment.",
+  "As a Catholic institution, CIBT fosters a Christian atmosphere while welcoming students from all faiths, promoting inclusivity and personal growth.",
+  "CIBT offers a wide range of academic programs, including new courses like Procurement and Supply Chain Management, preparing students for leadership in professional and civic life."
+ ],
+ "weakness" : [
+  "CIBT’s small size may limit the range of facilities and extracurricular activities available to students compared to larger universities.",
+  "Being located in the heart of Accra, the campus may face challenges with space constraints, affecting future expansion and student accommodation.",
+  "As a relatively young institution, CIBT is still building its reputation, which may impact its visibility and competitiveness among more established universities."
+ ],
+ "g_video" : "https://facebook.com/CIBTghana/videos/cibt-your-trusted-university/7137996592984305/?_rdc=1&_rdr"
+},
+{
+ "id": "6",
+ "name": "Christian Service University College ",
+ "location": "Kumasi", 
+ "town" : "Odeneho Kwadaso",
+ "region":"Ashante Region",
+ "reviews" : "248 Google",
+ "rate" : "4.3",
+ "campus_number": "1",
+ "campuses" : [
+  "Christian Service University College (CSUC) is situated in a peaceful area of Kumasi, offering a conducive learning environment. The campus features modern facilities, including lecture halls, a library, and computer labs.",
+  " With a strong Christian ethos, CSUC promotes both spiritual and academic growth, while a vibrant campus life encourages student engagement in religious, social, and extracurricular activities."
+ ],
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "AshesiPage",
+ "nick": "CSUC",
+ "rank" : "347th",
+ "type" : "affiliated",
+ "est_year" : "1974",
+ "application" : "https://admission.csuc.edu.gh/admissions/Account/LogOn?ReturnUrl=%2fadmissions",
+ "image" : "https://www.dropbox.com/scl/fi/xjjl9i7h7bch29e0o9vlr/Screenshot_20240924_214404_Maps.jpg?rlkey=nv2p83z0su39yej8z4x2e1odh&st=ia37q8su&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/65x4ubgod7t91r6ctzulh/1000102634-removebg-preview.png?rlkey=ug0zy0md913pgz2dgwtm3bf3b&st=y1ivmfmy&raw=1",
+ "g_video" : "https://youtu.be/XPxNp7Q_H_o?si=UH8OOKITQIPkN_y1",
+ "strength" :[]
+},
+{
+ "id": "7",
+ "name": "Dominion University College",
+ "location": "Accra", 
+ "campuses": "2",
+ "town" : "East Lgon",
+ "region" :"Greater Accra",
+ "reviews" :"120 Google",
+ "rate" :"4.6",
+ "est_year" :"2009",
+ "rank" : "774",
+ "application" :"https://mis.duc.edu.gh/apply",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "MUCGPage",
+ "nick": "DUC",
+ "type" : "affiliated"
+},
+{
+ "id": "8",
+ "name": "Evangelical Presbyterian University College",
+ "location": "Ho", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "WIUCPage",
+ "nick": "WIUC",
+ "type" : "affiliated"
+},
+{
+ "id": "9",
+ "name": "Family Health University College",
+ "location": "Accra", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "CIBTPage",
+ "nick": "CIBT",
+ "type" : "affiliated"
+},
+{
+ "id": "10",
+ "name": "Ghana Christian University College",
+ "location": "Amranhia", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "11",
+ "name": "Jackson Institute of Innovation and Leadership",
+ "location": "Kumasi", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "12",
+ "name": "KAAF University College",
+ "location": "Mallam", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "13",
+ "name": "Garden City University College",
+ "location": "Kumasi", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "14",
+ "name": "Lancaster University",
+ "location": "Accra", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "15",
+ "name": "Maranatha University College",
+ "location": "Sowutuom", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "16",
+ "name": "Radford University College",
+ "location": "East Legon", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "17",
+ "name": "Regentropfen College of Applied Science",
+ "location": "Bolgatanga", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "18",
+ "name": "Spiritan University College",
+ "location": "Ejisu", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "19",
+ "name": "Mountcrest University College",
+ "location": "Kanda", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "20",
+ "name": "Perez University College",
+ "location": "Winneba", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "21",
+ "name": "Lakeside University College",
+ "location": "Madina", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "22",
+ "name": "Knutsford University College",
+ "location": "East Legon", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "23",
+ "name": "Entrance University College of Health Sciences",
+ "location": "Accra", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "24",
+ "name": "West End University College",
+ "location": "Kasoa", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "25",
+ "name": "Zenith University College",
+ "location": "La", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "26",
+ "name": "Webster University",
+ "location": "Accra", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "27",
+ "name": "Wisconsin International University College",
+ "location": "Haatso", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "NAFTIPage",
+ "nick": "NAFTI",
+ "type" : "affiliated"
+},
+{
+ "id": "28",
+ "name": "University Of Ghana", 
+ "location": "Legon", 
+ "campuses": "2",
+ "note": "../../../assets/uog.png",
+ "region": "Greater Accra",
+ "nick": "UG",
+  "type" : "public",
+  "image" : "https://www.dropbox.com/scl/fi/j7cjt1tvl5dm6wt5t8upv/ug.jpeg?rlkey=fpm9z0aq2aqfya90ee0gycpuy&st=1hdg61yk&raw=1",
+  "logo" :  "https://www.dropbox.com/scl/fi/44h14lfs74ox8chzw6x6g/uog.png?rlkey=nqhp3r45ymq0kabp58n6woggb&st=ffas3lap&raw=1"
+},
+{
+ "id": "29",
+ "name": "Kwame Nkrumah University  Of  Science And Tecnology",
+ "location": "Kumasi", 
+ "campuses": "6",
+ "note": "",
+ "Page": "KnustPage",
+ "nick": "KNUST",
+  "type" : "public",
+  "image" : "https://www.dropbox.com/scl/fi/lkmh3euwd2eodynn0va9u/knust.jpeg?rlkey=xi6n0u52u1g3q3ci3pez57me6&st=avdev5sc&raw=1",
+  "logo" : "https://www.dropbox.com/scl/fi/3wkqkruhh1xtezod2ef1v/knust_logo.png?rlkey=p24gylxo8nwj7ggqsi65syza2&st=y4beumn0&raw=1"
+},
+{
+ "id": "30",
+ "name": "University of Cape Coast",
+ "location": "Cape Coast", 
+ "campuses": "6",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UCCPage",
+ "nick": "UCC",
+  "type" : "public"
+},
+{
+ "id": "31",
+ "name": "CK Tedam University for Technology and Applied Sciences",
+ "location": "Navrongo", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "CKT_UTAS",
+ "nick": "CKT-UTAS",
+  "type" : "public"
+},
+{
+ "id": "32",
+ "name": "University Of Education",
+ "location": "Winneba", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "nick": "UEW",
+  "type" : "public",
+  "image" : "https://www.dropbox.com/scl/fi/257wfi328w8zuphgydi3d/winneba.jpg?rlkey=22cjz21li89z6r5os9ltpg0u6&st=gqhoioa1&raw=1",
+  "logo" : "https://www.dropbox.com/scl/fi/u46zetbymrxbtnkvni6tr/uew.png?rlkey=j3hnldowxw3xzsz7cd047sfs9&st=9py4nnut&raw=1"
+
+},
+{
+ "id": "33",
+ "name": "Simon Diedong Dombo University for Business and Integrated Development Studies",
+ "location": "Wa", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "SDD_UBIDSPage",
+ "nick": "SDD-UBIDS",
+  "type" : "public"
+},
+{
+ "id": "34",
+ "name": "Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development",
+ "location": "Kumasi", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "AAM_USTEDPage",
+ "nick": "AAM-USTED",
+  "type" : "public"
+},
+{
+ "id": "35",
+ "name": "University for Development Studies",
+ "location": "Tamale", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UDSPage",
+ "nick": "UDS",
+  "type" : "public"
+},
+{
+ "id": "36",
+ "name": "University of Professional Studies",
+ "location": "Accra", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UPSPage",
+ "nick": "UPS",
+  "type" : "public"
+},
+{
+ "id": "37",
+ "name": "University of Mines and Technology",
+ "location": "Tarkwa",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UMATPage",
+ "nick": "UMAT",
+  "type" : "public"
+},
+{
+ "id": "38",
+ "name": "University of Health and Allied Sciences",
+ "location": "Ho",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UHASPage",
+ "nick": "UHAS",
+  "type" : "public"
+},
+{
+ "id": "39",
+ "name": "University of Energy and Natural Resources",
+ "location": "Sunyani",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UENRPage",
+ "nick": "UENR",
+  "type" : "public"
+},
+{
+ "id": "40",
+ "name": "University of Environment and Sustainable Development",
+ "location": "Somanya",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UESDPage",
+ "nick": "UESD",
+  "type" : "public"
+},
+{
+ "id": "41",
+ "name": "Ghana Institute of Management and Public Administration",
+ "location": "Achimota",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "GIMPAPage",
+ "nick": "GIMPA",
+  "type" : "public"
+},
+{
+ "id": "42",
+ "name": "Ghana Communication Technology University", 
+ "location": "Tesano", 
+ "campuses": "1",
+ "note": "GCTU",
+ "Page": "GCTUPage",
+ "nick": "GCTU",
+  "type" : "public"
+},
+{
+ "id": "43",
+ "name": "Accra Technical University",
+ "location": "Accra", 
+ "campuses": "1",
+ "note": "Accra Technical University",
+ "Page": "ATUPage",
+ "nick": "ATU",
+  "type" : "public"
+},
+{
+ "id": "44",
+ "name": "Bolgatanga Technical University",
+ "location": "Bolgatango", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "BTUPage",
+ "nick": "BTU",
+  "type" : "public"
+},
+{
+ "id": "45",
+ "name": "Cape Coast Technical University",
+ "location": "Cape Coast", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "CCTUPage",
+ "nick": "CCTU",
+  "type" : "public"
+},
+{
+ "id": "46",
+ "name": "Kumasi Technical University",
+ "location": "Kumasi", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "KsTUPage",
+ "nick": "KsTU",
+  "type" : "public"
+},
+{
+ "id": "47",
+ "name": "Koforidua Technical University",
+ "location": "Koforidua", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "KTUPage",
+ "nick": "KTU",
+  "type" : "public"
+},
+{
+ "id": "48",
+ "name": "Tamale Technical University",
+ "location": "Tamale", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "TATUPage",
+ "nick": "TATU",
+  "type" : "public"
+},
+{
+ "id": "49",
+ "name": "Ho Technical University",
+ "location": "Ho", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "HTUPage",
+ "nick": "HTU",
+  "type" : "public"
+},
+{
+ "id": "50",
+ "name": "Takoradi Technical University",
+ "location": "Takoradi", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "TTUPage",
+ "nick": "TTU",
+  "type" : "public"
+},
+{
+ "id": "51",
+ "name": "Sunyani Technical University",
+ "location": "Sunyani",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "STUPage",
+ "nick": "STU",
+  "type" : "public"
+},
+{
+ "id": "52",
+ "name": "Wa Technical University",
+ "location": "Wa",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "WTUPage",
+ "nick": "WTU",
+  "type" : "public"
+},
+{
+ "id": "53",
+ "name": "University of Media, Arts and Communication",
+ "location": "Wa",
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "UniMACPage",
+ "nick": "UniMAC",
+  "type" : "public"
+},
+{
+ "id": "54",
+ "name": "Valley View University", 
+ "location": "Oyibi", 
+ "campuses": "2",
+ "note": "VVU",
+ "nick": "VVU",
+  "type" : "private",
+  "image" : "https://www.dropbox.com/scl/fi/7s9uraeabvpteve776bfl/ValleyViewUni.jpg?rlkey=yrteo0lcf0l8o5o1td8302ntx&st=xkc6pa7n&raw=1",
+  "logo" : "https://www.dropbox.com/scl/fi/5bkoi5ypofr3kzfcbvapd/VVW_logo.png?rlkey=749uq8tj9n0p0u1gn1yshrlt0&st=1cqfifev&raw=1"
+},
+{
+ "id": "55",
+ "name": "Trinity Theological Seminary",
+ "location": "Legon", 
+ "campuses": "1",
+ "note": "TTS",
+ "Page": "TTSPage",
+ "nick": "TTS",
+  "type" : "private"
+},
+{
+ "id": "56",
+ "name": "Akrofi-Christaller Institute of Theology, Mission and Culture",
+ "location": "Akropon", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "ACI",
+ "nick": "ACI",
+  "type" : "private"
+},
+{
+ "id": "57",
+ "name": "Central University",
+ "location": "Accra", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "CentralPage",
+ "nick": "Central",
+  "type" : "private"
+},
+{
+ "id": "58",
+ "name": "Pentecost University",
+ "location": "Sowutuom", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "PentVarsPage",
+ "nick": "Pent Vars",
+  "type" : "private"
+},
+{
+ "id": "59",
+ "name": "All Nations University",
+ "location": "Koforidua", 
+ "campuses": "1",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "ANUPage",
+ "nick": "ANU",
+  "type" : "private"
+},
+{
+ "id": "60",
+ "name": "Ashesi University",
+ "location": "Kumasi", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "AsheisiPage",
+ "nick": "Ashesi",
+  "type" : "private",
+  "image" : "https://www.dropbox.com/scl/fi/ercpyegbzaasw2zfvk0w8/Ashesi.jpg?rlkey=bhhyg3gtzezuly5jy824ok8sf&st=qnr9mx0z&raw=1",
+  "logo" :  "https://www.dropbox.com/scl/fi/dwwg10qyolpuevulhc1z3/asheisi_logo.jpeg?rlkey=37jk0gj75kpj29rwkcy5qqhew&st=aug2k0g6&raw=1"
+},
+{
+ "id": "61",
+ "name": "Catholic University",
+ "location": "Fiapre", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "AsheisiPage",
+ "nick": "Ashesi",
+  "type" : "private"
+},
+{
+ "id": "62",
+ "name": "Methodist University",
+ "location": "Accra", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "AsheisiPage",
+ "nick": "Ashesi",
+  "type" : "private"
+},
+{
+ "id": "63",
+ "name": ". Presbyterian University",
+ "location": "Abetifi", 
+ "campuses": "2",
+ "note": "require('../../assets/knust.jpeg')",
+ "Page": "AsheisiPage",
+ "nick": "Ashesi",
+  "type" : "private"
+}
+]
