@@ -1,120 +1,63 @@
-import { View, Text,SafeAreaView, ScrollView, Modal, Image, StatusBar } from 'react-native'
-import React,{useState} from 'react'
+import { View, Text, Image } from 'react-native';
+import React, { useState } from 'react';
+import styles from './Styles';
 
-import styles from '../Styles'
+// Import the scholarship data from the JSON file
+import scholarshipData from "../../University/json/scholarship.json";
 
-const Logo  = require("../../../assets/scholar.png")
-const KNUST_Logo  = require("../../../assets/scholar_two.png")
-const UEW_Logo  = require("../../../assets/scholar_three.png")
-const Correct  = require("../../../assets/correct.png")
-const Wrong  = require("../../../assets/wrong.png")
+const Preloader = require('../../../assets/loading.gif');
 
+const Scholarship = ({ university }) => {
+  // Find the corresponding scholarship data for the university
+  const universityScholarship = scholarshipData.find(
+    (scholarshipItem) => scholarshipItem.name === university.name
+  );
 
-
-
-const Scholarship = () => {
+  // If there's no matching scholarship data, fall back to an empty array
+  const scholarship = universityScholarship?.scholarship || [];
 
   return (
-      <View style={styles.schoolNoteMainContainer}>
-            <View style={styles.schoolNoteHeadContainer}>
-              <Text style={styles.schoolNoteHeadText}>Available Scholarships</Text>
-            </View>
+    <View style={styles.schoolNoteMainContainer}>
+      {scholarship.length > 0 ? (
+        scholarship.map((item) => <ScholarshipItem key={item.id} item={item} />)
+      ) : (
+        <Text style={styles.noScholarshipText}>No scholarships available.</Text>
+      )}
+    </View>
+  );
+};
 
-            <View style={styles.schoolNoteBodyContainer}>
-              <Text style={styles.schoolNoteBodyText}>
-              incididunt dolor. Duis elit voluptate velit 
-              occaecat incididunt occaecat ad est do.</Text>
-            </View>
+// Separate component for each scholarship item
+const ScholarshipItem = ({ item }) => {
+  const [loading, setLoading] = useState(true); // State to handle loading
 
-            {/* Body */}
+  return (
+    <View style={styles.scholarshipItemContainer}>
+      {/* Preloader while loading image */}
+      {loading && (
+        <Image
+          source={Preloader}
+          style={{ width: 40, height: 40, resizeMode: 'center' }}
+        />
+      )}
 
-            <View style={styles.feedsBodyMainContainer}>
-              <View style={[styles.feedsBodyContainer, {backgroundColor:'#cecece'}]}>
-                <View style={styles.feedslogoImageContainer}>
-                  <Image
-                   source={Correct}
-                   style={styles.feedslogoImage}
-                  />
-                </View>
+      {/* Image Container */}
+      <View style={styles.imageContainer}>
+        <Image
+          source={{ uri: item.image }}  // Load image from URI
+          style={styles.scholarshipImage}
+          onLoadStart={() => setLoading(true)}  // Start loading
+          onLoadEnd={() => setLoading(false)}  // Finish loading
+        />
+      </View>
 
-                <View style={styles.feedslogoTextContainer}>
-                  <View style={styles.feedslogoTextSubContainer}>
-                    <Text style={styles.feedslogoText}>{`Free Tuition`}</Text>
-                  </View>
-                  <View style={styles.feedslogoTextSubContainer}>
-                    <Text style={styles.feedslogoText}>{`100%`}</Text>
-                    <View style={{flexDirection:'row',alignItems:'center'}}>
-                      <Text style={styles.feedslogoText}>{`Easy Apply`}
-                      </Text>
-                      <Image  source={Correct}
-                        style={styles.revStar}/>
-                    </View>
-                    
-                  </View>
-                </View>
-                
-              </View>
-            </View>
-            
-            <View style={styles.feedsBodyMainContainer}>
-              <View style={[styles.feedsBodyContainer, {backgroundColor:'#cecece'}]}>
-                <View style={styles.feedslogoImageContainer}>
-                  <Image
-                   source={KNUST_Logo}
-                   style={styles.feedslogoImage}
-                  />
-                </View>
+      {/* Scholarship Text */}
+      <View style={styles.scholarshipTextContainer}>
+        <Text style={styles.scholarshipNoteTitle}>{item.name}</Text>
+        <Text style={styles.scholarshipNote}>{item.note}</Text>
+      </View>
+    </View>
+  );
+};
 
-                <View style={styles.feedslogoTextContainer}>
-                  <View style={styles.feedslogoTextSubContainer}>
-                    <Text style={styles.feedslogoText}>{`Monthly`}</Text>
-                  </View>
-                  <View style={styles.feedslogoTextSubContainer}>
-                    <Text style={styles.feedslogoText}>{`GHC 20.6K+`}</Text>
-                    <View style={{flexDirection:'row',alignItems:'center'}}>
-                      <Text style={styles.feedslogoText}>{`Easy Apply`}
-                      </Text>
-                      <Image  source={Wrong}
-                        style={styles.revStar}/>
-                    </View>
-                    
-                  </View>
-                </View>
-                
-              </View>
-            </View>
-
-            <View style={styles.feedsBodyMainContainer}>
-              <View style={[styles.feedsBodyContainer, {backgroundColor:'#cecece'}]}>
-                <View style={styles.feedslogoImageContainer}>
-                  <Image
-                   source={UEW_Logo}
-                   style={styles.feedslogoImage}
-                  />
-                </View>
-
-                <View style={styles.feedslogoTextContainer}>
-                  <View style={styles.feedslogoTextSubContainer}>
-                    <Text style={styles.feedslogoText}>{`Fully Funded Scholarship`}</Text>
-                  </View>
-                  <View style={styles.feedslogoTextSubContainer}>
-                    <Text style={styles.feedslogoText}>{`GHS 1K+`}</Text>
-                    <View style={{flexDirection:'row',alignItems:'center'}}>
-                      <Text style={styles.feedslogoText}>{`Easy Apply`}
-                      </Text>
-                      <Image  source={Correct}
-                        style={styles.revStar}/>
-                    </View>
-                    
-                  </View>
-                </View>
-                
-              </View>
-            </View>
-
-            
-          </View>
-  )
-}
-
-export default Scholarship
+export default Scholarship;

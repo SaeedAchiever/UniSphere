@@ -1,116 +1,68 @@
 import { 
- View, 
- Text, 
- Image, 
- ScrollView, 
- StatusBar, 
- ImageBackground, 
- SafeAreaView,
- Modal,
- FlatList 
-} from 'react-native'
-import React from 'react'
+  View, 
+  Text, 
+} from 'react-native';
+import React,{memo} from 'react';
 
+import styles from '../Styles';
 
-import styles from '../Styles'
+const Like_Dislike = ({ university }) => {
+  // Ensure university object is properly passed and contains the necessary data
+  const strengths = university?.strength || [];
+  const weaknesses = university?.weakness || [];
 
-const Star =  require('../../../assets/star.png')
-const Kumasi = require('../../../assets/kumasi.jpeg')
-const Accra = require('../../../assets/accra.jpg')
-const Cape_Coast = require('../../../assets/cape_coast.jpeg')
-const Top = require('../../../assets/top.png')
-const CloseBtn = require('../../../assets/close.png')
-const Placement = require('../../../assets/placement.png')
-const Hostel = require('../../../assets/hostel.png')
-const Arrow = require('../../../assets/arrow.png')
-const ArrowDown = require('../../../assets/close.png')
-const Pic_Icon = require('../../../assets/pic_icon.png')
-const Vid_Icon = require('../../../assets/vid_icon.png')
-const Logo = require('../../../assets/ucc.png')
-const KNUST_Logo = require('../../../assets/knust.png')
-const UEW_Logo = require('../../../assets/uew.png')
-const Like = require('../../../assets/like.png')
-const DisLike = require('../../../assets/dislike.png')
-
-
-const Like_Dislike = () => {
   return (
-   <View style={styles.schoolNoteMainContainer}>
-   <View style={styles.schoolNoteHeadContainer}>
-     <Text style={styles.schoolNoteHeadText}>Strength and Weakness</Text>
-   </View>
+    <View style={styles.schoolNoteMainContainer}>
+      <View style={styles.schoolNoteHeadContainer}>
+        <Text style={styles.feedslogoText}>Strength and Weakness</Text>
+      </View>
 
-   <View style={styles.schoolNoteBodyContainer}>
-     <Text style={styles.schoolNoteBodyText}>
-     incididunt dolor. Duis elit voluptate velit 
-     occaecat incididunt occaecat ad est do.</Text>
-   </View>
+      <View style={styles.schoolNoteBodyContainer}>
+        <Text style={styles.schoolNoteBodyText}>
+          Discover the strengths and weaknesses of {university?.name || 'the university'}.
+        </Text>
+      </View>
 
-   {/* Body */}
+      {/* Strengths */}
+      <View style={styles.likesBodyMainContainer}>
+        <View style={styles.likesBodyHeadContainer}>
+          <Text style={styles.feedslogoText}>Strength</Text>
+          
+        </View>
 
-   <View>
+        <View style={styles.mainLikeTextContainer}>
+          {strengths.length > 0 ? (
+            strengths.map((item, index) => (
+              <View key={index} style={styles.mainLikeTextSubContainer}>
+                <Text style={styles.schoolNoteBodyText}>{`• ${item}`}</Text>
+              </View>
+            ))
+          ) : (
+            <Text style={styles.schoolNoteBodyText}>No strengths listed.</Text>
+          )}
+        </View>
+      </View>
 
-     <View style={styles.likesBodyMainContainer}>
-     <View style={styles.likesBodyHeadContainer}>
-         <Text style={styles.feedslogoText}>Likes</Text>
-         <Image  
-           source={Like}
-           style={styles.likesBodyHeadImage}
-         />
-     </View>
+      {/* Weaknesses */}
+      <View style={styles.likesBodyMainContainer}>
+        <View style={styles.likesBodyHeadContainer}>
+          <Text style={styles.feedslogoText}>Weakness</Text>
+        </View>
 
-     <View style={styles.mainLikeTextContainer}>
-       <View style={styles.mainLikeTextSubContainer}>
-         
-         <Text style={styles.mainLike}>
-           Adipisicing quis excepteur veniam proident consequat 
-           amet esse nostrud. Et aliquip irure laboris fugiat 
-           cillum aliquip ullamco pariatur. Magna ad velit laboris 
-           amet adipisicing proident aute. In sint laboris 
-         </Text>
-         <Text style={styles.mainLike}>
-           Adipisicing quis excepteur veniam proident consequat 
-           amet esse nostrud. Et aliquip irure laboris fugiat 
-           cillum aliquip ullamco pariatur. Magna ad velit laboris 
-           amet adipisicing proident aute. In sint laboris 
-         </Text>
-       </View>
-     </View>
-     </View>
-
-     <View style={styles.likesBodyMainContainer}>
-     <View style={styles.likesBodyHeadContainer}>
-         <Text style={styles.feedslogoText}>Dislikes</Text>
-         <Image  
-           source={DisLike}
-           style={styles.likesBodyHeadImage}
-         />
-     </View>
-
-     <View style={styles.mainLikeTextContainer}>
-       <View style={styles.mainLikeTextSubContainer}>
-         
-         <Text style={styles.mainLike}>
-           Adipisicing quis excepteur veniam proident consequat 
-           amet esse nostrud. Et aliquip irure laboris fugiat 
-           cillum aliquip ullamco pariatur. Magna ad velit laboris 
-           amet adipisicing proident aute. In sint laboris 
-         </Text>
-         <Text style={styles.mainLike}>
-           Adipisicing quis excepteur veniam proident consequat 
-           amet esse nostrud. Et aliquip irure laboris fugiat 
-           cillum aliquip ullamco pariatur. Magna ad velit laboris 
-           amet adipisicing proident aute. In sint laboris 
-         </Text>
-       </View>
-     </View>
-   </View>
-
-   </View>
-
-   
- </View>
-  )
+        <View style={styles.mainLikeTextContainer}>
+          {weaknesses.length > 0 ? (
+            weaknesses.map((item, index) => (
+              <View key={index} style={styles.mainLikeTextSubContainer}>
+                <Text style={styles.schoolNoteBodyText}>• {item}</Text>
+              </View>
+            ))
+          ) : (
+            <Text style={styles.schoolNoteBodyText}>No weaknesses listed.</Text>
+          )}
+        </View>
+      </View>
+    </View>
+  );
 }
 
-export default Like_Dislike
+export default memo(Like_Dislike);

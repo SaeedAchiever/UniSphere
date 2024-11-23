@@ -3,11 +3,6 @@ import {
  Text, 
  Image, 
  ScrollView, 
- StatusBar, 
- ImageBackground, 
- SafeAreaView,
- Modal,
- FlatList 
 } from 'react-native'
 import React from 'react'
 
@@ -15,23 +10,13 @@ import React from 'react'
 import styles from '../Styles'
 
 const Star =  require('../../../assets/star.png')
-const Kumasi = require('../../../assets/kumasi.jpeg')
-const Accra = require('../../../assets/accra.jpg')
-const Cape_Coast = require('../../../assets/cape_coast.jpeg')
-const Top = require('../../../assets/top.png')
-const CloseBtn = require('../../../assets/close.png')
 const Placement = require('../../../assets/placement.png')
 const Hostel = require('../../../assets/hostel.png')
-const Arrow = require('../../../assets/arrow.png')
-const ArrowDown = require('../../../assets/close.png')
-const Pic_Icon = require('../../../assets/pic_icon.png')
-const Vid_Icon = require('../../../assets/vid_icon.png')
-const Logo = require('../../../assets/ucc.png')
-const KNUST_Logo = require('../../../assets/knust.png')
-const UEW_Logo = require('../../../assets/uew.png')
-const Like = require('../../../assets/like.png')
-const DisLike = require('../../../assets/dislike.png')
-const Rating = () => {
+const Facilities = require('../../../assets/facilities.png')
+const Sports = require('../../../assets/sports.png')
+const Amenities = require('../../../assets/amenities.png')
+
+const Rating = ({university}) => {
   return (
     <View style={styles.schoolRatingMainContainer}>  
             <View style={styles.schoolNoteHeadContainer}>
@@ -41,14 +26,14 @@ const Rating = () => {
 
               <View style={styles.schoolNoteBodyBoxHeader}>
                   <View style={styles.schoolNoteBodyBoxHeaderStar}>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>4.3</Text>
+                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`${university.rate}`}</Text>
                     <Image  
                       source={Star}
                       style={styles.schoolNoteBodyBoxHeaderStarImage}
                     />
                   </View>
                   <View>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`18 Reviews`}</Text>
+                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`${university.reviews} Reviews`}</Text>
                   </View>
                 </View>
               
@@ -68,9 +53,9 @@ const Rating = () => {
                       />
                     </View>
                     <View style={styles.schoolNoteRateLength}>
-                      <View style={[styles.schoolNoteRateLengthTwo,{width:'70%'}]}></View>
+                      <View style={[styles.schoolNoteRateLengthTwo,{width:'100%'}]}></View>
                     </View>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>3</Text>
+                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>-</Text>
                   </View>
 
                   {/* Tow */}
@@ -84,9 +69,9 @@ const Rating = () => {
                       />
                     </View>
                     <View style={styles.schoolNoteRateLength}>
-                      <View style={[styles.schoolNoteRateLengthTwo,{width:'40%'}]}></View>
+                      <View style={[styles.schoolNoteRateLengthTwo,{width:'80%'}]}></View>
                     </View>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>4</Text>
+                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>-</Text>
                   </View>
 
                   {/* Three */}
@@ -100,9 +85,9 @@ const Rating = () => {
                       />
                     </View>
                     <View style={styles.schoolNoteRateLength}>
-                      <View style={[styles.schoolNoteRateLengthTwo,{width:'10%'}]}></View>
+                      <View style={[styles.schoolNoteRateLengthTwo,{width:'60%'}]}></View>
                     </View>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>2</Text>
+                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>-</Text>
                   </View>
 
                   {/* Four*/}
@@ -116,9 +101,9 @@ const Rating = () => {
                       />
                     </View>
                     <View style={styles.schoolNoteRateLength}>
-                      <View style={[styles.schoolNoteRateLengthTwo,{width:'10%'}]}></View>
+                      <View style={[styles.schoolNoteRateLengthTwo,{width:'40%'}]}></View>
                     </View>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>2</Text>
+                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>-</Text>
                   </View>
 
                   {/* Five*/}
@@ -132,9 +117,9 @@ const Rating = () => {
                       />
                     </View>
                     <View style={styles.schoolNoteRateLength}>
-                      <View style={[styles.schoolNoteRateLengthTwo,{width:'5%'}]}></View>
+                      <View style={[styles.schoolNoteRateLengthTwo,{width:'20%'}]}></View>
                     </View>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>1</Text>
+                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>-</Text>
                   </View>
 
                 </View>
@@ -157,11 +142,17 @@ const Rating = () => {
                     </View>
 
                     <View style={{alignItems:'center'}}>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>Placement</Text>
+                    <Text
+                     style={styles.schoolNoteBodyBoxHeaderStarText}>
+                      Placement
+                    </Text>
                     <View style={{
                       flexDirection:'row'
                     }}>
-                      <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`2.0`}</Text>
+                      <Text 
+                      style={styles.schoolNoteBodyBoxHeaderStarText}>
+                        {`${university.placement}`}
+                      </Text>
                       <Image  
                         source={Star}
                         style={styles.schoolNoteBodyBoxHeaderStarImage}
@@ -182,11 +173,17 @@ const Rating = () => {
                     </View>
 
                     <View style={{alignItems:'center'}}>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>Hostel</Text>
+                    <Text
+                     style={styles.schoolNoteBodyBoxHeaderStarText}>
+                      Hostel
+                    </Text>
                     <View style={{
                       flexDirection:'row'
                     }}>
-                      <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`4.0`}</Text>
+                      <Text
+                       style={styles.schoolNoteBodyBoxHeaderStarText}>
+                        {`${university.hostel}`}
+                      </Text>
                       <Image  
                         source={Star}
                         style={styles.schoolNoteBodyBoxHeaderStarImage}
@@ -201,17 +198,23 @@ const Rating = () => {
                   <View style={styles.schoolNoteSubMainBox}>
                     <View>
                       <Image  
-                        source={Hostel}
+                        source={Facilities}
                         style={styles.schoolNoteSubMainBoxImage}
                       />
                     </View>
 
                     <View style={{alignItems:'center'}}>
-                    <Text style={styles.schoolNoteBodyBoxHeaderStarText}>Facilities</Text>
+                    <Text 
+                      style={styles.schoolNoteBodyBoxHeaderStarText}>
+                        Facilities
+                      </Text>
                     <View style={{
                       flexDirection:'row'
                     }}>
-                      <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`4.0`}</Text>
+                      <Text
+                       style={styles.schoolNoteBodyBoxHeaderStarText}>
+                        {`${university.facilities}`}
+                      </Text>
                       <Image  
                         source={Star}
                         style={styles.schoolNoteBodyBoxHeaderStarImage}
@@ -226,7 +229,7 @@ const Rating = () => {
                   <View style={styles.schoolNoteSubMainBox}>
                     <View>
                       <Image  
-                        source={Hostel}
+                        source={Sports}
                         style={styles.schoolNoteSubMainBoxImage}
                       />
                     </View>
@@ -236,7 +239,7 @@ const Rating = () => {
                     <View style={{
                       flexDirection:'row'
                     }}>
-                      <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`4.0`}</Text>
+                      <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`${university.sports}`}</Text>
                       <Image  
                         source={Star}
                         style={styles.schoolNoteBodyBoxHeaderStarImage}
@@ -246,12 +249,12 @@ const Rating = () => {
                     
                   </View>
 
-                  {/* Four */}
+                  {/* Five */}
 
                   <View style={styles.schoolNoteSubMainBox}>
                     <View>
                       <Image  
-                        source={Hostel}
+                        source={Amenities}
                         style={styles.schoolNoteSubMainBoxImage}
                       />
                     </View>
@@ -261,7 +264,7 @@ const Rating = () => {
                     <View style={{
                       flexDirection:'row'
                     }}>
-                      <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`4.0`}</Text>
+                      <Text style={styles.schoolNoteBodyBoxHeaderStarText}>{`${university.amenities}`}</Text>
                       <Image  
                         source={Star}
                         style={styles.schoolNoteBodyBoxHeaderStarImage}

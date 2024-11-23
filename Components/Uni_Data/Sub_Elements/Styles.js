@@ -10,16 +10,17 @@ const styles = StyleSheet.create({
   flexDirection:'row',
   marginLeft:"7%",
   gap:3,
-  alignItems:'center'
+  alignItems:'center',
+  marginTop:20,
  },
  overviewHeadImage:{
-  width:30,
-  height:30
+  width:20,
+  height:20
  },
  overviewHeadTitle:{
-  fontSize:14,
-  fontWeight:'500',
-  letterSpacing:0.5,
+  fontSize:18,
+  textTransform:'capitalize',
+  color:'#000',
  },
  overviewSmallTextContainer:{
   width:'97%',
@@ -27,9 +28,8 @@ const styles = StyleSheet.create({
   paddingVertical:11,
  },
  overviewSmall:{
-  fontSize:12,
-  fontWeight:'400',
-  letterSpacing:0.7,
+  fontSize:13,
+  fontWeight:'500',
  },
  tableMainContainer:{
   display:'flex',
@@ -41,12 +41,6 @@ const styles = StyleSheet.create({
   alignContent:'center',
   alignSelf:'center',
  },
- tableLeftContainer:{
-  flex:0.6,
-  borderRightWidth:1,
-  paddingVertical:4,
-  alignContent:'center'
- },
  tableRightContainer:{
   flex:0.4,
   paddingVertical:4,
@@ -57,9 +51,15 @@ const styles = StyleSheet.create({
   fontWeight:"500",
   textAlign:'center',
  },
- rowOne:{
-  paddingTop:5,
-  borderTopWidth:1,
+ linkTextContainer:{
+  paddingTop:10,
+  width:'100%',
+  paddingLeft:20,
+ },
+ linkText:{
+  fontSize:16,
+  fontWeight:'500',
+  color:'blue'
  },
  tableInnerText:{
   fontSize:12.5,
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
   alignItems:'center',
   marginLeft:'4%',
   gap:11,
-  marginTop:10
+  marginTop:20
  },
  factListImage:{
   width:17,
@@ -116,11 +116,6 @@ const styles = StyleSheet.create({
   borderTopWidth:1,
   height:37
  },
- tableTitle:{
-  fontSize:15,
-  fontWeight:'500',
-  letterSpacing:0.3
- },
  tableList:{
   fontSize:12,
   textAlign:'left',
@@ -134,142 +129,217 @@ const styles = StyleSheet.create({
  departmentMainContainer:{
   width:'100%',
   alignItems:'center',
-  gap:13
+  gap:13,
+  marginBottom:20,
  },
- departmentContainer:{
-  width:'90%',
+ // Degree type
+ degreeTypeMainContainer:{
   flexDirection:'row',
-  alignContent:'center',
+  gap:10,
+  paddingVertical:20,
+  paddingHorizontal:20,
+ },
+ degreeTypeContainer:{
+  width: 115,
+  height:35,
+  borderWidth:1.5,
   alignItems:'center',
-  backgroundColor:'rgba(0,0,0,0.06)',
-  paddingVertical:5
- },
- programsContainer:{
-  borderBottomWidth:1,
-  width:'100%'
- },
- departmentListImage:{
-  width:20,
-  height:20
- },
- departmentFacultyContainer:{
-  width:'75%',
-  display:'flex',
-  flexDirection:'row',
-  gap:5,
-  alignItems:'center',
-  backgroundColor:'rgba(100,0,200,0.06)',
-  padding:5,
- },
- departmentistContainer:{
-  width:"85%",
-  gap:10
- },
- departments:{
-  fontSize:14,
-  fontWeight:'500'
- },
- faculties:{
-  fontSize:13,
-  fontWeight:'500'
- },
- programs:{
-  fontSize:13,
-  fontWeight:'400'
- },
- smallLine:{
-  width:'100%',
-  height:1.5,
-  backgroundColor:'lightblue',
- },
-
- // Distance Learning
-
- distLernMainContainer:{
-  width:'100%',
   justifyContent:'center',
-  paddingTop:10
+  borderRadius:5,
+  borderColor:'rgba(0, 0, 0, 0.4)',
  },
- distLernSubContainer:{
-  width:'90%',
-  display:'flex',
+activeDegreeType: {
+  backgroundColor:'rgba(0, 0, 0, 0.4)',
+  borderColor:'gold',
+
+},
+programsContainer:{
+borderBottomWidth:1,
+width:'100%',
+},
+facultyMainContainer:{
+width:'100%',
+alignSelf:'auto',
+paddingVertical:10,
+marginBottom:20
+},
+facultyContainer:{
+width:'95%',
+alignSelf:'center',
+},
+loadMoreTextContainer:{
+width:200,
+marginLeft:'10%',
+paddingVertical:10,
+borderWidth:1.3,
+borderRadius:10,
+marginTop:20,
+backgroundColor:'rgba(0, 0, 200, 0.1)'
+},
+loadMoreText:{
+fontSize:16,
+fontWeight:'500',
+textAlign:'center',
+color:'#000'
+},
+noCoursesContainer:{
+paddingHorizontal:20,
+paddingVertical:10,
+backgroundColor:'transparent',
+},
+facultyNameContainer:{
+width:'95%',
+alignSelf:'center',
+paddingVertical:10,
+alignItems:'flex-start',
+gap:10,
+flexDirection: 'row'
+},
+noteContainer:{
+  width:'95%',
+  alignSelf:'center',
+},
+facultyName:{
+fontSize:18,
+fontWeight:'500'
+},
+courseNameContainer:{
+width:'95%',
+alignSelf:'center',
+},
+courseNameListContainer:{
+flexDirection:'row',
+alignItems:'center',
+height:'auto',
+width:'auto',
+paddingHorizontal:10,
+justifyContent:'space-between',
+marginVertical:7,
+paddingVertical:7,
+// backgroundColor:'#cfcfcf',
+borderRadius:10,
+borderWidth:2,
+borderColor : "lightblue"
+},
+courseName:{
+fontSize:14,
+fontWeight:'400',
+paddingVertical:5,
+color:'#000',
+width:'92%',
+},
+entryRequirementsContainer:{
+padding:10,
+gap:7,
+backgroundColor:'rgba(0,0,0,0.05)'
+},
+requirementsTitle:{
+fontSize:14,
+fontWeight:'500'
+},
+requirementText:{
+fontSize:13,
+fontWeight:'500',
+},
+
+// Distance Learning
+
+distLernMainContainer:{
+width:'100%',
+justifyContent:'center',
+paddingTop:10
+},
+distLernSubContainer:{
+width:'100%',
+display:'flex',
+flexDirection:'row',
+justifyContent:'space-around',
+alignSelf:'center',
+paddingTop:20,
+},
+distLernSubBtn:{
+backgroundColor:'rgba(0,0,0,0.08)',
+paddingVertical:8,
+width:150,
+borderTopRightRadius:5,
+borderBottomLeftRadius:5,
+borderWidth:0.8,
+borderColor:'rgba(0,0,0,0.18)',
+},
+distLernSubBtnText:{
+fontSize:14,
+textAlign:'center',
+color:'#333',
+fontWeight:'500'
+},
+
+// Reviews
+
+scholarshipItemContainer:{
   flexDirection:'row',
-  justifyContent:'space-around',
+  width:'95%',
+  gap:10,
+  height:170,
+  borderWidth:1.3,
   alignSelf:'center',
-  paddingTop:20
- },
- distLernSubBtn:{
-  backgroundColor:'rgba(0,0,0,0.08)',
-  paddingVertical:8,
-  width:150,
-  borderTopRightRadius:5,
-  borderBottomLeftRadius:5,
-  borderWidth:0.8,
-  borderColor:'rgba(0,0,0,0.18)'
- },
- distLernSubBtnText:{
-  fontSize:14,
-  textAlign:'center',
-  color:'#333',
-  fontWeight:'500'
- },
-
- // Reviews
-
- reviewMainContainer:{
-  flexDirection:'column',
-  width:'95%'
- },
- reviewSubContainer:{
-  height:'auto',
-  paddingVertical:10,
-  alignSelf:'center',
-  width:'90%',
-  marginTop:50,
-  position:'relative',
-  backgroundColor:'rgba(0,0,0,0.05)'
- },
- reviewerPicContainer:{
+  borderRadius:10,
+  marginBottom:10
+},
+imageContainer:{
+  flex:0.4,
+  height:'100%'
+},
+scholarshipImage:{
   width:'100%',
-  height:'auto',
-  borderRadius:50,
-  position:'absolute',
-  top:-33,
-  left:0
- },
- reviewerPic:{
-  width:55,
-  height:55,
-  borderRadius:100,
+  height:'100%',
   resizeMode:'cover',
- },
- reviewTextContainer:{
-  width:'90%',
-  alignSelf:'flex-end',
-  paddingTop:25
- },
- reviewText:{
-  fontSize:11,
-  fontWeight:'400'
- },
- reviewerStarContainer:{
-  left:100,
-  bottom:20,
-  display:'flex',
-  flexDirection:'row'
- },
- reviewStar:{
-  width:20,
-  height:20
- },
- reviewerInfoContainer:{
-  paddingTop:10,
-  alignItems:'flex-end'
- },
- reviewerInfoText:{
+  borderTopLeftRadius:10,
+  borderBottomLeftRadius:10,
+},
+scholarshipTextContainer:{
+  flex:0.6,
+  alignSelf:'center',
+  gap:10
+},
+scholarshipNoteTitle:{
   fontSize:14,
-  fontWeight:'500'
- }
+  fontWeight:'500',
+  textAlign:'center'
+},
+scholarshipNote:{
+  fontSize:13,
+  fontWeight:'500',
+  textAlign:'left'
+},
+schoolNoteMainContainer:{
+paddingTop:20,
+width:'90%',
+alignSelf:'center',
+position:'relative',
+paddingVertical:10
+},
+noScholarshipText:{
+  fontSize:15,
+  fontWeight:'500',
+},
+searchBarContainer:{
+  width:'95%',
+  flexDirection:'row',
+  alignItems:'center',
+  gap:15,
+  backgroundColor:'rgba(0,0,0,0.09)',
+  paddingVertical:5,
+  marginBottom:10,
+  borderRadius:15,
+  paddingLeft:20
+},
+searchBar:{
+  fontSize:15,
+  fontWeight:'500',
+  borderRadius:10,
+  paddingVertical:5,
+  color:'#333',
+}
 })
 
 export default styles

@@ -1,0 +1,20 @@
+[
+ {
+  "id" : 1,
+  "town" : "Spintex",
+  "school" : "Spintex Senior High School",
+  "programmes" : ["General Nursing", "Pharmacy", "Entamology"]
+ },
+ {
+  "id" : 2,
+  "town" : "Circle",
+  "school" : "Circle Slayer",
+  "programmes" : ["Nursing", "Agriculture"]
+ },
+ {
+  "id" : 3,
+  "town" : "Ofankor",
+  "school" : "Silicon Valley",
+  "programmes" : [" Home Econs ", " General Arts ", " Biology"]
+ }
+]

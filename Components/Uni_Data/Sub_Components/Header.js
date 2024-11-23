@@ -1,149 +1,99 @@
-import { 
- View, 
- Text, 
- Image, 
- ScrollView, 
- StatusBar, 
- ImageBackground, 
- SafeAreaView,
- Modal,
- FlatList 
-} from 'react-native'
-import React from 'react'
+import React,{memo} from 'react';
+import { View, Text, Image, ImageBackground, TouchableOpacity, Linking, Alert } from 'react-native';
+import styles from '../Styles';
 
+const Star = require('../../../assets/star.png');
 
-import styles from '../Styles'
+const Header = ({ university }) => {
 
-const Star =  require('../../../assets/star.png')
-const Kumasi = require('../../../assets/kumasi.jpeg')
-const Accra = require('../../../assets/accra.jpg')
-const Cape_Coast = require('../../../assets/cape_coast.jpeg')
-const Top = require('../../../assets/top.png')
-const CloseBtn = require('../../../assets/close.png')
-const Placement = require('../../../assets/placement.png')
-const Hostel = require('../../../assets/hostel.png')
-const Arrow = require('../../../assets/arrow.png')
-const ArrowDown = require('../../../assets/close.png')
-const Pic_Icon = require('../../../assets/pic_icon.png')
-const Vid_Icon = require('../../../assets/vid_icon.png')
-const Logo = require('../../../assets/ucc.png')
-const KNUST_Logo = require('../../../assets/knust.png')
-const UEW_Logo = require('../../../assets/uew.png')
-const Like = require('../../../assets/like.png')
-const DisLike = require('../../../assets/dislike.png')
-
-const UG = require('../../../assets/ug.jpeg')
-
-
-const Header = ({
- name, region, town, uni_image,
- logo_img, short_name, note
-}) => {
+  const openApplicationLink = () => {
+    const url = university.application;
+  
+    if (typeof url === 'string' && url.startsWith('http')) {
+      Linking.canOpenURL(url)
+        .then((supported) => {
+          if (supported) {
+            Linking.openURL(url);
+          } else {
+            Alert.alert("Error", "Unable to open the link.");
+          }
+        })
+        .catch((err) => Alert.alert("Error", err.message));
+    } else {
+      Alert.alert("Invalid URL", "The application link is not valid.");
+    }
+  };
+  
 
   return (
     <View>
-     <ImageBackground
-       source={UG}
-       style={styles.CollegeBgImage}
+      <ImageBackground
+        source={{ uri: university.image }}
+        style={styles.CollegeBgImage}
       >
-       <Text style={styles.CollegeMainName}>{name}</Text>
-       <Text style={styles.CollegeMainLocation}>{region}</Text>
-       <Text style={styles.CollegeMainLocation}>{town}</Text>
+        <View style={{backgroundColor:'rgba(0, 0, 0, 0.4)',padding:5,width:'100%'}}>
+        <Text style={styles.CollegeMainName}>{`${university.name}`}</Text>
+        <Text style={styles.CollegeMainLocation}>{`${university.region}`}</Text>
+        <Text style={styles.CollegeMainLocation}>{`${university.town}, ${university.location}`}</Text>
+        </View>
       </ImageBackground>
 
-        {/* Here */}
+      <View style={styles.bodyContainer}>
+        <View style={styles.paraContainer}>
+          <View style={styles.uniHomeChildren}>
 
-          <View style={styles.bodyContainer}>
+            {/* Review */}
+            <View style={styles.uniHomeRevContainer}>
+              <Text style={styles.schoolNoteBodyText}>{university.rate}</Text>
+              <Image source={Star} style={styles.revStar} />
 
-            <View style={styles.paraContainer}>
-
-              <View style={styles.uniHomeChildren}>
-
-                {/* Review */}
-
-                <View style={styles.uniHomeRevContainer}>
-                  <Image  
-                    source={Star}
-                    style={styles.revStar}
-                  />
-                  <Image  
-                    source={Star}
-                    style={styles.revStar}
-                  />
-                  <Image  
-                    source={Star}
-                    style={styles.revStar}
-                  />
-                  <Image  
-                   source={Star}
-                   style={styles.revStar}
-                  />
-                  <Image  
-                    source={Star}
-                    style={styles.revStar}
-                  />
-
-                  <View style={styles.revTextContainer}>
-                    <Text style={styles.revText}>Based On </Text>
-                    <Text style={styles.revText}>20 Reviews</Text>
-                  </View>
-
-                </View>
-
-                {/* Establishment */}
-
-                <View>
-                  <Text style={styles.revText}>Since 1940</Text>
-                </View>
-
-                {/* Ranking */}
-
-                <View>
-                  <Text style={styles.revText}>Ranked #4 Nationwide</Text>
-                </View>
-
-                {/* Alumni */}
-
-                <View>
-                  <Text style={styles.revText}>Over 100,000 Graduates</Text>
-                </View>
-
+              <View style={styles.revTextContainer}>
+                <Text style={styles.schoolNoteBodyText}>{`Based On ${university.reviews} Reviews`}</Text>
               </View>
-
-              <View style={styles.uniLogoMainContainer}>
-                <Image  
-                  source={logo_img}
-                  style={styles.uniLogo}
-                  alt='Logo'
-                />
-              </View>
-
             </View>
+
+            {/* Establishment */}
+            <View>
+              <Text style={styles.schoolNoteBodyText}>{` Since ${university.est_year}`}</Text>
+            </View>
+
+            {/* Ranking */}
+            <View>
+              <Text style={styles.schoolNoteBodyText}>{`Ranked ${university.rank} of 1104 in Africa`}</Text>
+            </View>
+
+            {/* Admission */}
+            <View style={styles.AdmissionStat}>
+              <Text style={styles.AdmissionStatText}>Admissions : Forms Sales Ongoing</Text>
+            </View>
+
           </View>
 
-            <View 
-              style={styles.applyContainer}
-              onTouchEnd={()=>{
-                alert('Download Brochure')
-              }}
-            >
-              <Text style={styles.applyText}>Download Brochure</Text>
-            </View>
+          <View style={styles.uniLogoMainContainer}>
+            <Image source={{uri:  university.logo}} style={styles.uniLogo} alt='Logo' />
+          </View>
 
-            <View style={styles.schoolNoteMainContainer}>
-              <View style={styles.schoolNoteHeadContainer}>
-                <Text style={styles.schoolNoteHeadText}>{`Welcome to  ${short_name}`}</Text>
-              </View>
-              
-              {/* Body */}
+        </View>
+      </View>
 
-              <View style={styles.schoolNoteBodyContainer}>
-                  <Text style={styles.schoolNoteBodyText}>{`${note}`}</Text>
-              </View>
-            </View>
-            
+      <TouchableOpacity
+        style={styles.applyContainer}
+        onPress={openApplicationLink}>
+        <Text style={styles.applyText}>Apply Now</Text>
+      </TouchableOpacity>
+
+      <View style={styles.schoolNoteMainContainer}>
+        <View style={styles.schoolNoteHeadContainer}>
+          <Text style={styles.campusesTitle}>{`Welcome to ${university.nick}`}</Text>
+        </View>
+
+        {/* Body */}
+        <View style={styles.schoolNoteBodyContainer}>
+          <Text style={styles.schoolNoteBodyText}>{university.note}</Text>
+        </View>
+      </View>
     </View>
-  )
-}
+  );
+};
 
-export default Header
+export default memo(Header);

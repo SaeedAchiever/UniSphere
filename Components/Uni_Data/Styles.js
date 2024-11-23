@@ -10,41 +10,18 @@ MainTertiaryContainer:{
   marginBottom:60,
   flexGrow:1
 },
-backContainer:{
-  flex:0.8,
-  marginLeft:10,
-  marginTop:-70
-},
-backImage:{
-  width:25,
-  height:25,
-},
-uniNameContainer:{
-  flex:7,
-  marginTop:20,
-  marginRight:10
-},
-uniName:{
-  fontSize:18,
-},
-uniLogoContainer:{
-  marginTop:20,
-  marginLeft:20,
-  flex:2.2
-},
-uniLogoImage:{
-  width:60,
-  height:60
-},
 uniHomeChildren:{
   marginLeft:10,
-  gap:2
+  gap:2,
+  width:'70%'
 },
 uniHomeRevContainer:{
-  display:'flex',
+  fontSize:14,
+  fontWeight:'500',
+  paddingVertical:5,
+  color:'#000',
   flexDirection:'row',
-  gap:-4,
-  alignItems:'center',
+  alignItems:'center'
 },
 revStar:{
   width:15,
@@ -55,31 +32,36 @@ revTextContainer:{
   flexDirection:'row',
   marginLeft:'2%'
 },
-revText:{
-  fontSize:11,
-  textTransform:'none',
-  fontWeight:'400',
-  letterSpacing:0.5
-}
-,
+AdmissionStatText:{
+  fontSize:14
+},
+AdmissionStat:{
+  paddingVertical:10,
+  width:'90%',
+  flexDirection:'row',
+  justifyContent:'flex-start',
+  gap:20
+},
 paraContainer:{
   width:'100%',
   flexDirection:'row',
   justifyContent:'space-between',
   alignItems:'center',
+  paddingHorizontal:5
 },
 uniLogoMainContainer:{
   alignContent:'center',
   width:'27%',
-  height:'auto'
+  height:100,
+  backgroundColor:'rgba(0,0,0,0.07)'
 },
 uniLogo:{
-  width:90,
-  height:90,
+  width:'100%',
+  height:'100%',
   resizeMode:'contain'
 },
 bodyContainer:{
-  marginTop:10,
+  marginVertical:20,
   width:'100%',
 },
 campusesContainer:{
@@ -97,9 +79,8 @@ campusesTitleContainer:{
 },
 campusesTitle:{
   fontSize:18,
-  textTransform:'uppercase',
+  textTransform:'none',
   color:'#000',
-  letterSpacing:1,
 },
 mainCampusContainer:{
   width:200,
@@ -123,60 +104,6 @@ mainCampusName:{
   fontWeight:'400'
 },
 
-          // /* =======GENERAL REQUIREMENTS========= */
-genRegContainer:{
-  width:'100%',
-  marginTop:30,
-  backgroundColor:'#fff',
-  paddingVertical:5
-},
-genReg:{
-  alignItems:'center',
-  textAlign:'center',
-  marginBottom:20
- },
- genRegText:{
-  fontSize:20,
-  textTransform:'capitalize',
-  letterSpacing:1,
-  fontWeight:'500',
- },
- entryHeadCont:{
-  flexDirection:'row',
-  backgroundColor:'#fff',
-  alignItems:'center',
-  marginBottom:20,
-  gap:5
- },
- listImage:{
-  marginLeft:20,
-  width:20,
-  height:20,
- },
- entryHeadText:{
-  fontSize:18,
-  letterSpacing:1,
-  color:'#000',
-  marginHorizontal:5,
-  width:'95%'
- },
- dropListCont:{
-  flexDirection:'row',
-  marginLeft:10,
-  alignItems:'center',
- },
- dropListText:{
-  textTransform:'none',
-  fontSize:15,
-  paddingHorizontal:15,
-  paddingVertical:10,
-  marginBottom:5
- },
- dropImage:{
-  width:20,
-  height:20,
-  marginRight:7,
- },
   
           // MODAL STYLE
 
@@ -188,11 +115,6 @@ genReg:{
     justifyContent:'center',
     flex:1,
     position:'relative'
-  },
-  modalBtnContainer:{
-    position:'absolute',
-    top:10,
-    right:30
   },
   modalHeadContainer:{
     width:'80%',
@@ -214,18 +136,9 @@ genReg:{
     fontWeight:'400',
     lineHeight:17
   },
-  modalBtnImage:{
-    width:30,
-    height:30
-  },
 
        // STYLES FROM WINNEBA PAGE ENDS HERE
- 
 
- collegeHomeMainContainer:{
-  width:'100%',
-  marginBottom:100
- },
  CollegeBgImage:{
   height:210,
   width:'100%',
@@ -234,8 +147,6 @@ genReg:{
  },
  CollegeMainName:{
   fontSize:15,
-  textTransform:'capitalize',
-  opacity:0.8,
   letterSpacing:1,
   color:'#fff',
   paddingLeft:10,
@@ -263,51 +174,10 @@ genReg:{
   letterSpacing:0.4
  },
  collegeHomeBodyContainerTwo:{
-  display:'flex',
-  flexDirection:'row'
+  width:'95%',
+  alignSelf:'center',
+  gap:10
  },
- collegeDepartmentImage:{
-  width:'100%',
-  height:60,
- },
- collegeDepartmentContainer:{
-  width:'100%',
- },
- collegeDepartmentText:{
-  fontSize:13,
-  textTransform:'capitalize',
-  fontWeight:'500',
-  textAlign:'center',
- },
- collegeHomeBodySubContainer:{
-  flexDirection:'column',
-  alignItems:'center',
-  marginTop:10,
-  gap:5,
-  width:150,
-  borderWidth:1,
-  marginHorizontal:4,
-  borderColor:'lightblue',
-  borderRadius:5,
-  paddingBottom:10
- },
- collegeSubContainer:{
-  flex:1,
- },
- collegeInfoContainer:{
-  width:'100%',
-  paddingHorizontal:10,
-  alignItems:'center',
-  paddingVertical:20,
-  borderBottomWidth:1.2,
-  borderColor:'lightblue',
- },
- collegeInfoText:{
-  fontSize:14,
-  fontWeight:'400',
-  lineHeight:20
- },
-
  // Entry Requirements
 
  collegeMainEntryRequirementsContainer:{
@@ -333,7 +203,6 @@ genReg:{
   marginTop:10,
   alignItems:'center',
   borderColor:'#999',
-  borderRadius:0,
   borderBottomLeftRadius:10,
   borderBottomWidth:2,
   borderLeftWidth:2,
@@ -342,116 +211,48 @@ genReg:{
  },
  applyText:{
   alignSelf:'center',
-  fontSize:10,
+  fontSize:14,
   textTransform:'uppercase',
   letterSpacing:1.3,
-  fontWeight:'600',
+  fontWeight:'700',
   color:'#333'
  },
  schoolNoteMainContainer:{
   paddingTop:20,
   width:'98%',
   alignSelf:'center',
-  position:'relative'
+  position:'relative',
+  paddingVertical:10
  },
  schoolNoteHeadContainer:{
-  width:"87%",
+  width:"90%",
   alignSelf:'center',
-  paddingVertical:6
- },
- schoolNoteHeadText:{
-  fontSize:17,
-  fontWeight:'600',
-  textTransform:'none'
+  paddingVertical:6,
  },
  schoolNoteBodyContainer:{
   width:'95%',
   alignSelf:'center'
  },
  schoolNoteBodyText:{
-  fontSize:11,
+  fontSize:12,
   fontWeight:'500',
-  lineHeight:16
  },
-
-//  Application Page
-
-ApplicationPageMainContainer:{
-  marginVertical:20,
-  width:'100%',
-  alignItems:'center'
-},
-ApplicationPageContainer:{
-  width:'95%'
-},
-ApplicationHeadContainer:{
-  width:'90%',
+ loadMoreTextContainer:{
+  width:200,
+  // alignSelf:'center',
+  marginLeft:'10%',
   paddingVertical:10,
-  alignContent:'center',
-  textAlign:'center',
-  justifyContent:'center'
-},
-ApplicationHeadText:{
-  fontSize:17,
-  fontWeight:'400',
-  paddingLeft:7,
-  letterSpacing:1
-},
-manualApplicationContainer:{
-  paddingHorizontal:4,
-  paddingVertical:10,
-  borderColor:'lightblue',
-  borderRadius:10,
-  width:'80%',
-  alignSelf:'center',
-  textAlign:'center',
-},
-manualApplicationText:{
-  textAlign:'left',
-  letterSpacing:1,
-  fontSize:20,
-  fontWeight:'500',
-  textTransform:'capitalize'
-},
-nationalApplicantContainer:{
-  paddingVertical:20,
-  width:'100%',
-  alignSelf:'center'
-},
-nationalApplicantText:{
-  fontSize:15,
-  textAlign:'center',
-  textTransform:'uppercase',
-  letterSpacing:0.3,
-  fontWeight:'500',
-},
-nationalApplicantInfoContainer:{
-  width:'97%',
-  paddingTop:4,
-  gap:5
-},
-nationalApplicantInfoText:{
-  fontSize:15,
-  lineHeight:24,
-  fontWeight:'400',
-},
-feesBtnContainer:{
-  paddingVertical:15,
-  width:'90%',
-  alignItems:'center',
   borderWidth:1.3,
-  borderColor:'lightblue',
-  marginBottom:20,
-  alignSelf:'center',
-  backgroundColor:'#fff',
   borderRadius:10,
-},
-feesBtnText:{
-  fontSize:17,
-  letterSpacing:1,
-  textTransform:'uppercase',
-  fontWeight:'400'
-},
+  marginTop:20,
+  backgroundColor:'rgba(0, 0, 200, 0.1)'  
+ },
+ loadMoreText:{
+ fontSize:16,
+ fontWeight:'500',
+ textAlign:'center',
+ color:'#000'
+ },
 
         //  FEES  HERE 
 
@@ -471,11 +272,6 @@ feesBtnText:{
           width:30,
           height:30
          },
-feesMainContainer:{
-  paddingVertical:20,
-  width:'100%',
-  alignItems:'center',
-},
 feesHeadText:{
   fontSize:16,
   textAlign:'center',
@@ -483,35 +279,11 @@ feesHeadText:{
   lineHeight:22,
   letterSpacing:0.6
 },
-feesBodyMainContainer:{
-  width:'90%',
-  paddingVertical:10,
-
-},
-feesBodyContainer:{
-  paddingLeft:20,
-},
 feesBodyMainText:{
   fontSize:14,
   fontWeight:'600',
   letterSpacing:0.7
 },
-
-feesBodyTextContainer:{
-  marginVertical:10,
-  borderWidth:1.7,
-  paddingVertical:10,
-  paddingLeft:10,
-  borderRadius:5,
-  borderColor:'lightblue',
-},
-feesBodyText:{
-  fontSize:14,
-  fontWeight:'400',
-  textTransform:'none'
-},
-
-
 
 modalFeeHeadContainer:{
   paddingVertical:20,
@@ -621,14 +393,12 @@ facultyMainContanier:{
 },
   facultyBodyText:{
   fontSize:13,
-  fontWeight:'400'
+  fontWeight:'400',
+  textTransform:'capitalize'
 },
   facultyBodyMainText:{
   fontSize:13,
   fontWeight:'500'
-},
-  facultyBodyText:{
-  textTransform:'capitalize'
 },
   facultyBodyListContainer:{
   gap:6,
@@ -636,177 +406,82 @@ facultyMainContanier:{
   paddingLeft:20
 },
 
-          // UNIVERSITY CAMPUS STYLE
 
-CampusAddressMainContainer:{
-  paddingVertical:20,
-  width:'100%',
-  alignItems:'center'
-},
-CampusAddressHeadContainer:{
-  width:'70%',
-  paddingBottom:15
-},
-CampusAddressHeadText:{
-  fontSize:25,
-  fontWeight:'500',
-  letterSpacing:1.2,
-  textTransform:'uppercase'
-},
-CampusAddressBodyContainer:{
-  width:'90%',
-  gap:10
-},
-CampusAddressodyText:{
-  fontSize:15,
-  fontWeight:'500'
-},
+// //           // APPLICATION  HOME
 
+// // ProgrammesHomeMainContainer:{
+// //   width:'100%',
+// //   paddingVertical:15,
+// //   alignItems:'center'
+// // },
+// // ProgrammesHomeHeadContainer:{
+// //   width:'80%',
+// // },
+// // ProgrammesHomeHeadText:{
+// //   fontSize:17,
+// //   fontWeight:'600',
+// //   textTransform:'uppercase',
+// //   color:'pink',
+// //   letterSpacing:1
+// // },
+// // ProgrammesHomeBodyContainer:{
+// //   width:'90%',
+// //   flexWrap:'wrap',
+// //   paddingVertical:20,
+// //   alignContent:'center',
+// //   gap:15
+// // },
+// // ProgrammesHomeSubBodyContainer:{
+// //   flexDirection:'row',
+// //   width:'90%',
+// //   alignItems:'center',
+// //   flexWrap:'wrap',
+// //   borderWidth:1.5,
+// //   borderColor:'lightblue',
+// //   borderRadius:5,
+// // },
+// // ProgrammesHomeImage:{
+// //   width:45,
+// //   height:80,
+// //   resizeMode:'cover',
+// // },
+// // ProgrammesHomeText:{
+// //   fontSize:15,
+// //   fontWeight:'600',
+// //   textTransform:'capitalize',
+// //   paddingLeft:'5%'
+// // },
 
-          // APPLICATION  HOME
+// //           // MODAL ENTRY REQUIREMENTS HERE 
 
-ProgrammesHomeMainContainer:{
-  width:'100%',
-  paddingVertical:15,
-  alignItems:'center'
-},
-ProgrammesHomeHeadContainer:{
-  width:'80%',
-},
-ProgrammesHomeHeadText:{
-  fontSize:17,
-  fontWeight:'600',
-  textTransform:'uppercase',
-  color:'pink',
-  letterSpacing:1
-},
-ProgrammesHomeBodyContainer:{
-  width:'90%',
-  flexWrap:'wrap',
-  paddingVertical:20,
-  alignContent:'center',
-  gap:15
-},
-ProgrammesHomeSubBodyContainer:{
-  flexDirection:'row',
-  width:'90%',
-  alignItems:'center',
-  flexWrap:'wrap',
-  borderWidth:1.5,
-  borderColor:'lightblue',
-  borderRadius:5,
-},
-ProgrammesHomeImage:{
-  width:45,
-  height:80,
-  resizeMode:'cover',
-},
-ProgrammesHomeText:{
-  fontSize:15,
-  fontWeight:'600',
-  textTransform:'capitalize',
-  paddingLeft:'5%'
-},
-
-          // MODAL ENTRY REQUIREMENTS HERE 
-
-entryReqModalMainContainer:{
-  paddingTop:50,
-  width:'100%',
-  alignItems:'center',
-  paddingBottom:20
-},
-entryReqModalHeadContainer:{
-  width:'80%',
-  paddingVertical:10
-},
-entryReqModalHeadText:{
-  fontSize:15,
-  fontWeight:'600',
-  paddingBottom:10,
-  letterSpacing:1
-},
-entryReqModalBodyContainer:{
-  width:'90%',
-},
-entryReqModalBodyText:{
-  fontSize:13,
-  fontWeight:'400'
-},
-entryReqModalBodyMainContainer:{
-  paddingVertical:20,
-  gap:15,
-  width:'100%'
-},
-
-      // Brochure here
-
-BrochureMainContainer:{
-  width:'100%',
-  textAlign:'center',
-  justifyContent:'center',
-  alignItems:'center',
-  gap:20,
-  marginTop:20
-},
-BrochureContainer:{
-  width:'88%',
-  paddingHorizontal:10,
-  paddingVertical:5,
-  borderWidth:1.3,
-  borderRadius:5,
-  borderColor:'lightblue'
-},
-BrochureText:{
-  fontSize:15,
-  fontWeight:'500',
-  letterSpacing:0.5
-},
-
-
-              //  DISTANCE  MODAL
-
-distanceHomeMainContaier:{
-  flexDirection:'row',
-  paddingTop:50,
-  gap:20,
-  paddingHorizontal:20,
-  flex:1,
-  justifyContent:'center',
-},
-distanceHomeTown:{
-  width:100,
-  flexWrap:'wrap',
-},
-distanceHomeTitleContainer:{
-  paddingBottom:10,
-},
-distanceHomeTitleText:{
-  fontSize:15,
-  fontWeight:'500',
-  textTransform:'none',
-  letterSpacing:0.7
-},
-distanceHomeCenter:{
-  flexWrap:'wrap',
-  width:160
-},
-distanceHomeProgramme:{
-  flexWrap:'wrap',
-  width:200
-},
-distanceHomeTextContainer:{
-  gap:5,
-},
-distanceHomeMainText:{
-  height:50,
-  fontSize:12.4,
-  fontWeight:'400'
-},
-modalBtnContainerDistance:{
-  marginLeft:'80%',
-  marginTop:15
-},
+// // entryReqModalMainContainer:{
+// //   paddingTop:50,
+// //   width:'100%',
+// //   alignItems:'center',
+// //   paddingBottom:20
+// // },
+// // entryReqModalHeadContainer:{
+// //   width:'80%',
+// //   paddingVertical:10
+// // },
+// // entryReqModalHeadText:{
+// //   fontSize:15,
+// //   fontWeight:'600',
+// //   paddingBottom:10,
+// //   letterSpacing:1
+// // },
+// // entryReqModalBodyContainer:{
+// //   width:'90%',
+// // },
+// // entryReqModalBodyText:{
+// //   fontSize:13,
+// //   fontWeight:'400'
+// // },
+// // entryReqModalBodyMainContainer:{
+// //   paddingVertical:20,
+// //   gap:15,
+// //   width:'100%'
+// },
 
 // Rating Here
 
@@ -967,11 +642,12 @@ FAQquestionHeadText:{
 },
 FAQquestionBody:{
   width:'98%',
-  alignSelf:'center',
   maxWidth:500,
   borderBottomWidth:2,
   paddingBottom:10,
-  borderColor:'#cecece'
+  borderColor:'#cecece',
+  paddingVertical:10,
+  alignSelf:'center'
 },
 FAQquestionBodyText:{
   fontSize:11,
@@ -985,51 +661,88 @@ QuestionArrow:{
   height:30
 },
 vTourBodyMainContainer:{
-  display:'flex',
-  flexDirection:'row',
   width:'100%',
   paddingVertical:10,
   marginTop:20,
-  paddingHorizontal:20,
-  gap:20,
+  alignSelf:'center',
 },
 vTourBodyContainer:{
-  width:250,
-  height:140,
-  position:'relative'
+  width:'100%',
+  height:170,
+  resizeMode:'cover',
+  position:'relative',
 },
 vTourBodyTextContainer:{
-  alignSelf:'flex-end',
-  bottom:5,
-  position:'absolute',
   flexDirection:'row',
+  justifyContent:'center',
   gap:7,
   borderWidth:1.3,
-  borderColor:"#fff",
+  borderColor:"#000",
   paddingHorizontal:10,
   paddingVertical:5,
   borderRadius:6,
   alignItems:'center',
-  backgroundColor:'#fff'
+  backgroundColor:'rgba(0,100,200,0.7)',
+  width:'50%',
+  alignSelf:'center',
+  position:'absolute',
+  bottom:0,
+  right:0
 },
 vTourBodyText:{
   fontSize:10,
   fontWeight:'500',
-  color:'#333',
+  color:'#fff',
   textTransform:'capitalize',
-  alignItems:'center',
 },
 galleryDisplay:{
   width:'100%',
   height:'100%',
-  minHeight:250,
-  maxHeight:270,
+  minHeight:300,
+  maxHeight:320,
   position:'absolute',
-  backgroundColor:'rgba(0,0,0,0.9)',
+  backgroundColor:'rgba(0,0,0,0.7)',
   bottom:0,
   alignItems:'center',
-  justifyContent:'center'
-
+  justifyContent:'center',
+  gap:20,
+},
+imageContainer:{
+  flexDirection:'row',
+  alignSelf:'center',
+  maxWidth:350,
+  height:'100%',
+  paddingHorizontal:5
+},
+preloader:{
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  marginLeft: -25,
+  marginTop: -25,
+},
+mainImage:{
+  width:'100%',
+  height:'100%',
+  resizeMode:'contain',
+  alignSelf:'center'
+},
+closeBtn:{
+  position:'absolute',
+  top:10,
+  right:10,
+  backgroundColor:'#cfcfcf',
+},
+closeImage:{
+  width:30,
+  height:30,
+},
+virtualButton:{
+  width:'50%',
+  flexDirection:'row',
+  alignItems:'center',
+  gap:10,
+  paddingVertical:7,
 },
 
 // Feeds
@@ -1039,47 +752,52 @@ feedsBodyMainContainer:{
   maxWidth:430,
   marginTop:20,
   display:'flex',
-  flexDirection:'row',
   alignItems:'center',
   alignSelf:'center',
 },
 feedsBodyContainer:{
   width:'100%',
   display:'flex',
-  flexDirection:'row',
   alignItems:'center',
   alignSelf:'center',
-  borderWidth:1,
   flex:1,
-  height:70,
   borderRadius:10,
-  backgroundColor:'rgba(217, 126, 237,0.19)'
 },
 feedslogoImageContainer:{
-  width:'20%',
-  padding:5,
-  borderRadius:10,
-  borderRightWidth:1
+  width:'25%',
+  height:"100%"
 },
 feedslogoImage:{
-  width:'100%',
-  height:'100%',
-  resizeMode:'contain'
+  resizeMode:'contain',
+width:80,
+height:80
 },
 feedslogoTextContainer:{
   gap:5,
   alignSelf:'center',
-  width:'75%',
-},
-feedslogoTextSubContainer:{
-  width:'90%',
-  alignSelf:'center',
-  flexDirection:'row',
-  justifyContent:'space-between'
+  width:'100%',
+  backgroundColor:'rgba(0,0,0,0.08)',
+  padding:5,
+  alignContent:'center',
+  justifyContent:'center',
+  borderRadius:10
 },
 feedslogoText:{
-  fontSize:12,
-  fontWeight:'600'
+  fontSize:16,
+  fontWeight:'700',
+},
+feedsReqText:{
+  fontSize:13,
+  fontWeight:'400',
+  paddingHorizontal:10,
+  lineHeight:16,
+  paddingVertical:10
+},
+feedslogoTextSubContainer:{
+  width:'100%',
+  alignSelf:'center',
+  justifyContent:'center',
+  paddingTop:10,
 },
 // LIKES
 likesBodyMainContainer:{
@@ -1095,15 +813,11 @@ likesBodyHeadContainer:{
   width:"85%",
   alignSelf:'center'
 },
-likesBodyHeadImage:{
-  width:20,
-  height:20,
-  resizeMode:'contain'
-},
 mainLikeTextContainer:{
   width:'97%',
   alignSelf:'center',
-  paddingTop:10
+  paddingTop:10,
+  gap:10
 },
 mainLikeTextSubContainer:{
   gap:10
@@ -1119,18 +833,96 @@ mainLikeHead:{
   fontWeight:'500',
   paddingLeft:10
 },
-mainLike:{
-  fontSize:11,
-  fontWeight:'400'
+
+// Distance Learning
+
+distanceLearningMainContainer:{
+  width:'100%',
+  height:'auto',
+  paddingVertical:10,
+  marginBottom:50
+},
+noCoursesText:{
+  fontSize:15,
+  fontWeight:'500',
+  paddingLeft:20
+},
+distanceLearningHeaderContainer:{
+  width:'85%',
+  alignSelf:'center',
+  paddingVertical:10
+},
+distanceLearningHeaderTitle:{
+  fontSize:17,
+  fontWeight:'500'
+},
+distanceLearningBodyMainContainer:{
+  width:'95%',
+  alignSelf:'center'
+},
+distanceLearningBodyTitle:{
+  fontSize:12,
+  fontWeight:'normal'
+},
+scrollregionsButton:{
+  alignItems:'center',
+  justifyContent:'center',
+  paddingLeft:10,
+  marginTop:40,
+  marginBottom:20,
+  borderWidth:1,
+  marginHorizontal:10,
+  paddingHorizontal:15,
+  paddingVertical:5,
+  borderRadius:5,
+  backgroundColor:'rgba(0,0,0,0.7)'
+},
+scrollregionsButtonText:{
+  fontSize:12,
+  fontWeight:'500',
+  textAlign:'center',
+  color:'#ffffff'
 },
 
-// Entry Requirement
-
-// entryRegBodyMainContainer:{
-//   width:'100%',
-//   paddingVertical:20,
-//   marginTop:20
-// }
+// Table
+tableBodyMainContainer:{
+  width:500,
+  borderTopWidth:1,
+  alignSelf:'center',
+  marginHorizontal:10
+},
+tableMainContainer:{
+  alignSelf:'center',
+  borderLeftWidth:1,
+  borderRightWidth:1,
+  height:'auto',
+  width:'100%',
+  borderBottomWidth:1
+},
+tableContainer:{
+  flexDirection:'row',
+  justifyContent:'space-between',
+},
+tableMiddle:{
+  borderLeftWidth:1,
+  borderRightWidth:1,
+  width:'30%',
+},
+table:{
+  paddingVertical:10,
+  justifyContent:'center',
+  alignItems:'flex-start',
+  paddingHorizontal:5
+},
+tabletitle:{
+  fontSize:18,
+  fontWeight:'500',
+  textAlign:'center',
+  alignSelf:'center'
+},
+FAQquestionBody:{
+  paddingVertical:10,
+}
 })
 
 export default styles

@@ -1,36 +1,24 @@
 import { 
  View, 
  Text, 
- Image, 
  ScrollView, 
- StatusBar, 
- ImageBackground, 
- SafeAreaView,
- Modal,
- FlatList 
 } from 'react-native'
 
 import React, {useState} from 'react'
 
 import Overview from '../Sub_Elements/Overview';
 import Admission from '../Sub_Elements/Admission';
-import Programs from '../Sub_Elements/Programs';
-import Fees from '../Sub_Elements/Fees';
 import Scholarship from '../Sub_Elements/Scholarship';
-import DistanceLearning from '../Sub_Elements/DistanceLearning';
 import Reviews from '../Sub_Elements/Reviews';
-
+import Entry_Reg from '../Sub_Elements/Entry_Reg';
+import Dist_Learning from '../Sub_Elements/Dist_Learning'
 
 import styles from '../Styles'
 
-const Scrol_Elem = () => {
-
-   // State to keep track of the selected body component
+const Scrol_Elem = ({university}) => {
 
    const [selectedBody, setSelectedBody] = useState(() => ('Overview'));
 
-   // Function to handle selecting a body com
-   
    const handleSelectBody = (body) => {
      setSelectedBody(body);
    };
@@ -50,20 +38,13 @@ const Scrol_Elem = () => {
     style={styles.horHeadersContaineter}
     onTouchEnd={() => handleSelectBody('Admission')}
   >
-    <Text style={styles.horHeadersTitle}>Admissions</Text>
+    <Text style={styles.horHeadersTitle}>Notice Board</Text>
   </View>
-  <View
-  style={styles.horHeadersContaineter}
-  onTouchEnd={() => handleSelectBody('Programs')}
+  <View 
+    style={styles.horHeadersContaineter}
+    onTouchEnd={() => handleSelectBody('Entry_Reg')}
   >
-    <Text style={styles.horHeadersTitle}>Programs</Text>
-  </View>
-  <View
-  style={styles.horHeadersContaineter}
-  onTouchEnd={() => handleSelectBody('Fees')}
-  
-  >
-    <Text style={styles.horHeadersTitle}>Fees</Text>
+    <Text style={styles.horHeadersTitle}>Entry Requirements</Text>
   </View>
   <View
   style={styles.horHeadersContaineter}
@@ -72,13 +53,14 @@ const Scrol_Elem = () => {
   >
     <Text style={styles.horHeadersTitle}>Scholarship</Text>
   </View>
-  
   <View
   style={styles.horHeadersContaineter}
-  onTouchEnd={() => handleSelectBody('DistanceLearning')}
+  onTouchEnd={() => handleSelectBody('Dist_Learning')}
+  
   >
     <Text style={styles.horHeadersTitle}>Distance Learning</Text>
   </View>
+  
   
   <View
   style={styles.horHeadersContaineter}
@@ -90,18 +72,15 @@ const Scrol_Elem = () => {
 
 </ScrollView>
 
-
-
 <View style={styles.horBodyMainContainer}>
 
 {/* Render the selected body component */}
 
-{selectedBody === 'Overview' && <Overview />}
-{selectedBody === 'Admission' && <Admission />}
-{selectedBody === 'Programs' && <Programs />}
-{selectedBody === 'Fees' && <Fees />}
-{selectedBody === 'Scholarship' && <Scholarship />}
-{selectedBody === 'DistanceLearning' && <DistanceLearning />}
+{selectedBody === 'Overview' && <Overview university={university}/>}
+{selectedBody === 'Admission' && <Admission university={university}/>}
+{selectedBody === 'Entry_Reg' && <Entry_Reg university={university}/>}
+{selectedBody === 'Scholarship' && <Scholarship university={university}/>}
+{selectedBody === 'Dist_Learning' && <Dist_Learning university={university}/>}
 {selectedBody === 'Reviews' && <Reviews />}
 {/* Add more body components as needed */}
 

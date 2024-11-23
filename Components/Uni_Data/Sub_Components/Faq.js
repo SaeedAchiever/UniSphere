@@ -1,125 +1,93 @@
 import { 
- View, 
- Text, 
- Image, 
-} from 'react-native'
-import React, {useState} from 'react'
+  View, 
+  Text, 
+  Image, 
+  FlatList, 
+  TouchableOpacity 
+} from 'react-native';
+import React, { useState, memo, useEffect } from 'react';
+import styles from '../Styles';
+import faqData from '../../University/json/faq.json';
 
+const Arrow = require('../../../assets/arrow.png');
+const ArrowDown = require('../../../assets/arrowup.png');
 
-import styles from '../Styles'
+const Faq = ({ university }) => {
+  const [isAnswerVisible, setIsAnswerVisible] = useState(null);
+  const [showAll, setShowAll] = useState(false);
+  const [faqs, setFaqs] = useState([]);
 
-const Arrow = require('../../../assets/arrow.png')
-const ArrowDown = require('../../../assets/close.png')
+  useEffect(() => {
+    // Find the matching FAQs for the university
+    const matchedUniversity = faqData.find(f => f.name === university.name);
+    if (matchedUniversity) {
+      setFaqs(matchedUniversity.faq || []);
+    }
+  }, [university.name]);
 
-const Faq = () => {
+  const toggleAnswer = (index) => {
+    if (isAnswerVisible === index) {
+      setIsAnswerVisible(null);
+    } else {
+      setIsAnswerVisible(index);
+    }
+  };
 
-  const [isAnswerVisible, setIsAnswerVisible] = useState(0)
-  const [isArrowTop, setIsArrowTop] = useState(Arrow)
+  const toggleShowAll = () => {
+    setShowAll(!showAll);
+  };
 
+  const displayedFaqs = showAll ? faqs : faqs.slice(0, 2);
 
   return (
-   <View style={styles.FaqMainContainer}>
-   <View style={styles.schoolNoteHeadContainer}>
-     <Text style={styles.schoolNoteHeadText}>FAQ</Text>
-   </View>
+    <View style={styles.schoolNoteMainContainer}>
+      <View style={styles.schoolNoteHeadContainer}>
+        <Text style={styles.campusesTitle}>FAQ</Text>
+      </View>
 
-   <View>
+      <View>
+        <FlatList
+          data={displayedFaqs}
+          keyExtractor={(item) => item.id.toString()}
+          renderItem={({ item, index }) => (
+            <View style={styles.FAQquestionMainHead} key={index}>
+              <View style={styles.schoolNoteBodyContainer}>
+                <Text style={styles.schoolNoteBodyContainer}>Question</Text>
+              </View>
+              <View style={styles.FAQquestionBody}>
+                <Text style={styles.schoolNoteBodyText}>{item.question}</Text>
+                <TouchableOpacity
+                  style={styles.QuestionArrowContainer}
+                  onPress={() => toggleAnswer(index)}
+                >
+                  <Image
+                    source={isAnswerVisible === index ? ArrowDown : Arrow}
+                    style={styles.QuestionArrow}
+                  />
+                </TouchableOpacity>
 
-     {/* Question */}
+                {/* Answer */}
+                {isAnswerVisible === index && (
+                  <View style={styles.answerContainer}>
+                    <View style={styles.FAQquestionBody}>
+                      <Text style={styles.schoolNoteBodyContainer}>Answer</Text>
+                    </View>
+                    <Text style={styles.schoolNoteBodyText}>{item.answer}</Text>
+                  </View>
+                )}
+              </View>
+            </View>
+          )}
+        />
 
-     <View style={styles.FAQquestionMainHead}>
-       <View style={styles.FAQquestionHead}>
-         <Text style={styles.FAQquestionHeadText}>Question</Text>
-       </View>
-       <View style={styles.FAQquestionBody}>
-         <Text style={styles.FAQquestionBodyText}>
-           Nisi id reprehenderit sunt anim mollit sit sint nisi 
-           est deserunt aute ea duis quis. Irure dolore minim 
-           occaecat est dolore dolor do consectetur ullamco 
-           aliquip. Id qui commodo velit excepteur sunt nulla anim.
-         </Text>
-         <View
-          style={styles.QuestionArrowContainer}
-          onTouchEnd={()=>{
-            setIsAnswerVisible(isAnswerVisible ===  0 ? 'auto' : 0)
-           }}
-         >
-           <Image  
-             source={isArrowTop}
-             style={styles.QuestionArrow}
-           />
-         </View>
+        <TouchableOpacity style={styles.applyContainer} onPress={toggleShowAll}>
+          <Text style={styles.applyText}>
+            {showAll ? 'Read Less' : 'Read More'}
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
 
-         {/* Answer */}
-
-         <View style={[styles.answerContainer,{height:isAnswerVisible}]}>
-         <View style={styles.FAQquestionHead}>
-         <Text style={styles.FAQquestionHeadText}>Answer</Text>
-       </View>
-           <Text style={styles.answerText}>Occaecat incididunt duis non esse nisi. Et sunt consectetur sint proident enim aliquip. Ipsum adipisicing ullamco ipsum cupidatat nostrud consequat culpa sunt. Ut in magna ipsum elit adipisicing pariatur labore aliqua cillum voluptate velit. Id est deserunt qui cillum ipsum ullamco nisi duis. Cupidatat commodo velit sint commodo et sint ea laborum.</Text>
-         </View>
-       </View>
-     </View>
-
-     {/* Question */}
-
-     <View style={styles.FAQquestionMainHead}>
-       <View style={styles.FAQquestionHead}>
-         <Text style={styles.FAQquestionHeadText}>Question</Text>
-       </View>
-
-       <View style={styles.FAQquestionBody}>
-         <Text style={styles.FAQquestionBodyText}>
-           Nisi id reprehenderit sunt anim mollit sit sint nisi 
-           est deserunt aute ea duis quis. Irure dolore minim 
-           occaecat est dolore dolor do consectetur ullamco 
-           aliquip. Id qui commodo velit excepteur sunt nulla anim.
-         </Text>
-         <View
-          style={styles.QuestionArrowContainer}
-         >
-           <Image  
-             source={Arrow}
-             style={styles.QuestionArrow}
-           />
-         </View>
-
-       </View>
-     </View>
-
-     {/* Question */}
-
-     <View style={styles.FAQquestionMainHead}>
-       <View style={styles.FAQquestionHead}>
-         <Text style={styles.FAQquestionHeadText}>Question</Text>
-       </View>
-       
-       <View style={styles.FAQquestionBody}>
-         <Text style={styles.FAQquestionBodyText}>
-           Nisi id reprehenderit sunt anim mollit sit sint nisi 
-           est deserunt aute ea duis quis. Irure dolore minim 
-           occaecat est dolore dolor do consectetur ullamco 
-           aliquip. Id qui commodo velit excepteur sunt nulla anim.
-         </Text>
-         <View style={styles.QuestionArrowContainer}>
-           <Image  
-             source={Arrow}
-             style={styles.QuestionArrow}
-           />
-         </View>
-       </View>
-     </View>
-
-     <View style={styles.applyContainer}>
-       <Text style={styles.applyText}>
-         Read More
-       </Text>
-     </View>
-
-   </View>
-
-</View>
-  )
-}
-
-export default Faq
+export default memo(Faq);
