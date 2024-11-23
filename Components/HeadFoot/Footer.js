@@ -8,7 +8,7 @@ import styles from '../../Components/HomePage/HomeStyle'
 const Home  = require("../../assets/home.png")
 const University  = require("../../assets/university.png")
 const College  = require("../../assets/college.png")
-const Scholarship  = require("../../assets/scholarship.png")
+const Shorts  = require("../../assets/vid_icon.png")
 const News  = require("../../assets/trend.png")
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
       <View
       style={styles.footerBox}
        onTouchEnd={()=>{
-         navigation.navigate('HomePage')
+         navigation.navigate('UniHomePage')
        }}
       >
         <Image  
@@ -76,18 +76,18 @@ const Footer = () => {
       <View
       style={styles.footerBox}
        onTouchEnd={()=>{
-         navigation.navigate('ScholarshipHome')
+         navigation.navigate('Shorts')
        }}
       >
-        <Image  
-          source={Scholarship}
+        <Image
+          source={Shorts}
           style={styles.footerImage}
         />
         <Text
         style={{
           fontSize: deviceWidth >  500 ? 12 : 10,
         }}
-        >Scholarships</Text>
+        >Shorts</Text>
       </View>
  
       <View

@@ -1,29 +1,54 @@
-import { View, Text,useWindowDimensions,Image,StatusBar, Modal, } from 'react-native'
+import { View, Text,useWindowDimensions,Image, Modal, Pressable, AppRegistry } from 'react-native'
 import React from 'react'
 import  {useState}  from  'react'
 
+import { useNavigation } from '@react-navigation/native'
+
+import { auth } from "../../firebaseConfig"; // Import `auth` from your config
+
 import styles from '../../Components/HomePage/HomeStyle'
-import { SafeAreaView } from 'react-native-safe-area-context'
+
+import { useUser } from '../Authentication/UserContext'
 
 const Menu  = require("../../assets/menu.png")
 const CloseBtn  = require("../../assets/close.png")
 const UserPic  = require("../../assets/user_3.jpg")
 
 
+
+
 const Head = () => {
+
+  const navigation  = useNavigation()
+
+  const {userData} = useUser()
 
   const [isModalVisible, setIsModalVisible] = useState(false)
 
-                    // DEFINING  WIDTH AND HEIGHT 
-                    const deviceWidth = useWindowDimensions().width
-                    // const deviceHeight = useWindowDimensions().height
+      // DEFINING  WIDTH AND HEIGHT 
+      const deviceWidth = useWindowDimensions().width
+      // const deviceHeight = useWindowDimensions().height
+
+      const refreshApp = () => {
+        const appName = 'YourAppName'; // Replace with your app's name
+        const appEntry = AppRegistry.getApplication(appName);
+        AppRegistry.runApplication(appName, appEntry);
+      };
+
+      const handleSignOut = () => {
+        auth.signOut().then(() => {
+          navigation.reset({
+            index: 0,
+            routes: [{ name: 'EmailLogIn' }],
+          });
+        });
+      };
+
 
   return (
-    <SafeAreaView>
+    <View>
 
-   <View style={[
-    styles.headerContainer, {height:  deviceWidth >  500 ? 70  : 50}
-    ]}>
+   <View style={styles.headerContainer}>
 
    <View onTouchEnd={
     () => setIsModalVisible(true)
@@ -46,7 +71,7 @@ const Head = () => {
     onRequestClose={()=>{
       setIsModalVisible(false)
     }}
-    animationType="slide"
+    animationType='slide'
     >
     <View style={styles.modalMainContainer}>
 
@@ -63,26 +88,43 @@ const Head = () => {
       </View>
 
       <View style={styles.ModalBodyMainContainer}>
-       <View style={styles.ModalBodyContainer}>
-        
-        <View>
-        <Image 
-          source={UserPic}
-          style={styles.modalUserImage}
-          />
-        </View>
-        <View>
-          <Text style={styles.modalUserText}>Saeed</Text>
-        </View>
+        <Pressable onPress={()=>{
+          userData ?
+          navigation.navigate("User_Profile") :
+          navigation.navigate("EmailLogIn") 
+          setIsModalVisible(false)
+        }}>
+          <View style={styles.ModalBodyContainer}>
+            <View>
+            <Image 
+              source={UserPic}
+              style={styles.modalUserImage}
+              />
+            </View>
+            <View>
+              <Text style={styles.modalUserText}>
+                {userData ? userData.first_Name : "Guest"}
+              </Text>
+            </View>
 
-       </View>
+          </View>
+        </Pressable>
 
       </View>
 
       <View style={styles.modalLinksMainContainer}>
 
-      <View style={styles.modalLinksContainer}>
+       <View style={styles.modalLinksContainer}>
           <Text style={styles.modalLinksText}>My Favorites</Text>
+        </View>
+
+        <View style={styles.modalLinksContainer}>
+          <Pressable onPress={()=>{
+            navigation.navigate("ScholarshipHome")
+            setIsModalVisible(false)
+          }}>
+           <Text style={styles.modalLinksText}>Scholarships</Text>
+          </Pressable>
         </View>
 
         <View style={styles.modalLinksContainer}>
@@ -105,12 +147,21 @@ const Head = () => {
         </View>
 
       </View>
+
+      { userData ? 
+        <View style={styles.logOutContainer}>
+          <Pressable onPress={handleSignOut}>
+          <Text style={styles.logOutText}>Log out</Text>
+          </Pressable>
+        </View> : <View></View>
+      }
     </View>
+
+    
 
    </Modal>
 
-    <StatusBar />
-   </SafeAreaView>
+   </View>
 
   )
 }
