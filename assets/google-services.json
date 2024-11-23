@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "751167965182",
+    "project_id": "afro-unisphere",
+    "storage_bucket": "afro-unisphere.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751167965182:android:b39e679f3b92e0265362af",
+        "android_client_info": {
+          "package_name": "com.afrounisphere.afrounisphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgt45NA4rkzqiySbpmFfhb7j3B12i44bY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
