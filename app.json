@@ -1,10 +1,13 @@
 {
   "expo": {
-    "name": "UniSphere",
+    "name": "Afro UniSphere",
     "slug": "tert",
+    "experiments": {
+      "newArchEnabled": true
+    },
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/iconn.png",
+    "orientation": "default",
+    "icon": "./assets/iconhere.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/UniSphere.png",
@@ -19,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/iconhere.png",
+        "foregroundImage": "./assets/UniSphere.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.saeedachiever.tert"

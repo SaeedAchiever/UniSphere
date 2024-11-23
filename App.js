@@ -1,18 +1,13 @@
-import { StatusBar } from 'react-native';
+import { StatusBar,View,ActivityIndicator } from 'react-native';
 
 import UniData from './Components/Uni_Data/UniData';
-
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import PublicUniversityHome from  './Components/University/PublicUniversityHome';
-import  PrivateUniversityHome from  './Components/University/PrivateUniversityHome';
-import  MoreUniversitiesHome from './Components/University/MoreUniversityHome'
-
-import  Nursing from './Components/College/Nursing'
-import  Teaching from './Components/College/Teaching'
-import  AgricHome from './Components/College/AgricHome'
+import React, {useState, useEffect} from 'react';
+import { auth } from "./firebaseConfig";
+import { onAuthStateChanged } from "firebase/auth";
 
 import ColHomePage from './Components/HomePage/ColHomePage';
 import UniHomePage from './Components/HomePage/UniHomePage';
@@ -22,102 +17,72 @@ import UniversityHome from './Components/University/UniversityHome';
 import ScholarshipHome from './Components/Scholarship/ScholarshipHome';
 import Updates from './Components/Updates/Updates'
 import CollegeHome from './Components/College/CollegeHome'
-import  Head  from  './Components/HeadFoot/Head'
+import Shorts from './Components/Shorts/Shorts';
+import User_Profile from './Components/User_Profile/User_Profile';
 
-        //  PUBLIC UNIVERSITIES
+import EmailLogIn from './Components/Authentication/EmailLogIn';
+import PhoneLogIn from './Components/Authentication/PhoneLogIn';
+import PhoneSignUp from './Components/Authentication/PhoneSignUp';
+import EmailSignUp from './Components/Authentication/EmailSignUp';
 
-import WinnebaPage from './Components/University/Winneba/WinnebaPage'
-import KnustPage from './Components/University/Knust/KnustPage'
-import LegonPage from './Components/University/Legon/LegonPage';
-import ATUPage from './Components/University/PublicUnis/ATU/ATUPage';
-
-
-import NaleriguHome from './Components/College/Nalerigu/NaleriguHome'
-import AlliedHealth from './Components/College/Nalerigu/Departments/AlliedHealth'
-import GeneralNursing from './Components/College/Nalerigu/Departments/GeneralNursing';
-import MidWifery from './Components/College/Nalerigu/Departments/MidWifery';
-import NursingAssistant from './Components/College/Nalerigu/Departments/NursingAssistant';
-
-
-import Brochure from './Components/University/Winneba/Brochure';
-
-import FilterPage from './Components/University/Filters/FilterPage';
-
-import Places from './Components/University/Places/Places';
-
-import MatchHome from './Components/MatchMe/MatchHome';
-
-import WinnebaCampus from './Components/University/Winneba/WinnebaCampus';
-import AjumakoCampus from './Components/University/Winneba/AjumakoCampus';
-import ProgrammesHome from './Components/University/Winneba/ProgrammesHome';
-import Footer from './Components/HeadFoot/Footer';
-
+import { UserProvider } from './Components/Authentication/UserContext';
 
 function App() {
 
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+      setLoading(false);
+    });
+
+    return unsubscribe;
+  }, []);
+
+  if (loading) {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ActivityIndicator size="large" color="#000" />
+      </View>
+    );
+  }
+
 const Stack = createNativeStackNavigator();
 
-  return (
-    
-        <NavigationContainer>
-          <Head/>
+return (
+    <View style={{flex:1}}>
 
+      <UserProvider>
+        <NavigationContainer>
           <Stack.Navigator 
-           initialRouteName="HomePage"
+           initialRouteName={user ? "UniHomePage" : "EmailLogIn"}
            screenOptions={{ headerShown: false }}
           >
+            <Stack.Screen name='PhoneLogIn' component={PhoneLogIn}  />
+            <Stack.Screen name='EmailLogIn' component={EmailLogIn}  />
+            <Stack.Screen name='EmailSignUp' component={EmailSignUp}  />
+            <Stack.Screen name='PhoneSignUp' component={PhoneSignUp}  />
             <Stack.Screen name='HomePage' component={HomePage}  />
-
-            <Stack.Screen name='ColHomePage' component={ColHomePage}  />
             <Stack.Screen name='UniHomePage' component={UniHomePage}  />
-
+            <Stack.Screen name='ColHomePage' component={ColHomePage}  />
             <Stack.Screen name='UniData' component={UniData}  />
             <Stack.Screen name='UniversityHome' component={UniversityHome}  />
             <Stack.Screen name='ScholarshipHome' component={ScholarshipHome}  />
             <Stack.Screen name='Updates' component={Updates}  />
             <Stack.Screen name='CollegeHome' component={CollegeHome}  />
-
-            <Stack.Screen name='LegonPage' component={LegonPage}  />
-            <Stack.Screen name='KnustPage' component={KnustPage}  />
-            <Stack.Screen name='WinnebaPage' component={WinnebaPage}  />
-            <Stack.Screen name='ATUPage' component={ATUPage}  />
-          
-            <Stack.Screen name='NaleriguHome' component={NaleriguHome}  />
-
-            <Stack.Screen name='AlliedHealth' component={AlliedHealth}  />
-            <Stack.Screen name='GeneralNursing' component={GeneralNursing}  />
-            <Stack.Screen name='MidWifery' component={MidWifery}  />
-            <Stack.Screen name='NursingAssistant' component={NursingAssistant}  />
-
-            <Stack.Screen name='Brochure' component={Brochure}  />
-
-            <Stack.Screen name='FilterPage' component={FilterPage}  />
-
-            <Stack.Screen name='Places' component={Places}  />
-            
-            <Stack.Screen name='WinnebaCampus' component={WinnebaCampus}  />
-            <Stack.Screen name='AjumakoCampus' component={AjumakoCampus}  />
-
-            <Stack.Screen name='ProgrammesHome' component={ProgrammesHome}  />
-
-            <Stack.Screen name='PublicUniversityHome' component={PublicUniversityHome}  />
-            <Stack.Screen name='PrivateUniversityHome' component={PrivateUniversityHome}  />
-            <Stack.Screen name='MoreUniversitiesHome' component={MoreUniversitiesHome}  />
-    
-            <Stack.Screen name='Nursing' component={Nursing} />
-            <Stack.Screen name='Teaching' component={Teaching} />
-            <Stack.Screen name='AgricHome' component={AgricHome} />
-
-            <Stack.Screen name='MatchHome' component={MatchHome} />
-
+            <Stack.Screen name='Shorts' component={Shorts}  />
+            <Stack.Screen name='User_Profile' component={User_Profile}  />
           </Stack.Navigator>
-          <StatusBar  backgroundColor={'#cecece'}/>
 
-          <Footer/>
+          {/* <Footer/> */}
+          <StatusBar  backgroundColor={'#000'} />
 
         </NavigationContainer>
+      </UserProvider>
 
-
+    </View>
 
   );
 }
