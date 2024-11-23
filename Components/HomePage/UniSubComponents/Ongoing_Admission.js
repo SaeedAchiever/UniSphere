@@ -1,36 +1,18 @@
-import { View, Text, Image,useWindowDimensions,ScrollView, } from 'react-native'
+import { View, Text, Image, FlatList, } from 'react-native'
 import React from 'react'
 import  {useNavigation} from  '@react-navigation/native'
-import Swiper from 'react-native-swiper';
+
+
+import universities from  "../../University/universities.json"
 
 import styles from '../HomeStyle'
 
 const Scholarship  = require("../../../assets/recomended.png")
-
 const Star  = require("../../../assets/star.png")
-const UserPic  = require("../../../assets/user_1.jpg")
 const Location  = require("../../../assets/location.png")
-const Winneba  = require("../../../assets/winneba.jpg")
-const UG  = require("../../../assets/ug.jpeg")
-const KNUST  = require("../../../assets/knust.jpeg")
-const SmallImage  = require("../../../assets/recomended.png")
-const Accra  = require("../../../assets/accra.jpg")
-const Kumasi  = require("../../../assets/kumasi.jpeg")
-const Tema  = require("../../../assets/tema.jpeg")
-const Cape_Coast  = require("../../../assets/cape_coast.jpeg")
-const Tamale  = require("../../../assets/tamale.jpeg")
-const TopPlaceLogo  = require("../../../assets/top_place.png")
-const Top  = require("../../../assets/trends.png")
-const Scholar  = require("../../../assets/scholar.png")
-const Scholar_Two  = require("../../../assets/scholar_two.png")
-const Scholar_Three  = require("../../../assets/scholar_three.png")
 
 
-const Ongoing_Admission = () => {
-
- // DEFINING  WIDTH AND HEIGHT 
- const deviceWidth = useWindowDimensions().width
- const deviceHeight = useWindowDimensions().height
+const Ongoing_Admission = ({Ongoing_List}) => {
 
  const navigation = useNavigation()
 
@@ -49,152 +31,78 @@ const Ongoing_Admission = () => {
      </View>
    </View>
 
-   {/* Body */}
+   <FlatList  
+    data={Ongoing_List}
+    keyExtractor={item=>item.id}
+    renderItem={({item})=>{
+      return (
+        <View style={styles.FilterPageUniContainer}>
+          <View
+           style={styles.FilterPageUniHeaderContainer}
+           onTouchEnd={()=>{
+            navigation.navigate("UniData",  {university : Ongoing_List.find(
+              uni =>  uni.name === item.name
+            )})
+           }}
+          >
 
-   <View style={styles.FilterPageUniContainer}>
-     <View style={styles.FilterPageUniHeaderContainer}>
+              <View style={styles.FilterPageUniHeaderNameContainer}>
+              <Text style={styles.FilterPageUniHeaderNameText}>{`${item.name}`}</Text>
+              </View>
 
-       <View style={styles.FilterPageUniHeaderNameContainer}>
-       <Text style={styles.FilterPageUniHeaderNameText}>Ashiesi University</Text>
-       </View>
+              <View style={styles.FilterBothContainer}>
 
-       <View style={styles.FilterBothContainer}>
+              <View style={styles.FilterPageUniHeaderLocationContainer}>
+                <Image 
+                source={Location}
+                style={styles.FilterPageUniHeaderLocationImage}
+                />
+                <Text style={styles.FilterPageUniHeaderLocationText}>{`${item.location}`}</Text>
+              </View>
+            <View style={styles.FilterPageUniHeaderRatingContainer}>
+              <Text
+               style={styles.FilterPageUniHeaderRateText}>
+                {`${item.rate}`}
+              </Text>
+              <View style={styles.FilterPageUniHeaderRatingImageContainer}>
+                <Image 
+                source={Star}
+                style={styles.FilterPageUniHeaderLocationImage}
+                />
+              </View>
+            </View>
 
-       <View style={styles.FilterPageUniHeaderLocationContainer}>
-         <Image 
-         source={Location}
-         style={styles.FilterPageUniHeaderLocationImage}
-         />
-         <Text style={styles.FilterPageUniHeaderLocationText}>Accra</Text>
-       </View>
-       <View style={styles.FilterPageUniHeaderRatingContainer}>
-         <View style={styles.FilterPageUniHeaderRatingImageContainer}>
-         <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-           <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-           <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-           <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-         </View>
-         <Text style={styles.FilterPageUniHeaderRateText}>4.3 Stars</Text>
-       </View>
+            <View>
+              <Text style={styles.FilterPageUniHeaderRateText}>{`${item.type} Inst.`}</Text>
+            </View>
+            
+            </View>
 
-       <View>
-         <Text style={styles.FilterPageUniHeaderRateText}>Private Inst.</Text>
-       </View>
-       
-       </View>
+            <View style={styles.FilterCourseFeesMainContainer}>
+            <View style={styles.FilterCourseFeesContainer}>
+              <Text style={styles.FilterCourseFeesHeadText}>Courses Offered</Text>
+              <View>
+              <Text style={styles.FilterCourseFeesText}>{`5 Courses`}</Text>
+              </View>
+            </View>
+            <View style={styles.FilterCourseFeesContainer}>
+              <Text style={styles.FilterCourseFeesHeadText}>Fee Range</Text>
+              <View>
+              <Text style={styles.FilterCourseFeesText}>{`GHC 1k-12k`}</Text>
+              </View>
+            </View>
+            </View>
 
-       <View style={styles.FilterCourseFeesMainContainer}>
-       <View style={styles.FilterCourseFeesContainer}>
-         <Text style={styles.FilterCourseFeesHeadText}>Courses Offered</Text>
-         <View>
-         <Text style={styles.FilterCourseFeesText}>{`5 Courses`}</Text>
-         </View>
-       </View>
-       <View style={styles.FilterCourseFeesContainer}>
-         <Text style={styles.FilterCourseFeesHeadText}>Fee Range</Text>
-         <View>
-         <Text style={styles.FilterCourseFeesText}>{`GHC 1k-12k`}</Text>
-         </View>
-       </View>
-       </View>
+          </View>
+        </View>
+      )
+    }}
+   />
 
-       <View style={styles.FilterAdmissionContainer}>
-       <View style={styles.FilterCourseFeesContainer}>
-         <Text style={styles.FilterCourseFeesHeadText}>Admission Status : </Text>
-       </View>
-         <View>
-         <Text style={styles.FilterCourseFeesText}>Ongoing</Text>
-         </View>
-       </View>
-
-     </View>
+   <View 
+    style={styles.listButton}>
+    <Text style={styles.listButtonText}>Full List</Text>
    </View>
-
-   {/* Body */}
-
-   <View style={styles.FilterPageUniContainer}>
-     <View style={styles.FilterPageUniHeaderContainer}>
-
-       <View style={styles.FilterPageUniHeaderNameContainer}>
-       <Text style={styles.FilterPageUniHeaderNameText}>Ashiesi University</Text>
-       </View>
-
-       <View style={styles.FilterBothContainer}>
-
-       <View style={styles.FilterPageUniHeaderLocationContainer}>
-         <Image 
-         source={Location}
-         style={styles.FilterPageUniHeaderLocationImage}
-         />
-         <Text style={styles.FilterPageUniHeaderLocationText}>Accra</Text>
-       </View>
-       <View style={styles.FilterPageUniHeaderRatingContainer}>
-         <View style={styles.FilterPageUniHeaderRatingImageContainer}>
-         <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-           <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-           <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-           <Image 
-           source={Star}
-           style={styles.FilterPageUniHeaderLocationImage}
-           />
-         </View>
-         <Text style={styles.FilterPageUniHeaderRateText}>4.3 Stars</Text>
-       </View>
-
-       <View>
-         <Text style={styles.FilterPageUniHeaderRateText}>Private Inst.</Text>
-       </View>
-       
-       </View>
-
-       <View style={styles.FilterCourseFeesMainContainer}>
-       <View style={styles.FilterCourseFeesContainer}>
-         <Text style={styles.FilterCourseFeesHeadText}>Courses Offered</Text>
-         <View>
-         <Text style={styles.FilterCourseFeesText}>{`5 Courses`}</Text>
-         </View>
-       </View>
-       <View style={styles.FilterCourseFeesContainer}>
-         <Text style={styles.FilterCourseFeesHeadText}>Fee Range</Text>
-         <View>
-         <Text style={styles.FilterCourseFeesText}>{`GHC 1k-12k`}</Text>
-         </View>
-       </View>
-       </View>
-
-       <View style={styles.FilterAdmissionContainer}>
-       <View style={styles.FilterCourseFeesContainer}>
-         <Text style={styles.FilterCourseFeesHeadText}>Admission Status : </Text>
-       </View>
-         <View>
-         <Text style={styles.FilterCourseFeesText}>Ongoing</Text>
-         </View>
-       </View>
-
-     </View>
-   </View>
-
 
  </View>
   )

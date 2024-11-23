@@ -1,0 +1,52 @@
+[
+ {
+  "id" : 1,
+  "name" : "Lorem Epson Son De lamc",
+  "amount" : "GHc 2000",
+  "deadline" : "20th Dec, 2024",
+  "school" : "KNUST",
+  "note" : "Lorem ullamco elit adipisicing commodo magna irure esse cillum dolor nostrud laboris consectetur.",
+  "link" : "www.saeedachiever.com",
+  "sponsor" : "~UniSphere Ghana"
+ },
+ {
+  "id" : 2,
+  "name" : "Free Tuition",
+  "amount" : "GHc 1700",
+  "deadline" : "20th Dec, 2024",
+  "school" : "WAEC",
+  "note" : "Lorem ullamco elit adipisicing commodo magna irure esse cillum dolor nostrud laboris consectetur.",
+  "link" : "www.waec.com",
+  "sponsor" : "WAEC Ghana"
+ },
+ {
+  "id" : 3,
+  "name" : "Up to 50% on all expenses",
+  "amount" : "GHc 1200",
+  "deadline" : "20th Dec, 2024",
+  "school" : "KNUST",
+  "note" : "Lorem ullamco elit adipisicing commodo magna irure esse cillum dolor nostrud laboris consectetur.",
+  "link" : "www.saeedachiever.com",
+  "sponsor" : "~UniSphere Ghana"
+ },
+ {
+  "id" : 4,
+  "name" : "$1000 International Scholarship",
+  "amount" : "$ 1000",
+  "deadline" : "20th Dec, 2024",
+  "school" : "Cambridge University",
+  "note" : "Lorem ullamco elit adipisicing commodo magna irure esse cillum dolor nostrud laboris consectetur.",
+  "link" : "www.saeedachiever.com",
+  "sponsor" : "~UniSphere Ghana"
+ },
+ {
+  "id" : 5,
+  "name" : "$1000 International Scholarship",
+  "amount" : "$ 1000",
+  "deadline" : "20th Dec, 2024",
+  "school" : "Cambridge University",
+  "note" : "Lorem ullamco elit adipisicing commodo magna irure esse cillum dolor nostrud laboris consectetur.",
+  "link" : "www.saeedachiever.com",
+  "sponsor" : "~UniSphere Ghana"
+ }
+]

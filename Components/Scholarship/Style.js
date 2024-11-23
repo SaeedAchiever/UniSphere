@@ -1,0 +1,101 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  ScholarshipMainBodyContainer:{
+    paddingBottom:40,
+    marginBottom:80
+  },
+ScholarshipMainHeaderText:{
+  fontSize:15,
+  fontWeight:'600',
+  opacity:0.7,
+  textTransform:'capitalize',
+  letterSpacing:1.2,
+  paddingLeft:20,
+},
+ScholarshipMainHeaderInput:{
+  paddingHorizontal:10,
+  borderWidth:1,
+  paddingVertical:5,
+  borderRadius:10,
+  borderColor:'lightblue',
+  fontSize:14,
+  backgroundColor:'rgba(0,0,0,0.074)',
+  letterSpacing:0.66,
+  textAlign:'center',
+  fontWeight:'500'
+},
+ScholarshipListBodyContainer:{
+  backgroundColor:'#fcfcfc',
+  width:'97%',
+  paddingTop:20,
+  alignSelf:'center',
+  marginVertical:10,
+  borderWidth:1,
+  borderColor:'lightblue',
+  borderRadius:5,
+},
+ScholarshipMainBodyFlexContainer:{
+  flexDirection:'row',
+  width:'100%',
+  paddingHorizontal:10,
+  paddingVertical:15,
+  justifyContent:'space-between',
+  alignItems:'center',
+},
+ScholarshipMainBodyFlexHeaderText:{
+  fontSize:15,
+  fontWeight:'500',
+  opacity:0.7,
+  paddingHorizontal:20,
+  letterSpacing:0.5,
+},
+ScholarshipSubBodyFlexContainer:{
+  alignItems:'center',
+  justifyContent:'center',
+  textAlign:'center',
+  gap:7
+},
+ScholarshipSubBodyFlexHeadText:{
+  fontSize:11,
+  fontWeight:'500',
+  textTransform:'uppercase'
+},
+ScholarshipSubBodyFlexBodyText:{
+  fontSize:10,
+  textTransform:'none',
+  fontWeight:'400'
+},
+ScholarshipButton:{
+  borderWidth:1.3,
+  paddingHorizontal:20,
+  paddingVertical:5,
+  borderRadius:7,
+  borderColor:'lightblue'
+},
+ScholarshipButtonText:{
+  fontSize:16,
+  opacity:0.8,
+  letterSpacing:0.7,
+  textTransform:'capitalize'
+},
+  
+Button:{
+  marginVertical:5,
+  paddingVertical:8,
+  alignItems:'center',
+  borderWidth:1,
+  paddingHorizontal:10,
+  borderColor:'lightblue',
+  borderRadius:5,
+  width:'80%',
+  alignSelf:'center'
+},
+ButtonText:{
+  fontSize:15,
+  fontWeight:'400',
+  textTransform:'capitalize'
+},
+})
+
+export default styles

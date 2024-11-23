@@ -4,12 +4,17 @@ import { StyleSheet,} from "react-native";
 const styles = StyleSheet.create({
  appContainer:{
   flex:1,
+  maxWidth:1000,
   alignItems:'flex-start',
-  justifyContent:'flex-start'
+  justifyContent:'flex-start',
+ },
+ allHomeContainer:{
+  paddingBottom:80,
+  marginBottom:40
  },
  HomeContainer:{
-  marginBottom:50,
-  backgroundColor:'#fff'
+  backgroundColor:'#fff',
+  gap:30,
  },
 
              // MENU BUTTON
@@ -68,8 +73,8 @@ const styles = StyleSheet.create({
           textTransform:'capitalize'
         },
         modalUserImage:{
-          width:75,
-          height:75,
+          width:50,
+          height:50,
           borderRadius:50,
           resizeMode:'cover',
           marginLeft:15
@@ -99,10 +104,11 @@ const styles = StyleSheet.create({
           flex:1,
           left:0,
           width:'100%',
-          height:55,
+          height:40,
           backgroundColor:'#fff',
           borderTopWidth:1,
           borderTopColor:'lightblue',
+          zIndex:10
         },
         footerContainer:{
           width:'100%',
@@ -122,33 +128,7 @@ const styles = StyleSheet.create({
           resizeMode:'contain'
         },
 
-      // WELCOME STYLE
-
-    welcomeMainContainer:{
-      width:'100%',
-      paddingVertical:10,
-      marginVertical:10,
-      flexWrap:'wrap',
-      alignItems:'center',
-      backgroundColor:'#fff'
-    },
-    welcomeContainer:{
-      flex:1,
-      width:'95%',
-      display:'flex',
-      flexDirection:'row',
-      alignItems:'center'
-    },
-    welcomeImageContainer:{
-      marginLeft:'5%'
-    },
-    welcomeNoteContainer:{
-      paddingHorizontal:  '7%'
-    },
-    welcomeNoteText:{
-      // fontSize:15,
-      fontWeight:'300'
-    },
+      
     SwitchContainer:{
       paddingVertical:10,
       display:'flex',
@@ -158,14 +138,14 @@ const styles = StyleSheet.create({
     },
     SwitchContainerBTN:{
       borderBottomWidth:2,
-      borderColor:'#cecece',
+      borderColor:'#999',
       paddingBottom:7,
       paddingHorizontal:7
     },
     SwitchContainerText:{
       fontSize:15,
       fontWeight:'700',
-      color:'#cecece',
+      color:'#000',
       letterSpacing:1,
     },
 
@@ -173,15 +153,18 @@ const styles = StyleSheet.create({
 
     recommendationMainContainer:{
       width:'100%',
-      height:250,
-      paddingVertical:10,
+      maxWidth:900,
+      height:270,
+      maxHeight:300,
+      alignSelf:'center',
       flexDirection:'column',
+      gap:10,
     },
     recommendationHeadContainer:{
-      padding:10,
-      width:'100%',
+      width:'90%',
       flexDirection:'row',
-      alignItems:"center",
+      alignSelf:"center",
+      paddingBottom:10
     },
     recommendationHeadText:{
       textTransform:'capitalize',
@@ -189,14 +172,15 @@ const styles = StyleSheet.create({
       color:'#000'
     },
     recommendationContainer:{
-      backgroundColor:'rgba(0,0,0,0.07)',
+      backgroundColor:'rgba(0,0,0,0.09)',
       borderColor:'lighblue',
       flexDirection:'row',
-      borderWidth:2,
       borderRadius:10,
       justifyContent:'space-between',
-      marginHorizontal:5,
-      height:170
+      alignSelf:'center',
+      gap:10,
+      width:'97%',
+      alignSelf:'center'
     },
     recommendationTextContainer:{
       flexDirection:'column',
@@ -204,12 +188,12 @@ const styles = StyleSheet.create({
       height:'100%',
       justifyContent:'center',
       gap:20,
-      alignItems:'center'
+      paddingHorizontal:20
     },
     recommendationTextName:{
-      fontSize:13,
-      fontWeight:'500',
-      paddingLeft:10
+      fontSize:15,
+      fontWeight:'700',
+      color:'#333'
     },
     recommendationTextHead:{
       fontSize:11,
@@ -232,29 +216,22 @@ const styles = StyleSheet.create({
       paddingTop:10
     },
     recommendationImageContainer:{
-      width:'40%',
+      width:'35%',
       height:'100%'
     },
     recommendationImage:{
       width:'100%',
       height:'100%',
       resizeMode:'cover',
-      borderRadius:10
     },
 
              // TOP PLACES  TO  STUDY
 
     topPlaceMainContainer:{
       width:'100%',
-      paddingVertical:10,
-      alignItems:'center'
-    },
-    topPlaceHeadContainer:{
-      paddingVertical:10,
-      width:'100%',
-      marginLeft:30,
-      flexDirection:'row',
-      alignItems:'center'
+      maxWidth:900,
+      height:'auto',
+      alignSelf:'center'
     },
     topPlaceContainer:{
       width:'95%',
@@ -285,11 +262,14 @@ const styles = StyleSheet.create({
       flex:1,
       backgroundColor:'rgba(0,0,0,0.09)',
       marginBottom:10,
+      height:200
     },
     userPreferenceSubBodyTextCont:{
-      flex:0.7,
-      alignContent:'center',
-      alignItems:'center',
+      flex:0.6,
+      alignContent:'flex-start',
+      alignItems:'flex-start',
+      paddingLeft:10,
+      justifyContent:'center'
     },
     userPreferenceSubBodyTextContTwo:{
       marginTop:'6%',
@@ -319,7 +299,7 @@ const styles = StyleSheet.create({
       fontWeight:'500'
     },
     userPreferenceSubBodyImageCont:{
-      flex:0.3
+      flex:0.4
     },
     userPreferenceImage:{
       width:'100%',
@@ -362,128 +342,14 @@ const styles = StyleSheet.create({
       borderRadius:5
     },
 
-              // CATEGORIES  STYLE
-
-    
-      // SCHOLARSHIP
-
-
-    ScholarshipMainContainer:{
-      backgroundColor:'rgba(20,190,50,0.09)',
-      width:'100%',
-      flex:1,
-      marginBottom:90
-    },
-    ScholarshipMainHeaderContainer:{
-      width:'100%',
-      paddingVertical:15,
-      gap:10,
-      paddingHorizontal:10,
-      borderBottomWidth:3,
-      borderBottomColor:'lightblue',
-      // backgroundColor:'#fff'
-    },
-    ScholarshipMainHeaderText:{
-      fontSize:15,
-      fontWeight:'600',
-      opacity:0.7,
-      textTransform:'capitalize',
-      letterSpacing:1.2,
-      paddingLeft:20,
-    },
-    ScholarshipMainHeaderInput:{
-      paddingHorizontal:10,
-      borderWidth:1,
-      textAlign:'left',
-      paddingVertical:5,
-      borderRadius:10,
-      borderColor:'lightblue',
-      fontSize:14,
-      letterSpacing:0.3,
-      backgroundColor:'rgba(0,0,0,0.074)',
-      letterSpacing:0.66,
-      textAlign:'center',
-      fontWeight:'500'
-    },
-    ScholarshipMainBodyContainer:{
-      backgroundColor:'#fcfcfc',
-      width:'97%',
-      paddingTop:20,
-      alignSelf:'center',
-      marginVertical:10,
-      borderWidth:1,
-      borderColor:'lightblue',
-      borderRadius:5,
-    },
-    ScholarshipMainBodyFlexContainer:{
-      flexDirection:'row',
-      width:'100%',
-      paddingHorizontal:10,
-      paddingVertical:15,
-      justifyContent:'space-between',
-      alignItems:'center',
-    },
-    ScholarshipMainBodyFlexHeaderText:{
-      fontSize:15,
-      fontWeight:'600',
-      opacity:0.7,
-      paddingHorizontal:20,
-      letterSpacing:0.5,
-    },
-    ScholarshipSubBodyFlexContainer:{
-      alignItems:'center',
-      justifyContent:'center',
-      textAlign:'center',
-      gap:7
-    },
-    ScholarshipSubBodyFlexHeadText:{
-      fontSize:12,
-      fontWeight:'500',
-      textTransform:'uppercase'
-    },
-    ScholarshipSubBodyFlexBodyText:{
-      fontSize:12,
-      textTransform:'none'
-    },
-    ScholarshipButton:{
-      borderWidth:1.3,
-      paddingHorizontal:20,
-      paddingVertical:5,
-      borderRadius:7,
-      borderColor:'lightblue'
-    },
-    ScholarshipButtonText:{
-      fontSize:16,
-      opacity:0.8,
-      letterSpacing:0.7,
-      textTransform:'capitalize'
-    },
-      
-    Button:{
-      marginVertical:5,
-      paddingVertical:8,
-      alignItems:'center',
-      borderWidth:1,
-      paddingHorizontal:10,
-      borderColor:'lightblue',
-      borderRadius:5,
-    },
-    ButtonText:{
-      fontSize:15,
-      fontWeight:'400',
-      textTransform:'capitalize'
-    },
-
-    // UniversityHome  STYLE
-
-
-    
+    //       // UniversityHome  STYLE
     
     uniHeader:{
       paddingVertical:8,
       marginBottom:20,
       alignItems:'center',
-      justifyContent:'center'
+      justifyContent:'center',
+      backgroundColor:'rgba(0,0,0,0.09)'
     },
     logoContainer:{
       width:'80%',
@@ -505,33 +371,46 @@ const styles = StyleSheet.create({
       resizeMode:'cover'
     },
     searchBarContainer:{
-      width:'90%',
-      justifyContent:'center'
+      width:'95%',
+      flexDirection:'row',
+      alignItems:'center',
+      gap:15,
+      backgroundColor:'rgba(0,0,0,0.09)',
+      paddingVertical:5,
+      marginBottom:10,
+      borderRadius:15,
+      paddingLeft:20
+    },
+    searchBack:{
+      width:40,
+      height:30
     },
     searchBar:{
-      borderWidth:0.7,
-      paddingLeft:10,
       fontSize:15,
-      fontWeight:'300',
+      fontWeight:'400',
       borderRadius:10,
       paddingVertical:5,
-      
+      color:'#333',
     },
-
-    // UniHomeMainContainer:{
-    //   width:'100%',
-    //   alignItems:'center',
-    //   justifyContent:'center',
-    //   alignSelf:'center',
-      
-    // },
-    // UniHomeContainer:{
-    //   width:'100%',
-    //   alignSelf:'center',
-    //   paddingBottom:20,
-    //   borderBottomWidth:1.4,
-    //   borderColor:'lightblue'
-    // },
+    searchContainer:{
+      width:'100%',
+      zIndex:100,
+      paddingVertical:20,
+      height:"auto",
+      minHeight:10,
+    },
+    searchListContainer:{
+      width:'95%',
+      alignSelf:'center',
+      paddingVertical:5,
+      marginVertical:5,
+    },
+    searchListText:{
+      fontSize:13,
+      fontWeight:'bold',
+      textTransform:'capitalize',
+      color:'#333'
+    },
     UniHeadName:{
       fontSize:17,
       fontWeight:'600',
@@ -641,12 +520,12 @@ const styles = StyleSheet.create({
       // HOME SCHOLARSHIP
 
     HomeMainScholarshipContainer:{
-      paddingVertical:20,
+      paddingVertical:10,
       width:'100%',
     },
     HomeScholarshipHeaderContainer:{
       flexDirection:'row',
-      width:'80%',
+      width:'90%',
       alignSelf:'center',
       alignItems:'center'
     },
@@ -701,7 +580,8 @@ const styles = StyleSheet.create({
       width:'100%',
       paddingVertical:5,
       backgroundColor:'rgba(0,0,0,0.071)',
-      alignItems:'center'
+      alignItems:'center',
+      zIndex:1
     },
     UniHomeContainer:{
       paddingBottom:7,
@@ -722,7 +602,8 @@ const styles = StyleSheet.create({
       height:'100%',
       resizeMode:'cover',
       borderTopLeftRadius:10,
-      borderTopRightRadius:10
+      borderTopRightRadius:10,
+      zIndex:1
     },
     UniHomeTextContainer:{
       width:'85%',
@@ -732,7 +613,6 @@ const styles = StyleSheet.create({
     UniHomeText:{
       fontSize:16,
       fontWeight:'500',
-      opacity:0.6,
       letterSpacing:0.4
     },
     uniMainHomeLocNCampContainer:{
@@ -785,23 +665,13 @@ const styles = StyleSheet.create({
     uniMainHomeReviewText:{
       fontSize:13,
       fontWeight:'500',
-      textTransform:'none'
+      textTransform:'capitalize'
     },
     reviewButton:{
-      borderBottomWidth:1.2,
-      borderLeftWidth:1.2,
-      borderColor:'rgba(0,0,0,0.5)',
       paddingHorizontal:6,
       marginHorizontal:10,
       paddingVertical:5,
       borderRadius:5,
-      backgroundColor:'rgba(0,0,0,0.07)',
-    },
-    reviewButtonText:{
-      fontSize:10.5,
-      fontWeight:'700',
-      letterSpacing:0.4,
-      textTransform:'capitalize'
     },
     ReadButton:{
       marginTop:15,
@@ -820,36 +690,18 @@ const styles = StyleSheet.create({
       fontWeight:'500',
       letterSpacing:0.6
     },
-    allButton:{
-      width:'90%',
-      marginVertical:20,
-      paddingHorizontal:5,
-      marginLeft:'5%',
-      paddingVertical:8,
-      borderRadius:3,
-      backgroundColor:'transparent',
-      alignSelf:'center',
-      margin:10,
-      borderWidth:2,
-      borderColor:'#7666'
-    },
-    allButtonText:{
-      fontSize:15,
-      textAlign:'center',
-      fontWeight:'600',
-      color:'#444'
-    },
     FilterPageUniContainer:{
-      width:'97%',
-      maxWidth:500,
+      width:'95%',
+      maxWidth:900,
       height:'auto',
-      backgroundColor:'rgba(0,0,100,0.05)',
-      marginTop:5,
+      backgroundColor:'rgba(0,0,100,0.08)',
+      marginTop:20,
+      alignSelf:'center',
       paddingVertical:10
      },
      FilterPageUniHeaderContainer:{
       flexDirection:'column',
-      width:'auto'
+      width:'auto',
      },
      FilterPageUniHeaderNameContainer:{
       paddingHorizontal:15,
@@ -858,7 +710,7 @@ const styles = StyleSheet.create({
      FilterPageUniHeaderNameText:{
       fontSize:15,
       fontWeight:'500',
-      color:'lightblue',
+      color:'#000',
       letterSpacing:0.3
      },
      FilterBothContainer:{
@@ -867,11 +719,13 @@ const styles = StyleSheet.create({
       alignItems:'center',
       justifyContent:'flex-start',
       paddingLeft:'5%',
-      gap:10,
+      gap:20,
       borderBottomWidth:1.5,
       borderColor:'lightblue',
       borderStyle:'dashed',
-      paddingBottom:20
+      paddingBottom:20,
+      alignSelf:'center',
+      paddingVertical:10
      },
      FilterPageUniHeaderLocationContainer:{
       display:'flex',
@@ -887,7 +741,7 @@ const styles = StyleSheet.create({
       height:19,
      },
      FilterPageUniHeaderLocationText:{
-      fontSize:12,
+      fontSize:10,
       fontWeight:'500'
      },
      FilterPageUniHeaderRatingContainer:{
@@ -896,7 +750,7 @@ const styles = StyleSheet.create({
       paddingRight:5,
       alignItems:'center',
       borderRightWidth:1.5,
-      borderColor:'#888'
+      borderColor:'#888',
     
      },
      FilterPageUniHeaderRatingImageContainer:{
@@ -904,9 +758,10 @@ const styles = StyleSheet.create({
       gap:0,
      },
      FilterPageUniHeaderRateText:{
-      fontSize:11,
+      fontSize:12,
       fontWeight:'bold',
-      paddingLeft:5
+      paddingRight:10,
+      textTransform:'capitalize'
      },
      FilterCourseFeesMainContainer:{
       width:'95%',
@@ -1067,6 +922,49 @@ const styles = StyleSheet.create({
     myMatchBtnText:{
       fontSize:15,
       fontWeight:'500'
+    },
+    listButton:{
+      width:'85%',
+      paddingVertical:10,
+      marginVertical:10,
+      borderWidth:1,
+      borderRadius:10,
+      alignItems:'center',
+      alignSelf:'center',
+      backgroundColor:'rgba(0,0,0,0.09)'
+    },
+    listButtonText:{
+      fontSize:17,
+      fontWeight:'500'
+    },
+    collegeOptionsMainContainer:{
+      display:'flex',
+      flexDirection : "row",
+      gap:20,
+      paddingVertical:20,
+      paddingHorizontal:20
+    },
+    collegeOptionsContainer:{
+      paddingHorizontal:10,
+      paddingVertical:10,
+       borderTopWidth:1,
+       borderBottomWidth:1,
+       backgroundColor:"lightblue"
+    },
+    collegeOptions:{
+      fontSize:15,
+      fontWeight:"700",
+      color:"#333"
+    },
+    logOutContainer:{
+      width:'100%',
+      position:'absolute',
+      bottom:10,
+      left:'75%'
+    },
+    logOutText:{
+      fontSize:15,
+      fontWeight:'700'
     }
 
 })

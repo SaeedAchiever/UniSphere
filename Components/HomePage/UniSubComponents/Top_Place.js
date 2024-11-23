@@ -1,43 +1,25 @@
 import { View, Text, Image,useWindowDimensions,ScrollView, } from 'react-native'
 import React from 'react'
-import  {useNavigation} from  '@react-navigation/native'
-import Swiper from 'react-native-swiper';
 
 import styles from '../HomeStyle'
 
-const Scholarship  = require("../../../assets/recomended.png")
-
-const Star  = require("../../../assets/star.png")
-const UserPic  = require("../../../assets/user_1.jpg")
-const Location  = require("../../../assets/location.png")
-const Winneba  = require("../../../assets/winneba.jpg")
-const UG  = require("../../../assets/ug.jpeg")
-const KNUST  = require("../../../assets/knust.jpeg")
-const SmallImage  = require("../../../assets/recomended.png")
 const Accra  = require("../../../assets/accra.jpg")
 const Kumasi  = require("../../../assets/kumasi.jpeg")
-const Tema  = require("../../../assets/tema.jpeg")
 const Cape_Coast  = require("../../../assets/cape_coast.jpeg")
 const Tamale  = require("../../../assets/tamale.jpeg")
 const TopPlaceLogo  = require("../../../assets/top_place.png")
-const Top  = require("../../../assets/trends.png")
-const Scholar  = require("../../../assets/scholar.png")
-const Scholar_Two  = require("../../../assets/scholar_two.png")
-const Scholar_Three  = require("../../../assets/scholar_three.png")
 
 
 const Top_Place = () => {
 
  // DEFINING  WIDTH AND HEIGHT 
  const deviceWidth = useWindowDimensions().width
- const deviceHeight = useWindowDimensions().height
 
- const navigation = useNavigation()
 
   return (
    <View style={styles.topPlaceMainContainer}>
           
-   <View style={styles.topPlaceHeadContainer}>
+   <View style={styles.recommendationHeadContainer}>
      <Image  
        source={TopPlaceLogo}
        style={{
@@ -47,9 +29,8 @@ const Top_Place = () => {
      />
      <Text style={{
        fontSize: deviceWidth > 500 ? 18 : 16,
-       textTransform:'capitalize',
        fontWeight:300
-     }}>Top places to study in ghaha</Text>
+     }}>Top places to study in Ghana</Text>
    </View>
 
      <View style={styles.topPlaceContainer}>
@@ -57,11 +38,7 @@ const Top_Place = () => {
 
        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
          <View
-          style={styles.placeContainer}
-          onTouchEnd={()=>{
-           navigation.navigate('Places')
-          }}
-         >
+          style={styles.placeContainer}>
            <Image  
              source={Accra}
              style={styles.topPlaceImage}
@@ -70,11 +47,7 @@ const Top_Place = () => {
          </View>
 
          <View
-          style={styles.placeContainer}
-          onTouchEnd={()=>{
-           navigation.navigate('Places')
-          }}
-         >
+          style={styles.placeContainer}>
            <Image  
                source={Kumasi}
                style={styles.topPlaceImage}
@@ -83,11 +56,7 @@ const Top_Place = () => {
          </View>
 
          <View
-          style={styles.placeContainer}
-          onTouchEnd={()=>{
-           navigation.navigate('Places')
-          }}
-         >
+          style={styles.placeContainer}>
            <Image  
                  source={Cape_Coast}
                  style={styles.topPlaceImage}
@@ -96,11 +65,7 @@ const Top_Place = () => {
          </View>
 
          <View
-          style={styles.placeContainer}
-          onTouchEnd={()=>{
-           navigation.navigate('Places')
-          }}
-         >
+          style={styles.placeContainer}>
          <Image  
                  source={Tamale}
                  style={styles.topPlaceImage}
@@ -109,6 +74,10 @@ const Top_Place = () => {
          </View>
        </ScrollView>
      </View>
+
+  
+
+
    </View>
   )
 }

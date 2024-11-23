@@ -1,29 +1,13 @@
 import { View, Text, Image,useWindowDimensions,ScrollView, } from 'react-native'
 import React from 'react'
 import  {useNavigation} from  '@react-navigation/native'
-import Swiper from 'react-native-swiper';
-
 import styles from '../HomeStyle'
 
-const Scholarship  = require("../../../assets/recomended.png")
-
-const Star  = require("../../../assets/star.png")
-const UserPic  = require("../../../assets/user_1.jpg")
-const Location  = require("../../../assets/location.png")
-const Winneba  = require("../../../assets/winneba.jpg")
-const UG  = require("../../../assets/ug.jpeg")
-const KNUST  = require("../../../assets/knust.jpeg")
-const SmallImage  = require("../../../assets/recomended.png")
 const Accra  = require("../../../assets/accra.jpg")
 const Kumasi  = require("../../../assets/kumasi.jpeg")
 const Tema  = require("../../../assets/tema.jpeg")
 const Cape_Coast  = require("../../../assets/cape_coast.jpeg")
-const Tamale  = require("../../../assets/tamale.jpeg")
-const TopPlaceLogo  = require("../../../assets/top_place.png")
 const Top  = require("../../../assets/trends.png")
-const Scholar  = require("../../../assets/scholar.png")
-const Scholar_Two  = require("../../../assets/scholar_two.png")
-const Scholar_Three  = require("../../../assets/scholar_three.png")
 
 
 const Certification = () => {

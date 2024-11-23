@@ -1,32 +1,12 @@
-import { View, Text, Image,useWindowDimensions } from 'react-native'
+import { View, Text, Image,useWindowDimensions,FlatList } from 'react-native'
 import React from 'react'
 import  {useNavigation} from  '@react-navigation/native'
-import Swiper from 'react-native-swiper';
 
 import styles from '../HomeStyle'
 
-const Scholarship  = require("../../../assets/recomended.png")
-
 const Star  = require("../../../assets/star.png")
-const UserPic  = require("../../../assets/user_1.jpg")
-const Location  = require("../../../assets/location.png")
-const Winneba  = require("../../../assets/winneba.jpg")
-const UG  = require("../../../assets/ug.jpeg")
-const KNUST  = require("../../../assets/knust.jpeg")
-const SmallImage  = require("../../../assets/recomended.png")
-const Accra  = require("../../../assets/accra.jpg")
-const Kumasi  = require("../../../assets/kumasi.jpeg")
-const Tema  = require("../../../assets/tema.jpeg")
-const Cape_Coast  = require("../../../assets/cape_coast.jpeg")
-const Tamale  = require("../../../assets/tamale.jpeg")
-const TopPlaceLogo  = require("../../../assets/top_place.png")
-const Top  = require("../../../assets/trends.png")
-const Scholar  = require("../../../assets/scholar.png")
-const Scholar_Two  = require("../../../assets/scholar_two.png")
-const Scholar_Three  = require("../../../assets/scholar_three.png")
 
-
-const Preference = () => {
+const Preference = ({Preference_Uni}) => {
 
  // DEFINING  WIDTH AND HEIGHT 
  const deviceWidth = useWindowDimensions().width
@@ -36,7 +16,7 @@ const Preference = () => {
 
   return (
    <View style={styles.userFieldMainContainer}>
-   <View style={styles.topPlaceHeadContainer}>
+   <View style={styles.recommendationHeadContainer}>
      <Text  style={{
        fontSize: deviceWidth > 500 ? 18 : 16,
        textTransform:'capitalize',
@@ -47,150 +27,61 @@ const Preference = () => {
 
    <View style={styles.userPreferenceBodyContainer}>
 
-     {/* ONE */}
-
-     <View style={styles.userPreferenceSubBodyContainer}>
-       <View style={styles.userPreferenceSubBodyTextCont}>
-         <View style={styles.userPreferenceSubBodyTextContTwo}>
-           <Text style={styles.userPreferenceSubBodyText}>University Of Education</Text>
-           <Text style={styles.userPreferenceSubBodyText}>Winneba</Text>
-           <View style={styles.prefRevContainer}>
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-           </View>
-           <View
-           style={styles.userPreferenceSubBodyBtn}
-           onTouchEnd={()=>{
-             navigation.navigate('WinnebaPage')
-           }}
-           >
-             <Text style={styles.userPreferenceSubBodyBtnText}>View Profile</Text>
-           </View>
-         </View>
-       </View>
-       <View style={styles.userPreferenceSubBodyImageCont}>
-         <Image  
-           source={Winneba}
-           style={styles.userPreferenceImage}
-         />
-       </View>
-     </View>
-
-     {/* TWO */}
-
-     <View style={styles.userPreferenceSubBodyContainer}>
-       <View style={styles.userPreferenceSubBodyTextCont}>
-         <View style={styles.userPreferenceSubBodyTextContTwo}>
-           <Text style={styles.userPreferenceSubBodyText}>University Of Ghana</Text>
-           <Text style={styles.userPreferenceSubBodyText}>Legon</Text>
-           <View style={styles.prefRevContainer}>
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-           </View>
-           <View
-           style={styles.userPreferenceSubBodyBtn}
-           onTouchEnd={()=>{
-             navigation.navigate('LegonPage')
-           }}
-           >
-             <Text style={styles.userPreferenceSubBodyBtnText}>View Profile</Text>
-           </View>
-         </View>
-       </View>
-       <View style={styles.userPreferenceSubBodyImageCont}>
-         <Image  
-           source={UG}
-           style={styles.userPreferenceImage}
-         />
-       </View>
-     </View>
-
-     {/* THREE */}
-
-     <View style={styles.userPreferenceSubBodyContainer}>
-       <View style={styles.userPreferenceSubBodyTextCont}>
-         <View style={styles.userPreferenceSubBodyTextContTwo}>
-           <Text style={styles.userPreferenceSubBodyText}>Kwame Nkrumah University Of Science And Technology</Text>
-           <Text style={styles.userPreferenceSubBodyText}>Accra</Text>
-           <View style={styles.prefRevContainer}>
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-             <Image
-             source={Star}
-             style={styles.Revstar}
-             />
-           </View>
-           <View
-           style={styles.userPreferenceSubBodyBtn}
-           onTouchEnd={()=>{
-             navigation.navigate('KnustPage')
-           }}
-           >
-             <Text style={styles.userPreferenceSubBodyBtnText}>View Profile</Text>
-           </View>
-         </View>
-       </View>
-       <View style={styles.userPreferenceSubBodyImageCont}>
-         <Image  
-           source={Accra}
-           style={styles.userPreferenceImage}
-         />
-       </View>
-     </View>
-     
+    <FlatList 
+      data={Preference_Uni}
+      renderItem={({item})=>{
+        return (
+          <View style={styles.userPreferenceSubBodyContainer}>
+            <View style={styles.userPreferenceSubBodyTextCont}>
+              <View style={styles.userPreferenceSubBodyTextContTwo}>
+                <Text style={styles.userPreferenceSubBodyText}>{`${item.name}`}</Text>
+                <Text style={styles.userPreferenceSubBodyText}>{`${item.location}`}</Text>
+                <View style={styles.prefRevContainer}>
+                  <Image
+                  source={Star}
+                  style={styles.Revstar}
+                  />
+                  <Image
+                  source={Star}
+                  style={styles.Revstar}
+                  />
+                  <Image
+                  source={Star}
+                  style={styles.Revstar}
+                  />
+                  <Image
+                  source={Star}
+                  style={styles.Revstar}
+                  />
+                  <Image
+                  source={Star}
+                  style={styles.Revstar}
+                  />
+                </View>
+                <View
+                style={styles.userPreferenceSubBodyBtn}
+                onTouchEnd={()=>{
+                  navigation.navigate('UniData',  {university : Preference_Uni.find(
+                    uni =>  uni.name  === item.name
+                  )})
+                }}
+                >
+                  <Text style={styles.userPreferenceSubBodyBtnText}>View Profile</Text>
+                </View>
+              </View>
+            </View>
+            <View style={styles.userPreferenceSubBodyImageCont}>
+              <Image  
+                source={{uri: item.image}}
+                style={styles.userPreferenceImage}
+              />
+            </View>
+          </View>
+        )
+      }}
+    />
      
    </View>
-
  </View>
   )
 }

@@ -12,6 +12,7 @@ const Desired_Course = () => {
      <View>
        <Text style={styles.HomeScholarshipHeaderText}>Get Matched Courses</Text>
      </View>
+     
 
    </View>
 
@@ -37,9 +38,7 @@ const Desired_Course = () => {
    </ScrollView>
 
    {/* Scroll Body */}
-
    
-
    <FlatList 
       data={Desires}
       horizontal
