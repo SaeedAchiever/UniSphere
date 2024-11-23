@@ -5,10 +5,9 @@ import { useNavigation } from '@react-navigation/native';
 
 import styles from '../HomePage/HomeStyle'
 
-import  Universities from './smallList.json'
+import  Universities from '../University/universities.json'
 
 const Location  = require("../../assets/location.png")
-const KNUST  = require("../../assets/knust.jpeg")
 const Star  = require("../../assets/star.png")
 
 
@@ -17,7 +16,7 @@ const UniversityBody = () => {
     const navigation = useNavigation()
 
     return (
-      
+      <View>
         <FlatList 
           data={Universities}
           renderItem={({item})=>{
@@ -28,7 +27,7 @@ const UniversityBody = () => {
                       <View style={styles.UniHomeContainer}>
                         <View style={styles.UniHomeImageContainer}>
                           <Image  
-                            source={KNUST}
+                            source={{uri : item.image}}
                             style={styles.UniHomeImage}
                           />
                         </View>
@@ -50,7 +49,7 @@ const UniversityBody = () => {
                             </View>
                             <View>
                               <Text style={styles.uniMainHomeLocText}>
-                                {`${item.location}`}
+                                {`${item.town}, ${item.location}`}
                               </Text>
                             </View>
 
@@ -65,8 +64,7 @@ const UniversityBody = () => {
 
                           </View>
                           <View>
-                          <Text style={styles.uniMainHomeLocText}>
-                            5 campus</Text>
+                          <Text style={styles.uniMainHomeLocText}>{`${item.campus_number} Campuses`}</Text>
                           </View>
                         </View>
 
@@ -74,16 +72,11 @@ const UniversityBody = () => {
                           <View style={styles.uniMainHomeReviewImageContainer}>
                             
                           <Image source={Star} style={styles.Revstar}/>
-                          <Image source={Star} style={styles.Revstar}/>
-                          <Image source={Star} style={styles.Revstar}/>
-                          <Image source={Star} style={styles.Revstar}/>
                             
                           </View>
                           <View style={styles.uniMainHomeReviewTextContainer}>
-                            <Text style={styles.uniMainHomeReviewText}>20 reviews</Text>
+                            <Text style={styles.uniMainHomeReviewText}>{`${item.reviews} Reviews`}</Text>
                           </View>
-
-                          
 
                           <View style={{
                           width:2,
@@ -97,17 +90,15 @@ const UniversityBody = () => {
                         
 
                         <View style={styles.reviewButton}>
-                          <Text style={styles.reviewButtonText}>See Rating</Text>
+                          <Text style={styles.uniMainHomeReviewText}>{`${item.type} Inst`}</Text>
                         </View>
 
                         </View>
 
                         <View
                         style={styles.ReadButton}
-                        onTouchEnd={()=>{
-                          navigation.navigate('UniData',  {university : Universities.find(
-                            uni =>  uni.name  = item.name
-                          )})
+                        onTouchEnd={() => {
+                          navigation.navigate('UniData', { university: item });
                         }}
                         >
                           <Text style={styles.ReadButtonText}>Read More</Text>
@@ -117,21 +108,12 @@ const UniversityBody = () => {
 
                 </View>
                 
-          {/* ALL BUTTON */}
-
-                <View 
-                  style={styles.allButton}
-                  onTouchEnd={()=>{
-                    navigation.navigate(item.home)
-                  }}
-                >
-                    <Text style={styles.allButtonText}>{item.btn}</Text>
-                </View>
-
               </View>
             )
           }}
         />
+      </View>
+
 
     );
   };

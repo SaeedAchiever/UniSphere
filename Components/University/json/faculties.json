@@ -2602,14 +2602,6 @@
             "Refer to the General Entry Requirements"
           ]
         },
-        {
-          "course_id" : 4,
-          "course_name" : "Bachelor of Marketing",
-          "course_type" : "undergraduate",
-          "entry_requirements" : [
-            "Refer to the General Entry Requirements"
-          ]
-        },
 
         {
           "course_id" : 1,
@@ -6412,8 +6404,4309 @@
   "name": "Kwame Nkrumah University  Of  Science And Tecnology",
   "faculties" : [
     {
+      "faculty_id" : 1,
+      "faculty_name" : "Faculty of Physical And Computational Sciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc. Chemistry",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Computer Science (Parallel)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Computer Science",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Information Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Computer Science (Distance)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BSc Information Technology (Distance)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BSc. Mathematics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BSc. Physics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "BSc. Statistics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "BSc. Actuarial Science",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "BSc. Statistics (Two-year top up)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 12,
+          "course_name": "BSc Actuarial Science (Four year or Two-year top-up)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 13,
+          "course_name": "BSc. Meteorology and Climate Science",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MSc Polymer Science and Technology Programme",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Postgraduate Degree Programmes",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc Health Informatics (Distance)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MSc Computer Science",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MSc Information Technology",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MSc Information Technology (Distance)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MSc. Mathematics",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MSc. Applied Statistics (18-Month)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "MSc. Actuarial Science (18-Month)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil in Health Informatics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil Computer Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil Information Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil Health Informatics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MPhil. Applied Mathematics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MPhil. Pure Mathematics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "PhD Applied Mathematics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "PhD (Solid State Physics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "PhD (Nuclear Science and Technology)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "PhD (Materials Science)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "PhD (Geophysics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 12,
+          "course_name": "PhD (Environmental Physics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 13,
+          "course_name": "PhD (Mathematical and Computational Physics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 14,
+          "course_name": "MPhil (Environmental Physics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 15,
+          "course_name": "MPhil (Mathematical and Computational Physics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 16,
+          "course_name": "MPhil (Solid State Physics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 17,
+          "course_name": "MPhil (Nuclear Science and Technology)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 18,
+          "course_name": "MPhil Material Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 19,
+          "course_name": "MPhil Geophysics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 20,
+          "course_name": "PhD Mathematical Statistics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 21,
+          "course_name": "PhD Machine Learning (Statistics)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 22,
+          "course_name": "PhD Applied Statistics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 23,
+          "course_name": "PhD Computational Statistics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 24,
+          "course_name": "PhD Actuarial Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 25,
+          "course_name": "MPhil Mathematical Statistics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 26,
+          "course_name": "MPhil Actuarial Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 27,
+          "course_name": "MPhil Meteorology and Climate Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 28,
+          "course_name": "PhD Meteorology and Climate Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 2,
+      "faculty_name" : "Faculty of Biosciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc. Biochemistry",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Food Science & Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "Doctor of Optometry",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Biological Science",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Environmental Science",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "Human Nutrition and Dietetics (Distance)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Biotechnology (Distance)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc. Food Quality Management (IDL)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MSc. Food Science and Technology",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "M.Sc. Environmental Science",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "Human Nutrition and Dietetics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "PhD. Food Science and Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil. Food Science and Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "(MPhil.) Degree Programme in Vision Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "Doctor of Philosophy (PhD) Degree Programme in Vision Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "M.Phil. and Ph.D. Environmental Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+    },
+    {
+      "faculty_id" : 3,
+      "faculty_name" : "Faculty of Civil and Geo Engineering",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc Civil Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Geological Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Geomatic Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Petroleum Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MSc Water Supply and Environmental Sanitation",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Water Resources Engineering and Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc. Water Supply and Environmental Sanitation",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MSc Water Resources Engineering and Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MSc Road and Transportation Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MSc Geophysical Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MSc. Geomatic Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MSc Petroleum Engineering (1 Year)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil Environmental Sanitation and Waste Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil Water Resources Engineering and Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "PhD Environmental Sanitation and Waste Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "PhD Water Supply and Treatment Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "PhD Water Resources Engineering and Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "PhD Water Resources Engineering and Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MPhil Geological Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "PhD Geological Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "MPhil. Geomatic Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "MPhil. GIS",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "MPhil / PhD Petroleum Engineering (2 / 3 yrs)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 4,
+      "faculty_name" : "Faculty of Electrical & Computer Engineering",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc Biomedical Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Computer Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Electrical/Electronic Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Telecommunication Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Telecom Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MEng Information and Communication Technology",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Electrical Power Systems",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc Power Systems Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil / PhD Computer Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil / PhD Electric & Electronic Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil Systems Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil / PhD Telecom Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 5,
+      "faculty_name" : "Faculty of Mechanical & Chemical Engineering",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc Agricultural Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Petrochemical Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Chemical Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Metallurgical Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Materials Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BSc Marine Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BSc Industrial Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BSc Automobile Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "BSc Mechanical Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "BSc Aerospace Engineering",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MSc Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Soil and Water Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc Food and Postharvest Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MSc Agro-Environmental Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MSc Agricultural Machinery Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "M.Sc. Environmental Resources Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MSc Mechanical Engineering",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MSc Technology Management and Entrepreneurship - IDL",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "Professional Master Engineering with Management - IDL",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "MSc Renewable Energy Technologies",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "MSc Energy and Sustainable Management - IDL",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil / PhD Agricultural Machinery Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil / PhD Agro-Environmental Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil / PhD Bioengineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil / PhD Food and Post Harvest Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MPhil / PhD Soil and Water Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MPhil / PhD Chemical Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MPhil Environmental Resources Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MPhil / PhD Materials Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "PhD Sustainable Energy Technologies (PhD SETs)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "MPhil / PhD Mechanical Engineering",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "MPhil Technology Management and Entrepreneurship - IDL",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 12,
+          "course_name": "MPhil Renewable Energy Technologies",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 6,
+      "faculty_name" : "Faculty of Social Sciences",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BA (Hons) Economics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BA (Hons) English",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BA (Hons) Culture and Tourism",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BA (Hons) Geography and Rural Development",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BA History",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BA Political Studies",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BA Communication Studies",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BA Linguistics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "Akan Language and Culture",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "French and Francophone Studies",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "BA (Hons) Social Work",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 12,
+          "course_name": "BA (Hons) Sociology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 13,
+          "course_name": "BA (Hons) Religious Studies",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MSc Economics and Finance",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Business Economics",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc Economics",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MA Sociology",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MA Social Work",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MA Religious Studies",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil / PhD Economics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "PhD in Literature",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "PhD in Language",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil in English",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MPhil / PhD Geography and Rural Development",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MPhil / PhD Akan",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MPhil / PhD French",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MPhil Social Work",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "MPhil / PhD Sociology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "PhD Sociology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "MPhil / PhD Religious Studies",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 7,
+      "faculty_name" : "Faculty Of Law",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "LLB - Law",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        
+        {
+          "course_id": 1,
+          "course_name": "Master of Laws (LLM)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "Doctor of Philosophy of Law",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 8,
+      "faculty_name" : "School Of Business",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc Business Administration (Accounting)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Business Administration (Banking & Finance)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Business Administration (Marketing)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Business Administration (International Business)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Business Administration (Human Resource Management)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BSc Business Administration (Management)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BSc Business Administration (Logistics and Supply Chain Management)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BSc Business Administration (Business Information Technology)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "BSc Hospitality and Tourism Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "Accounting",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "Finance",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "Human Resource Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "Management And Organisational Development",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "Logistics and Supply Chain Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "Management Information Systems",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "Marketing",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "Strategic Management And Consulting",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "Management & Human Resource Strategy",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "Procurement & Supply Chain Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "Logistics & Supply Chain Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 12,
+          "course_name": "Accounting & Financial Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil / PhD Accounting",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil / PhD Finance",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil / PhD Human Resource Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil / PhD Management And Organisational Development",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MPhil / PhD Logistics and Supply Chain Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MPhil / PhD Management Information Systems",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MPhil / PhD Marketing",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MPhil / PhD Strategic Management And Consulting",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+    },
+    {
+      "faculty_id" :9,
+      "faculty_name" : "Faculty of Art",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BA Communication Design",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BFA Ceramics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc (Hons) Ceramic Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc (Hons) Fashion Design",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BA (Hons) Integrated Rural Art and Industry",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BA (Hons) Metal Product Design Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BSc (Hons) Textile Design and Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BA (Hons) Integrated Rural and Industrial Arts",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "BA (Hons) Painting & Sculpture",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "BA (Hons) Publishing Studies",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "M.Comm Communication Design",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MFA Jewellery and Metalsmithing",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MFA Textile Design",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MFA Ceramics",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MSc Master of Integrated Art and Industry Degree (MIAI)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MA Post. Diploma in Integrated Art & Industry",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MA Integrated Art & Industry",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MFA (Sculpture)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "MFA (Painting)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "MFA (Painting/Sculpture)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "MA Publishing",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil / PhD Visual Communication Design",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil / PhD Ceramic Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil / PhD Fashion Design Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil Integrated Art",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MPhil / PhD Textiles Design Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MPhil Post. Dip. in Integrated Art and Industry",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MPhil Master of Integrated Art and Industry Degree (MIAI)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MPhil / PhD (African Art and Culture)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "MPhil Creative Art Therapy",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "PhD (Painting/Sculpture)",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_id" : 10,
+      "faculty_name" : "Faculty of Built Environment",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc (Hons) Architecture",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc (Hons) Construction Technology and Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Quantity Surveying and Construction Economics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc (Hons) Human Settlement Planning",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc (Hons) Development Planning",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BSc Real Estate",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BSc (Hons) Land Economy",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MSc. Architecture",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "M.Arch. Architecture",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc. Construction Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MSc Development Planning and Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MSc Development Policy and Planning",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MSc Planning",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MSc Development Studies",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "MSc Planning, Monitoring and Evaluation",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "MSc Transportation Planning",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "MSc Real Estate",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "MSc Land Governance and Policy",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil / PhD Architecture",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil Development Planning and Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil Development Policy and Planning",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil / PhD Planning",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "MPhil / PhD Development Studies",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "MPhil Planning, Monitoring and Evaluation",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "MPhil Transportation Planning",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "PhD Land Management and Governance",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+    },
+    {
+      "faculty_id" : 1,
+      "faculty_name" : "Faculty of Educational Studies",
+      "note" : [
+        "Affiliated Institution",
+        "Akrokerri College of Education",
+        "Bimbila College of Education",
+        "St. Joseph's College of Education",
+        "Tamale College of Education",
+        "Wesley College of Education"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BEd Upper Primary Specialism (Top Up) (Coming Soon)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BEd Early Grade Specialism (Top Up) (Coming Soon)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BEd Junior High School Specialism (Top Up) (Coming Soon)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BEd Senior High School Specialism (Top Up) (Coming Soon)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MA Art Education",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Educational Innovation and Leadership Science",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MEd Education",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MPhil Early Childhood Education",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MPhil Information and Communication Technologies in Education",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil Educational Innovation and Leadership Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "MPhil / PhD Art Education",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+    },
+    {
+      "faculty_id" : 12,
+      "faculty_name" : "Health Science",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc Human Biology (Medicine) followed by 3 years clinical leading to MBChB",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc. Human Biology (Dentistry) followed 3 years clinical leading to BDS",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc. Nursing",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Medical Laboratory Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Sports and Exercise Sciences",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BSc. Sonography",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BHM Herbal Medicine",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BSc. Disability and Rehabilitation Studies",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "DVM (Doctor of Veterinary Medicine)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "PharmD (Doctor of Pharmacy)",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "BSc. (Hons) Physician Assistantship",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "All the Undergraduate Courses",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the Undergraduate Courses"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "All the Undergraduate Courses",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the Undergraduate Courses"
+          ]
+        }
+      ]
+      
+    },
+    {
+      "faculty_id" : 13,
+      "faculty_name" : "Faculty Of Renewable Natural Resources",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc Wood Science and Technology Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Wildlife and Range Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Silviculture and Forest Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Fisheries and Watershed Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Agroforestry",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BSc Aquaculture & Water Resources Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BSc Food Packaging",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BSc Pharmaceutical Packaging",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "BSc Packaging Design and Graphics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "BSc Value Chain and Logistics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "M.Sc - GISNATUREM (Natural Resources Management)",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "M.Sc Agroforestry",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "M.Sc - Wood Technology and Management",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "M.Phil/Ph.D - Wildlife and Range Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "M.Phil - Silviculture and Forest Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "M.Phil - Natural Resource & Environmental Governance",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "Ph.D - Silviculture and Forest Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "M.Phil/Ph.D – Agroforestry",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "M.Phil - Wood Science, or Wood Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "Ph.D - Wood Technology, Timber Engineering, or Furniture Design",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "M.Phil/PhD - Aquaculture",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "M.Phil/PhD - Watershed and Fisheries Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "M.Phil/PhD - Aquatic Resources Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "PhD - Fisheries Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 12,
+          "course_name": "PhD - Aquaculture Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 13,
+          "course_name": "PhD - Aquaculture & Environment",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 14,
+          "course_name": "Postgraduate GIS (Naturium) - under the auspices of ITC Netherlands",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 15,
+          "course_name": "PhD - Wood Science, Timber Engineering, or Furniture Design",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
+      
+      
+    },
+    {
+      "faculty_id" : 15,
+      "faculty_name" : "Faculty Of Agriculture",
+      "note" : [
+        "No data available yet"
+      ],
+      "courses" : [
+        {
+          "course_id": 1,
+          "course_name": "BSc Agricultural Economics",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "BSc Agricultural Extension and Rural Sociology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "BSc Agricultural Mechanisation",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "BSc Animal Science",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "BSc Crop and Soil Sciences",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "BSc Horticulture",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "BSc Agribusiness Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "BSc Agricultural Biotechnology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "BSc Dairy and Meat Science and Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "BSc Landscape Design and Management",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "BSc Post Harvest Technology",
+          "course_type": "undergraduate",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "MSc Animal Breeding and Genetics",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "MSc Animal Reproductive Physiology",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MSc Animal Nutrition and Meat Science",
+          "course_type": "masters",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+
+        {
+          "course_id": 1,
+          "course_name": "PhD/M.Phil - Agricultural Economics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 2,
+          "course_name": "Ph.D - Agricultural Extension",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 3,
+          "course_name": "MPhil in Sustainable and Integrated Rural Development",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 4,
+          "course_name": "M.Phil  Animal Breeding and Genetics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 5,
+          "course_name": "M.Phil Animal Reproductive Physiology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 6,
+          "course_name": "M.Phil Animal Nutrition and Meat Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 7,
+          "course_name": "PhD Animal Nutrition",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 8,
+          "course_name": "PhD Reproductive Physiology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 9,
+          "course_name": "PhD Animal Breeding and Genetics",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 10,
+          "course_name": "MPhil / PhD Agronomy Plant Breeding",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 11,
+          "course_name": "MPhil / PhD Agronomy Crop Physiology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 12,
+          "course_name": "MPhil / PhD Forage Production Management",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 13,
+          "course_name": "MPhil Weed Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 14,
+          "course_name": "MPhil / PhD Crop Protection Plant Pathology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 15,
+          "course_name": "MPhil / PhD Crop Protection Entomology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 16,
+          "course_name": "MPhil / PhD Plant Virology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 17,
+          "course_name": "MPhil / PhD Soil Science",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 18,
+          "course_name": "MPhil / PhD Nematology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 19,
+          "course_name": "MPhil Postharvest Physiology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 20,
+          "course_name": "MPhil Floriculture",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 21,
+          "course_name": "MPhil Fruit Crop Production",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 22,
+          "course_name": "MPhil / PhD Postharvest Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 23,
+          "course_name": "MPhil Seed Science and Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 24,
+          "course_name": "MPhil / PhD Vegetable Crops Production",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 25,
+          "course_name": "MPhil Landscape Studies and Breeding of Horticultural Crops",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 26,
+          "course_name": "PhD Seed Science and Technology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        },
+        {
+          "course_id": 27,
+          "course_name": "PhD Landscape Studies and Postharvest Physiology",
+          "course_type": "phd",
+          "entry_requirements": [
+            "Refer to the General Entry Requirements And Important Links Section"
+          ]
+        }
+      ]
       
     }
   ]
+},
+{
+  "id": "30",
+ "name": "University of Cape Coast",
+ "faculties" : [
+  {
+    "faculty_id" : 1,
+    "faculty_name" : "College of Humanities and Legal Studies",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id": 1,
+        "course_name": "B.A Anthropology (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "B.A Classics and Philosophy (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "B.A Communication Studies (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "B.A Dance (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "B.A Economics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "B.A English (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "B.A Film Studies (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "B.A French (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "B.A History (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "B.A Population and Health (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "B.A Social Behaviour and Conflict Management (Sandwich)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "B.A Social Sciences (Geography) (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 13,
+        "course_name": "B.A Sociology (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 14,
+        "course_name": "B.A Theatre Studies (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 15,
+        "course_name": "B.Com Accounting (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 16,
+        "course_name": "B.Com Finance (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 17,
+        "course_name": "B.Com Human Resource Management (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 18,
+        "course_name": "B.Com Management (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 19,
+        "course_name": "B.Com Management (Sandwich)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 20,
+        "course_name": "B.Ed Accounting (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 21,
+        "course_name": "B.Ed Management (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 22,
+        "course_name": "B.Mus Music (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 23,
+        "course_name": "B.Mus Religion and Human Values (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 24,
+        "course_name": "B.Sc Geography And Regional Planning (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 25,
+        "course_name": "B.Sc Hospitality Management (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 26,
+        "course_name": "B.Sc Tourism Management (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.A Religion and Human Values (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "M.A Classics (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "M.A Communication in Oil and Gas Management (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "M.A English Language (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "M.A Geography and Regional Planning (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "M.A History (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "M.A Human Resources Development (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "M.A Human Resources Management (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "M.A Labour Studies (MLS) (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "M.A Literature-in-English (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "M.A Philosophy (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "M.A Sociology (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 13,
+        "course_name": "M.A Sociology of Peace and Security (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 14,
+        "course_name": "MBA Accounting (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 15,
+        "course_name": "MBA Entrepreneurship And Small Enterprise Development (Regular, Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 16,
+        "course_name": "MBA General Management (Regular, Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 17,
+        "course_name": "MBA Human Resource Management (Regular, Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 18,
+        "course_name": "MBA Oil and Gas Management (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 19,
+        "course_name": "M.Com Entrepreneurship And Small Enterprise Development (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 20,
+        "course_name": "M.Com Accounting (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 21,
+        "course_name": "M.Com Human Resource Management (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 22,
+        "course_name": "M.Sc Disaster Management (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 23,
+        "course_name": "M.Sc Economics (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 24,
+        "course_name": "M.Sc Land Policy and Administration (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 25,
+        "course_name": "M.Sc Microfinance (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 26,
+        "course_name": "M.Sc Oil and Gas Resource Management (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 27,
+        "course_name": "M.Sc Public Policy Management (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.Phil African Literature and Civilization (French) (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "M.Phil Classics (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "M.Phil Communication in Oil and Gas Management (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "M.Phil Economics (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "M.Phil English (Sandwich)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "M.Phil English (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "M.Phil Ethnomusicology (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "M.Phil French (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "M.Phil Geography and Regional Planning (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "M.Phil History (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "M.Phil Hospitality Management (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "M.Phil Linguistics and Didactics in French (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 13,
+        "course_name": "M.Phil Music Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 14,
+        "course_name": "M.Phil Music Theory and Composition (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 15,
+        "course_name": "M.Phil Philosophy (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 16,
+        "course_name": "M.Phil Population and Health (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 17,
+        "course_name": "M.Phil Religion and Human Values (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 18,
+        "course_name": "M.Phil Sociology (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 19,
+        "course_name": "M.Phil Tourism Management (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 20,
+        "course_name": "Ph.D Economics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 21,
+        "course_name": "Ph.D English (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 22,
+        "course_name": "Ph.D Ethnomusicology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 23,
+        "course_name": "Ph.D Geography (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 24,
+        "course_name": "Ph.D Geography And Regional Planning (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 25,
+        "course_name": "Ph.D History (Regular, Sandwich)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 26,
+        "course_name": "Ph.D Hospitality Management (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 27,
+        "course_name": "Ph.D Music Education (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 28,
+        "course_name": "Ph.D Music Theory and Composition (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 29,
+        "course_name": "Ph.D Population and Health (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 30,
+        "course_name": "Ph.D Religion and Human Values (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 31,
+        "course_name": "Ph.D Sociology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 32,
+        "course_name": "Ph.D Tourism Management (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "Dip. Labour Studies (DLS) (Regular)",
+        "course_type": "diploma",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "Dip. Social Behaviour and Conflict Management (Sandwich)",
+        "course_type": "diploma",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 2,
+    "faculty_name" : "College of Education Studies",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id": 1,
+        "course_name": "B.Ed Health, Physical Education and Recreation (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "B.Ed Arts (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "B.Ed Basic Education (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "B.Ed Computer Science (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "B.Ed Early Childhood Education (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "B.Ed Early Childhood Education (Sandwich)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "B.Ed Guidance and Counselling (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "B.Ed Home Economics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "B.Ed Mathematics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "B.Ed Science (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "B.Ed Social Science (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "B.Ed Social Studies (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 13,
+        "course_name": "B.Sc Psychology (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 14,
+        "course_name": "B.Sc Bachelor of Education (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.A Health Education (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "M.A Measurement and Evaluation (Sandwich Mode) (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "M.A Measurement and Evaluation (WAEC Workers) (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "M.Ed Teacher Education (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "M.Ed Educational Psychology (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "M.Ed Home Economics (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "M.Ed Information Technology (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "M.Ed Mathematics Education (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "M.Ed Measurement and Evaluation (Sandwich Mode) (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "M.Ed Measurement and Evaluation (WAEC Workers) (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "M.Ed Physical Education (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "M.Sc Science Education (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.Phil Basic Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "M.Phil Clinical Health Psychology (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "M.Phil Educational Psychology (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "M.Phil Guidance and Counselling (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "M.Phil Health Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "M.Phil Health Education (Top Up - REGULAR) (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "M.Phil Health Education (Top Up - SANDWICH) (Sandwich)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "M.Phil Home Economics (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "M.Phil Mathematics Education (Sandwich)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "M.Phil Mathematics Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "M.Phil Measurement and Evaluation (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "M.Phil Physical Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 13,
+        "course_name": "M.Phil Physical Education (Top Up - REGULAR) (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 14,
+        "course_name": "M.Phil Physical Education (Top Up - SANDWICH) (Sandwich)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 15,
+        "course_name": "M.Phil Rehabilitation (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 16,
+        "course_name": "M.Phil Science Education (Regular)(Sandwich)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 17,
+        "course_name": "M.Phil Sociology of Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 18,
+        "course_name": "M.Phil Special Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 19,
+        "course_name": "M.Phil Student Affairs and Service (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 20,
+        "course_name": "M.Phil Vocational and Technical Education (Regular)",
+        "course_type": "mphil",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 21,
+        "course_name": "Ph.D Educational Psychology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 22,
+        "course_name": "Ph.D Guidance and Counselling (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 23,
+        "course_name": "Ph.D Health Promotion (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 24,
+        "course_name": "Ph.D Mathematics Education (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 25,
+        "course_name": "Ph.D Measurement and Evaluation (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 26,
+        "course_name": "Ph.D Physical Education (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 27,
+        "course_name": "Ph.D Science Education (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 28,
+        "course_name": "Ph.D Special Education (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "Dip. Early Childhood Education ( Sandwich)",
+        "course_type": "diploma",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "Cert. Early Childhood Education ( Sandwich)",
+        "course_type": "certificate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      }
+    ]
+  },
+  {
+    "faculty_id" : 3,
+    "faculty_name" : "College of Agriculture and Natural Sciences",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id": 1,
+        "course_name": "B.Sc Entomology and Wildlife (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "B.Sc Agribusiness (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "B.Sc Actuarial Science (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "B.Sc Agricultural Extension (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "B.Sc Agricultural Extension And Community Development (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "B.Sc Agriculture (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "B.Sc Agro-Processing (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "B.Sc Aquaculture (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "B.Sc Biochemistry (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "B.Sc Chemistry (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "B.Sc Computer Science (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "B.Sc Engineering Physics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 13,
+        "course_name": "B.Sc Engineering Physics - Sandwich (Sandwich)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 14,
+        "course_name": "B.Sc Environmental Science (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 15,
+        "course_name": "B.Sc Fisheries and Aquatic Science (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 16,
+        "course_name": "B.Sc Industrial Chemistry (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 17,
+        "course_name": "B.Sc Information Technology (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 18,
+        "course_name": "B.Sc Laboratory Technology (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 19,
+        "course_name": "B.Sc Laboratory Technology (Sandwich)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 20,
+        "course_name": "B.Sc Mathematics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 21,
+        "course_name": "B.Sc Mathematics and Statistics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 22,
+        "course_name": "B.Sc Mathematics-with-Business (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 23,
+        "course_name": "B.Sc Mathematics-with-Economics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 24,
+        "course_name": "B.Sc Meteorology and Atmospheric Physics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 25,
+        "course_name": "B.Sc Physics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 26,
+        "course_name": "B.Sc Post – Harvest Technology (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 27,
+        "course_name": "B.Sc Statistics (Regular)",
+        "course_type": "undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.Sc Chemistry (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "M.Sc Entomology (Regular)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "M.Sc Mathematics (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "M.Sc Non Governmental Organizations (NGOs) Studies and Management (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "M.Sc Statistics (Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.Phil Agricultural Economics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "M.Phil Biotechnology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "M.Phil Agricultural Extension (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "M.Phil Animal Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 5,
+        "course_name": "M.Phil Animal Science (Animal Breeding and Genetics) (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 6,
+        "course_name": "M.Phil Animal Science (Animal Nutrition) (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 7,
+        "course_name": "M.Phil Animal Science (Management of Livestock Enterprises) (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 8,
+        "course_name": "M.Phil Animal Science (Meat Science and Technology) (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 9,
+        "course_name": "M.Phil Aquaculture (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 10,
+        "course_name": "M.Phil Chemistry (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 11,
+        "course_name": "M.Phil Crop Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 12,
+        "course_name": "M.Phil Environmental Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 13,
+        "course_name": "M.Phil Fisheries Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 14,
+        "course_name": "M.Phil Integrated Coastal Zone Management (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 15,
+        "course_name": "M.Phil Irrigation Technology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 16,
+        "course_name": "M.Phil Land Use And Environmental Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 17,
+        "course_name": "M.Phil Mathematics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 18,
+        "course_name": "M.Phil Molecular Biology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 19,
+        "course_name": "M.Phil Oceanography and Limnology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 20,
+        "course_name": "M.Phil Physics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 21,
+        "course_name": "M.Phil Soil Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 22,
+        "course_name": "M.Phil Statistics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 23,
+        "course_name": "M.Phil Wildlife Management (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 24,
+        "course_name": "Ph.D Agricultural Economics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 25,
+        "course_name": "Ph.D Agricultural Extension (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 26,
+        "course_name": "Ph.D Animal Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 27,
+        "course_name": "Ph.D Animal Science (Animal Breeding and Genetics) (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 28,
+        "course_name": "Ph.D Animal Science (Animal Nutrition) (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 29,
+        "course_name": "Ph.D Aquaculture (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 30,
+        "course_name": "Ph.D Chemistry (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 31,
+        "course_name": "Ph.D Crop Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 32,
+        "course_name": "Ph.D Entomology (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 33,
+        "course_name": "Ph.D Fisheries Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 34,
+        "course_name": "Ph.D Land Use And Environmental Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 35,
+        "course_name": "Ph.D Mathematics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 36,
+        "course_name": "Ph.D Physics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 37,
+        "course_name": "Ph.D Soil Science (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 38,
+        "course_name": "Ph.D Statistics (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      }
+    ]
+    
+    
+  },
+  {
+    "faculty_id" : 4,
+    "faculty_name" : "College of Health and Allied Sciences",
+    "note" : [
+      "No data available yet"
+    ],
+    "courses" : [
+      {
+        "course_id": 1,
+        "course_name": "B.Sc Community Mental Health Nursing (Regular)",
+        "course_type": "Undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 2,
+        "course_name": "B.Sc Mental Health Nursing (Regular)",
+        "course_type": "Undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 3,
+        "course_name": "B.Sc Nursing (Regular)",
+        "course_type": "Undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+      {
+        "course_id": 4,
+        "course_name": "MB & Ch.B Bachelor of Medicine & Bachelor of Surgery (MB ChB) (Regular)",
+        "course_type": "Undergraduate",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.Sc Advance Practice Nursing ( Sandwich)",
+        "course_type": "masters",
+        "entry_requirements": ["Refer to the General Entry Requirements And Important Links Section"]
+      },
+
+      {
+        "course_id": 1,
+        "course_name": "M.Phil Master of Nursing (Regular)",
+        "course_type": "phd",
+        "entry_requirements": ["Refer to the Postgraduate Entry Requirements"]
+      }
+    ]
+  }
+ ]
 }
 ]

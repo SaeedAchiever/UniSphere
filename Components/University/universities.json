@@ -81,7 +81,9 @@
  "id": "3",
  "name": "African University College of Communication",
  "location": "Accra", 
- "campuses": "1",
+ "image" : "https://www.dropbox.com/scl/fi/p74b8jtwbwoq6xpma88mv/Screenshot_20241003_203736_Google.jpg?rlkey=szgb51rama0tqwogsp08mfylo&st=39e7rcwz&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/xz7rtympgfprl218kcl3h/Screenshot_20241003_204316_Google.jpg?rlkey=02tvl1xra611vtknh3rxbto5c&st=rphbk79m&raw=1",
+ "campus": "1",
  "note": "require('../../assets/knust.jpeg')",
  "Page": "ANUPage",
  "nick": "ANU",
@@ -125,7 +127,7 @@
    "High Tuition Fees: The cost of tuition may be relatively high, which could be a barrier for some prospective students and limit accessibility."
   ],
  "g_video" : "https://www.youtube.com/@accrabusinessschool18"
- },
+},
 {
  "id": "5",
  "name": "Catholic Institute of Business and Technology",
@@ -198,7 +200,8 @@
  "rank" : "774",
  "application" :"https://mis.duc.edu.gh/apply",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "MUCGPage",
+ "image": "https://www.dropbox.com/scl/fi/15s81dovpg9ctvppkwe65/2018-09-04.jpg?rlkey=3adzx6c5seo2rgsx254iyh6l2&st=69ahxix9&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/vt8nqvjox3nv3xuphtj55/images-3.jpeg?rlkey=v6tmeod47qd8lwc26oqwxixxm&st=t7vajngf&raw=1",
  "nick": "DUC",
  "type" : "affiliated"
 },
@@ -218,7 +221,8 @@
  "location": "Accra", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "CIBTPage",
+ "image": "https://www.dropbox.com/scl/fi/ux4d571hiwkpgdzzr5x03/new001-1024x640.jpg?rlkey=pee8wankipkyw5y41bqo3qjh1&st=zeq16xuu&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/ky86jeyom9dp0ewcu1l9q/download-1.jpeg?rlkey=xjzsqkzxe3pcgzh7ubm6le8zl&st=ovtq4436&raw=1",
  "nick": "CIBT",
  "type" : "affiliated"
 },
@@ -228,7 +232,8 @@
  "location": "Amranhia", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "NAFTIPage",
+ "image": "https://www.dropbox.com/scl/fi/gve8j6lmg7zry6jsdrcsp/1524815453-96-ghana-christian-university-college.jpg?rlkey=oh6nsugpi5oh9d1ht84wqpw2h&st=ypbwis1o&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/qejlnswidmtvujfxw4fcd/images-5.jpeg?rlkey=l2xizvzv6bdqf0l3t8jls7j5f&st=zrlufvjo&raw=1",
  "nick": "NAFTI",
  "type" : "affiliated"
 },
@@ -238,7 +243,8 @@
  "location": "Kumasi", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "NAFTIPage",
+ "image": "https://www.dropbox.com/scl/fi/xnrzd65xfayj75dw3vdia/2021-04-23.jpg?rlkey=8plre1qc0jmbmu0ohc5gi46y2&st=4d1yh431&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/t1ykbkatuaj48pfbdluks/picture.jpeg?rlkey=kc55f33sw3pgvlrxrobcy3mzn&st=23y274qs&raw=1",
  "nick": "NAFTI",
  "type" : "affiliated"
 },
@@ -248,7 +254,8 @@
  "location": "Mallam", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "NAFTIPage",
+ "image": "https://www.dropbox.com/scl/fi/o7vzeqpf6tf3yzj1te4v5/KAAF-University-College-Main-Campus-Buduburam-Ghana-SchoolFinder-TortoisePathcom.jpeg?rlkey=tpd0u64musj54r18v1bb7zws8&st=vpiwnl4e&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/ix8ytgy896n9pt5x5zkah/images-6.jpeg?rlkey=zuqedny42r10w3axfw6alf4jy&st=h5j6npl0&raw=1",
  "nick": "NAFTI",
  "type" : "affiliated"
 },
@@ -258,7 +265,8 @@
  "location": "Kumasi", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "NAFTIPage",
+ "image": "https://www.dropbox.com/scl/fi/vfd4f7srn8w4mb3sturrb/front.jpeg?rlkey=uwf6ilkphxrfsqircljavjamt&st=acw6uyah&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/xjjsz81x9rqgo43qsqztg/gcuc_logo.png?rlkey=xq82q8enrg7x0ln4fm74byebe&st=hmflzaj4&raw=1",
  "nick": "NAFTI",
  "type" : "affiliated"
 },
@@ -268,17 +276,21 @@
  "location": "Accra", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "NAFTIPage",
- "nick": "NAFTI",
+ "image": "https://www.dropbox.com/scl/fi/vbbhovkpfrbbeb3vku76v/LUG-Campus-_4.JPG-1-scaled-800x533.jpg?rlkey=25rcm7imkb1sxhawtpz3l7cn0&st=22xlnhd6&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/u59al48w2qfrdd9skpogi/images-7.jpeg?rlkey=3cswdmidxbu2m2ofyxpjos4sw&st=9krthiiu&raw=1",
+ "nick": "Lancaster",
  "type" : "affiliated"
 },
 {
  "id": "15",
  "name": "Maranatha University College",
- "location": "Sowutuom", 
+ "location": "Sowutuom",
+ "town" : "Accra",
+ "region" : "Greater Accra",
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "NAFTIPage",
+ "image" : "https://www.dropbox.com/scl/fi/ljvpg4p5nf9nkfb4qdhpq/images-8.jpeg?rlkey=vi28jun3meth3tz2vd7esxioc&st=eu77m65j&raw=1",
+ "logo": "https://www.dropbox.com/scl/fi/mb9kqewbfnpke56c58fcu/images-9.jpeg?rlkey=2k1oousmjksoodvdv9klqut3x&st=rpgzmz58&raw=1",
  "nick": "NAFTI",
  "type" : "affiliated"
 },
@@ -288,8 +300,9 @@
  "location": "East Legon", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
- "Page": "NAFTIPage",
- "nick": "NAFTI",
+ "image": "https://www.dropbox.com/scl/fi/dtlepy9yu8056shmt7zu1/Radford-University-College-Accra-Ghana-SchoolFinder-TortoisePathcom-1.jpeg?rlkey=4bn1o977sybb0jkw9s6pk3hm7&st=thmowl9q&raw=1",
+ "logo" : "https://www.dropbox.com/scl/fi/dbsglbsmlgvem1h801tp8/download-2.jpeg?rlkey=y1lx9cegahx8yn3zi9hgd76r4&st=kk81ljvs&raw=1",
+ "nick": "RUC",
  "type" : "affiliated"
 },
 {
@@ -470,7 +483,7 @@
 },
 {
  "id": "34",
- "name": "Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development",
+ "name": "Akenten Appiah Menka University of Skills Training and Entrepreneurial Development",
  "location": "Kumasi", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",
@@ -763,7 +776,7 @@
 },
 {
  "id": "63",
- "name": ". Presbyterian University",
+ "name": "Presbyterian University",
  "location": "Abetifi", 
  "campuses": "2",
  "note": "require('../../assets/knust.jpeg')",

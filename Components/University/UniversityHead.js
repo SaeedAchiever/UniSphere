@@ -31,7 +31,7 @@ const UniversityHead = () => {
       <View style={styles.uniHeader}>
         <View style={styles.logoContainer}>
           <View>
-            <Text style={styles.logoName}>UniSphere Gh</Text>
+            <Text style={styles.logoName}>Afro UniSphere</Text>
           </View>
           <View
             style={styles.filterImageContainer}
@@ -65,7 +65,9 @@ const UniversityHead = () => {
           />
         </View>
 
-        <View style={[styles.searchContainer, { display: isSearchVisible }]}>
+        <View
+         style={[styles.searchContainer, 
+         { display: isSearchVisible }]}>
           <FlatList
             data={searchedList()}
             keyExtractor={(item) => item.id}

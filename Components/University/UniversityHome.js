@@ -5,6 +5,7 @@ import styles from '../HomePage/HomeStyle'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import UniversityHead from './UniversityHead';
 import UniversityBody from './UniversityBody';
+import Footer from '../HeadFoot/Footer';
 
 const data  = [
   {  id : '1', component  : UniversityHead  },
@@ -22,15 +23,17 @@ const UniversityHome = () => {
     
   return (
     <SafeAreaView>
-      <View style={styles.HomeContainer}>
+      <View style={[styles.HomeContainer, {paddingBottom:40}]}>
 
           <FlatList 
             data={data}
             renderItem={renderItem}
             keyExtractor={item=>item.id}
+            showsVerticalScrollIndicator={false}
           />
           
         </View>
+        <Footer />
       </SafeAreaView>
 
     );

@@ -54,11 +54,13 @@ const styles = StyleSheet.create({
  },
  FilterPageUniContainer:{
   width:'97%',
-  maxWidth:500,
-  height:'auto',
-  backgroundColor:'rgba(0,0,100,0.05)',
-  marginTop:5,
+  maxWidth:700,
+  height:250,
+  backgroundColor:'rgba(0,0,-0,0.5)',
+  marginTop:20,
+  alignSelf:'center',
   paddingVertical:10,
+  justifyContent:'center'
  },
  FilterPageUniHeaderContainer:{
   flexDirection:'column',
@@ -71,7 +73,7 @@ const styles = StyleSheet.create({
  FilterPageUniHeaderNameText:{
   fontSize:15,
   fontWeight:'500',
-  color:'lightblue',
+  color:'#fff',
   letterSpacing:0.3
  },
  FilterBothContainer:{
@@ -170,7 +172,6 @@ const styles = StyleSheet.create({
  },
  filterOptionBtnContainer:{
   borderColor:'lightblue',
-  alignItems:'center',
   borderRadius:10,
   alignItems:'flex-start'
  },

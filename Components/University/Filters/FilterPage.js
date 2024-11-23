@@ -167,7 +167,12 @@ const navigation = useNavigation()
 
      {/* Fees */}
 
-     <View style={[styles.filterOptionMainContainer,{display:isFeeVisible}]}>
+     <View
+      style={[styles.filterOptionMainContainer,{display:isFeeVisible}]}
+      onTouchEnd={()=>{
+        setIsFeeVisible(isFeeVisible === 'none' ? 'flex' : 'none')
+      }}
+    >
       <View style={styles.filterOptionContainer}>
         <View style={styles.filterOptionBtnContainer}>
           <Text style={styles.filterOptionBtnText}>Lowest</Text>
@@ -196,7 +201,12 @@ const navigation = useNavigation()
 
      {/* Hostels */}
 
-     <View style={[styles.filterOptionMainContainer,{display:isHostelVisible}]}>
+     <View
+      style={[styles.filterOptionMainContainer,{display:isHostelVisible}]}
+      onTouchEnd={()=>{
+        setIsHostelVisible(isHostelVisible === 'none' ? 'flex' : 'none')
+      }}
+    >
       <View style={styles.filterOptionContainer}>
         <View style={styles.filterOptionBtnContainer}>
           <Text style={styles.filterOptionBtnText}>Cheapest</Text>
@@ -223,7 +233,12 @@ const navigation = useNavigation()
 
      {/* Admission */}
 
-     <View style={[styles.filterOptionMainContainer,{display:isAdmissionVisible}]}>
+     <View
+      style={[styles.filterOptionMainContainer,{display:isAdmissionVisible}]}
+      onTouchEnd={()=>{
+        setIsAdmissionVisible(isAdmissionVisible === 'none' ? 'flex' : 'none')
+      }}
+    >
       <View style={styles.filterOptionContainer}>
         <View style={styles.filterOptionBtnContainer}>
           <Text style={styles.filterOptionBtnText}>Ongoing</Text>
@@ -250,7 +265,12 @@ const navigation = useNavigation()
 
      {/* Popularity */}
 
-     <View style={[styles.filterOptionMainContainer,{display:isPopularityVisible}]}>
+     <View
+      style={[styles.filterOptionMainContainer,{display:isPopularityVisible}]}
+      onTouchEnd={()=>{
+        setIsPopularityVisible(isPopularityVisible === 'none' ? 'flex' : 'none')
+      }}
+    >
       <View style={styles.filterOptionContainer}>
         <View style={styles.filterOptionBtnContainer}>
           <Text style={styles.filterOptionBtnText}>In Accra</Text>
@@ -288,7 +308,12 @@ const navigation = useNavigation()
 
      {/* Population */}
 
-     <View style={[styles.filterOptionMainContainer,{display:isPopulationVisible}]}>
+     <View
+      style={[styles.filterOptionMainContainer,{display:isPopulationVisible}]}
+      onTouchEnd={()=>{
+        setIsPopulationVisible(isPopulationVisible === 'none' ? 'flex' : 'none')
+      }}
+    >
       
       <View style={styles.filterOptionContainer}>
         <View style={styles.filterOptionBtnContainer}>
@@ -316,7 +341,12 @@ const navigation = useNavigation()
 
      {/* Facilities */}
 
-     <View style={[styles.filterOptionMainContainer,{display:isFacilitiesVisible}]}>
+     <View
+      style={[styles.filterOptionMainContainer,{display:isFacilitiesVisible}]}
+      onTouchEnd={()=>{
+        setIsFacilitiesVisible(isFacilitiesVisible === 'none' ? 'flex' : 'none')
+      }}
+    >
       
       <View style={styles.filterOptionContainer}>
         <View style={styles.filterOptionBtnContainer}>
@@ -344,7 +374,12 @@ const navigation = useNavigation()
 
      {/* Courses */}
 
-     <View style={[styles.filterOptionMainContainer,{display:isCoursesVisible}]}>
+     <View
+      style={[styles.filterOptionMainContainer,{display:isCoursesVisible}]}
+      onTouchEnd={()=>{
+        setIsCoursesVisible(isCoursesVisible === 'none' ? 'flex' : 'none')
+      }}
+    >
       
       <View style={styles.filterOptionContainer}>
         <View style={styles.filterOptionBtnContainer}>
@@ -392,85 +427,85 @@ const navigation = useNavigation()
       renderItem={({item})=>{
         return (
           <View
-       style={styles.FilterPageUniContainer}
-       onTouchEnd={()=>{
-        navigation.navigate(item.page)
-       }}
-       >
-       <View style={styles.FilterPageUniHeaderContainer}>
+            style={styles.FilterPageUniContainer}
+            onTouchEnd={()=>{
+              navigation.navigate(item.page)
+            }}
+            >
+            <View style={styles.FilterPageUniHeaderContainer}>
 
-        <View style={styles.FilterPageUniHeaderNameContainer}>
-         <Text style={styles.FilterPageUniHeaderNameText}>{`${item.name}`}</Text>
-        </View>
+              <View style={styles.FilterPageUniHeaderNameContainer}>
+              <Text style={styles.FilterPageUniHeaderNameText}>{`${item.name}`}</Text>
+              </View>
 
-        <View style={styles.FilterBothContainer}>
+              <View style={styles.FilterBothContainer}>
 
-         <View style={styles.FilterPageUniHeaderLocationContainer}>
-          <Image 
-           source={Location}
-           style={styles.FilterPageUniHeaderLocationImage}
-          />
-        <Text style={styles.FilterPageUniHeaderLocationText}>{`${item.location}`}</Text>
-         </View>
-         <View style={styles.FilterPageUniHeaderRatingContainer}>
-           <View style={styles.FilterPageUniHeaderRatingImageContainer}>
-           <Image 
-             source={Star}
-             style={styles.FilterPageUniHeaderLocationImage}
-            />
-            <Image 
-             source={Star}
-             style={styles.FilterPageUniHeaderLocationImage}
-            />
-            <Image 
-             source={Star}
-             style={styles.FilterPageUniHeaderLocationImage}
-            />
-            <Image 
-             source={Star}
-             style={styles.FilterPageUniHeaderLocationImage}
-            />
-            <Image 
-             source={Star}
-             style={styles.FilterPageUniHeaderLocationImage}
-            />
-           </View>
-           
-           <Text style={styles.FilterPageUniHeaderRateText}>{`${item.rate} Stars`}</Text>
-         </View>
+              <View style={styles.FilterPageUniHeaderLocationContainer}>
+                <Image 
+                source={Location}
+                style={styles.FilterPageUniHeaderLocationImage}
+                />
+              <Text style={styles.FilterPageUniHeaderLocationText}>{`${item.location}`}</Text>
+              </View>
+              <View style={styles.FilterPageUniHeaderRatingContainer}>
+                <View style={styles.FilterPageUniHeaderRatingImageContainer}>
+                <Image 
+                  source={Star}
+                  style={styles.FilterPageUniHeaderLocationImage}
+                  />
+                  <Image 
+                  source={Star}
+                  style={styles.FilterPageUniHeaderLocationImage}
+                  />
+                  <Image 
+                  source={Star}
+                  style={styles.FilterPageUniHeaderLocationImage}
+                  />
+                  <Image 
+                  source={Star}
+                  style={styles.FilterPageUniHeaderLocationImage}
+                  />
+                  <Image 
+                  source={Star}
+                  style={styles.FilterPageUniHeaderLocationImage}
+                  />
+                </View>
+                
+                <Text style={styles.FilterPageUniHeaderRateText}>{`${item.rate} Stars`}</Text>
+              </View>
 
-         <View>
-          <Text style={styles.FilterPageUniHeaderRateText}>{`${item.institution} Inst.`}</Text>
-         </View>
-         
-        </View>
+              <View>
+                <Text style={styles.FilterPageUniHeaderRateText}>{`${item.institution} Inst.`}</Text>
+              </View>
+              
+              </View>
 
-        <View style={styles.FilterCourseFeesMainContainer}>
-         <View style={styles.FilterCourseFeesContainer}>
-          <Text style={styles.FilterCourseFeesHeadText}>Courses Offered</Text>
-          <View>
-          <Text style={styles.FilterCourseFeesText}>{`5 Courses`}</Text>
+              <View style={styles.FilterCourseFeesMainContainer}>
+              <View style={styles.FilterCourseFeesContainer}>
+                <Text style={styles.FilterCourseFeesHeadText}>Courses Offered</Text>
+                <View>
+                <Text style={styles.FilterCourseFeesText}>{`5 Courses`}</Text>
+                </View>
+              </View>
+              <View style={styles.FilterCourseFeesContainer}>
+                <Text style={styles.FilterCourseFeesHeadText}>Fee Range</Text>
+                <View>
+                <Text style={styles.FilterCourseFeesText}>{`GHC 1.7k-19.7k`}</Text>
+                </View>
+              </View>
+              </View>
+
+              <View style={styles.FilterAdmissionContainer}>
+              <View style={styles.FilterCourseFeesContainer}>
+                <Text style={styles.FilterCourseFeesHeadText}>Admission Status : </Text>
+              </View>
+                <View>
+                <Text style={styles.FilterCourseFeesText}>Closed</Text>
+                </View>
+              </View>
+              
+            </View>
           </View>
-         </View>
-         <View style={styles.FilterCourseFeesContainer}>
-          <Text style={styles.FilterCourseFeesHeadText}>Fee Range</Text>
-          <View>
-          <Text style={styles.FilterCourseFeesText}>{`GHC 1.7k-19.7k`}</Text>
-          </View>
-         </View>
-        </View>
-
-        <View style={styles.FilterAdmissionContainer}>
-         <View style={styles.FilterCourseFeesContainer}>
-          <Text style={styles.FilterCourseFeesHeadText}>Admission Status : </Text>
-         </View>
-          <View>
-          <Text style={styles.FilterCourseFeesText}>Closed</Text>
-          </View>
-        </View>
-        
-       </View>
-      </View>
         )
       }}
      />
